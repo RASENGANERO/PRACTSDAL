@@ -1,0 +1,303 @@
+# Translation of Plugins - Restrict Widgets - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Restrict Widgets - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-05-27 13:55:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Restrict Widgets - Stable (latest release)\n"
+
+#: restrict-widgets.php:897
+msgid "Are you sure you want to reset these settings to defaults?"
+msgstr "Вы уверены, что хотите сбросить настройки на значения по умолчанию?"
+
+#: restrict-widgets.php:458
+msgid "Settings restored to defaults."
+msgstr "Настройки возвращены к состоянию по умолчанию."
+
+#: restrict-widgets.php:308
+msgid "Modify is_sidebar_active() function"
+msgstr "Изменить функцию is_sidebar_active ()"
+
+#: restrict-widgets.php:207
+msgid "Restrict access to widgets page to specific user roles."
+msgstr "Ограничьте доступ к странице виджетов для определенных ролей пользователей."
+
+#: restrict-widgets.php:180
+msgid "Deactivation"
+msgstr "Деактивировать"
+
+#: restrict-widgets.php:179
+msgid "is_sidebar_active()"
+msgstr "is_sidebar_active ()"
+
+#: restrict-widgets.php:178
+msgid "Option Groups"
+msgstr "Параметры груп"
+
+#: restrict-widgets.php:174
+msgid "Restrict User Roles"
+msgstr "Ограничить роли пользователей"
+
+#: restrict-widgets.php:158
+msgid "Reset to defaults"
+msgstr "Сбросить до настроек по умолчанию"
+
+#: restrict-widgets.php:143
+msgid "Created by"
+msgstr "Создано"
+
+#: restrict-widgets.php:140
+msgid "WordPress plugins"
+msgstr "Плагины WordPress"
+
+#: restrict-widgets.php:140
+msgid "Check out our other"
+msgstr "Посмотрите наши другие"
+
+#: restrict-widgets.php:139
+msgid "plugin page"
+msgstr "Страницы плагина"
+
+#: restrict-widgets.php:139
+msgid "Blog about it & link to the"
+msgstr "Блог об этом и ссылка на"
+
+#: restrict-widgets.php:138
+msgid "on WordPress.org"
+msgstr "На WordPress.org"
+
+#: restrict-widgets.php:138
+msgid "Rate it 5"
+msgstr "Поставьте оценку!"
+
+#: restrict-widgets.php:137
+msgid "Do you like this plugin?"
+msgstr "Вам нравится этот плагин?"
+
+#: restrict-widgets.php:135
+msgid "Support forum"
+msgstr "Форум поддержки"
+
+#: restrict-widgets.php:135
+msgid "If you are having problems with this plugin, please talk about them in the"
+msgstr "Если у вас возникли проблемы с этим плагином, сообщите о них в"
+
+#: restrict-widgets.php:134
+msgid "Need support?"
+msgstr "Нужна поддержка?"
+
+#. Author URI of the plugin/theme
+msgid "http://www.dfactory.eu/"
+msgstr "http://www.dfactory.eu/"
+
+#. Author of the plugin/theme
+msgid "dFactory"
+msgstr "dFactory"
+
+#. Description of the plugin/theme
+msgid "All in one solution for widget management in WordPress. Allows you to hide or display widgets on specified pages and restrict access for users."
+msgstr "Все в одном решении для управления виджетами в WordPress. Позволяет скрывать или отображать виджеты на указанных страницах и ограничивать доступ для пользователей."
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.dfactory.eu/plugins/restrict-widgets/"
+msgstr "http://www.dfactory.eu/plugins/restrict-widgets/"
+
+#: restrict-widgets.php:1254
+msgid "Hide widget on selected"
+msgstr "Скрыть виджет на выбранном"
+
+#: restrict-widgets.php:1253
+msgid "Display widget on selected"
+msgstr "Показать виджет на выбранном"
+
+#: restrict-widgets.php:1251
+msgid "Display / Hide Widget"
+msgstr "Показать / скрыть виджет"
+
+#: restrict-widgets.php:987 restrict-widgets.php:996
+msgid "%s Archive"
+msgstr "%s Архив"
+
+#: restrict-widgets.php:955 restrict-widgets.php:964
+msgid "Single %s"
+msgstr "Один %s"
+
+#: restrict-widgets.php:874
+msgid "Select languages"
+msgstr "Выберите язык"
+
+#: restrict-widgets.php:873
+msgid "Select roles"
+msgstr "Выберите роли"
+
+#: restrict-widgets.php:872
+msgid "Select sidebars"
+msgstr "Выбрать панель"
+
+#: restrict-widgets.php:871
+msgid "Select widgets options"
+msgstr "Выберите параметры виджетов"
+
+#: restrict-widgets.php:870
+msgid "Select widgets"
+msgstr "Выбрать виджеты"
+
+#: restrict-widgets.php:869
+msgid "Select options"
+msgstr "Выбрать опции"
+
+#: restrict-widgets.php:321
+msgid "Remove all plugin data on deactivation"
+msgstr "Удалять все данные плагина при деактивации"
+
+#: restrict-widgets.php:311
+msgid "By default is_active_sidebar() function returns true even if no widget is displayed in a sidebar. Check this if you want is_active_sidebar() to recognize Restrict Widgets display settings."
+msgstr "По умолчанию функция is_active_sidebar () возвращает true, даже если виджет не отображается на боковой панели. Установите этот флажок, если хотите, чтобы is_active_sidebar () распознавала параметры отображения ограниченных виджетов."
+
+#: restrict-widgets.php:296
+msgid "Display widget options in groups"
+msgstr "Отображать параметры виджета в группах"
+
+#: restrict-widgets.php:286
+msgid "Select which widget options will be restricted to admins only."
+msgstr "Выберите, какие параметры виджета будут доступны только администраторам."
+
+#: restrict-widgets.php:177
+msgid "Restrict Widget Options"
+msgstr "Ограничить параметры виджета"
+
+#: restrict-widgets.php:268
+msgid "Select which widgets will be restricted to admins only."
+msgstr "Выберите, какие виджеты будут доступны только администраторам."
+
+#. #-#-#-#-#  tmp-restrict-widgets.pot (Restrict Widgets 1.3.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: restrict-widgets.php:120 restrict-widgets.php:129 restrict-widgets.php:132
+#: restrict-widgets.php:176
+msgid "Restrict Widgets"
+msgstr "Ограничить виджеты"
+
+#: restrict-widgets.php:232
+msgid "Select which sidebars will be restricted to admins only."
+msgstr "Выберите, какие боковые панели будут доступны только администраторам."
+
+#: restrict-widgets.php:175
+msgid "Restrict Sidebars"
+msgstr "Ограничить боковые панели"
+
+#: restrict-widgets.php:189
+msgid "Use this settings to manage access to widgets page and to restrict availability of widgets, sidebars and widget options to site administrators only."
+msgstr "Используйте эти настройки для управления доступом к странице виджетов и для ограничения доступности виджетов, боковых панелей и параметров виджетов только администраторам сайта."
+
+#: restrict-widgets.php:770
+msgid "Desktop, Laptop, etc."
+msgstr "Настольный компьютер, ноутбук и т.д"
+
+#: restrict-widgets.php:769
+msgid "Mobile"
+msgstr "Мобильный"
+
+#: restrict-widgets.php:765
+msgid "Logged out users"
+msgstr "Вид для пользователя, не вошедшего в систему."
+
+#: restrict-widgets.php:764
+msgid "Logged in users"
+msgstr "Авторизованные пользователи"
+
+#: restrict-widgets.php:760
+msgid "Search Page"
+msgstr "Страница поиска"
+
+#: restrict-widgets.php:759
+msgid "404 Page"
+msgstr "Страница 404"
+
+#: restrict-widgets.php:758
+msgid "Date Archive"
+msgstr "Архивы по дате"
+
+#: restrict-widgets.php:757
+msgid "Author Archive"
+msgstr "Архив автора"
+
+#: restrict-widgets.php:756
+msgid "Sticky Posts"
+msgstr "Закреплённые записи"
+
+#: restrict-widgets.php:755
+msgid "Single Posts"
+msgstr "Одиночная запись"
+
+#: restrict-widgets.php:754
+msgid "Blog Page"
+msgstr "Страница блога"
+
+#: restrict-widgets.php:753
+msgid "Front Page"
+msgstr "Главная страница"
+
+#: restrict-widgets.php:750
+msgid "Languages"
+msgstr "Языки"
+
+#: restrict-widgets.php:749
+msgid "Users"
+msgstr "Пользователи"
+
+#: restrict-widgets.php:748
+msgid "Devices"
+msgstr "Устройства"
+
+#: restrict-widgets.php:745
+msgid "bbPress"
+msgstr "bbPress"
+
+#: restrict-widgets.php:742
+msgid "Topic Tag"
+msgstr "Метки темы:"
+
+#: restrict-widgets.php:741
+msgid "Single User"
+msgstr "Один пользователь"
+
+#: restrict-widgets.php:740
+msgid "Search"
+msgstr "Поиск"
+
+#: restrict-widgets.php:734
+msgid "Others"
+msgstr "Другие"
+
+#: restrict-widgets.php:733
+msgid "Taxonomies"
+msgstr "Таксономии"
+
+#: restrict-widgets.php:732
+msgid "Categories"
+msgstr "Категории"
+
+#: restrict-widgets.php:731
+msgid "Custom Post Type Archives"
+msgstr "Пользовательские архивы типов сообщений"
+
+#: restrict-widgets.php:730
+msgid "Custom Post Types"
+msgstr "Таксономии"
+
+#: restrict-widgets.php:729
+msgid "Pages"
+msgstr "Страниц"
+
+#: restrict-widgets.php:659 restrict-widgets.php:1564 restrict-widgets.php:1598
+msgid "Widgets"
+msgstr "Виджеты"
+
+#: restrict-widgets.php:640
+msgid "Support"
+msgstr "Поддержка"
