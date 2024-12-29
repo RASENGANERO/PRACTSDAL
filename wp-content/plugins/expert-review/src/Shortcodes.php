@@ -83,7 +83,7 @@ class Shortcodes {
             add_shortcode( self::SHORTCODE_LIKES, [ $this, '_expert_review_likes' ] );
             add_shortcode( self::SHORTCODE_LIKES_RATE, [ $this, '_expert_review_likes_rate' ] );
             add_shortcode( self::SHORTCODE_FAQ, [ $this, '_expert_review_faq' ] );
-            add_shortcode( self::SHORTCODE_POLL, [ PluginContainer::get( Poll::class ), 'shortcode' ] );
+            add_shortcode( self::SHORTCODE_POLL, [ container()->get( Poll::class ), 'shortcode' ] );
             $this->micro_data->init();
         }
 
@@ -434,7 +434,7 @@ class Shortcodes {
                 $score_avg = round( $score_total / count( $atts['score'] ), 1 );
 
                 $out .= '<div class="expert-review-score-summary">';
-                $out .= '  <div class="expert-review-score-summary__label">' . __( 'Result', Plugin::TEXT_DOMAIN ) . '</div>';
+                $out .= '  <div class="expert-review-score-summary__label">' . apply_filters( 'expert_review:score_summary_label', __( 'Result', Plugin::TEXT_DOMAIN ) ) . '</div>';
                 $out .= '  <div class="expert-review-score-summary__content">';
 
                 if ( $atts['score_summary_average'] == 1 ) {

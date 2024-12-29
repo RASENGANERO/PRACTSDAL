@@ -7,6 +7,9 @@ use Psr\Container\ContainerExceptionInterface;
 use Psr\Container\ContainerInterface;
 use Psr\Container\NotFoundExceptionInterface;
 
+/**
+ * @deprecated
+ */
 class PluginContainer {
 
     /**
@@ -24,7 +27,7 @@ class PluginContainer {
      * @throws ContainerExceptionInterface Error while retrieving the entry.
      */
     public static function get( $id ) {
-        return static::container()->get( $id );
+        return container()->get( $id );
     }
 
     /**
@@ -39,7 +42,7 @@ class PluginContainer {
      * @return bool
      */
     public static function has( $id ) {
-        return static::container()->has( $id );
+        return container()->has( $id );
     }
 
     /**

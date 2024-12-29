@@ -1,16 +1,16 @@
 <?php
 
 /**
- * @version 1.8.0
+ * @version 1.8.1
  */
 
 if ( ! defined( 'WPINC' ) ) {
     die;
 }
 
-use Wpshop\ExpertReview\PluginContainer;
 use Wpshop\ExpertReview\Settings\AdvancedOptions;
 use Wpshop\ExpertReview\Settings\QaOptions;
+use function Wpshop\ExpertReview\container;
 
 /**
  * @var array  $atts
@@ -19,9 +19,9 @@ use Wpshop\ExpertReview\Settings\QaOptions;
 
 do_action( 'expert_review:faq_before', $atts );
 
-$use_microdata = ! PluginContainer::get( AdvancedOptions::class )->use_json_ld_faq_microdata;
+$use_microdata = ! container()->get( AdvancedOptions::class )->use_json_ld_faq_microdata;
 
-$qa_options = PluginContainer::get( QaOptions::class );
+$qa_options = container()->get( QaOptions::class );
 
 $q_tag = apply_filters( 'expert_review/faq/question_tag', $qa_options->qa_question_tag ?: 'div', $atts );
 $a_tag = apply_filters( 'expert_review/faq/answer_tag', $qa_options->qa_answer_tag ?: 'div', $atts );

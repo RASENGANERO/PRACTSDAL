@@ -5,9 +5,9 @@ if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
 	exit;
 }
 
-use Wpshop\ExpertReview\PluginContainer;
 use Wpshop\ExpertReview\Settings\PluginOptions;
+use function Wpshop\ExpertReview\container;
 
 require __DIR__ . '/vendor/autoload.php';
 
-PluginContainer::get( PluginOptions::class )->destroy();
+container()->get( PluginOptions::class )->destroy();

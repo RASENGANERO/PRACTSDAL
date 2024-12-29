@@ -1,15 +1,15 @@
 <?php
 
 /**
- * @version 1.8.0
+ * @version 1.8.1
  */
 
 if ( ! defined( 'WPINC' ) ) {
     die;
 }
 
-use Wpshop\ExpertReview\PluginContainer;
 use Wpshop\ExpertReview\Settings\AdvancedOptions;
+use function Wpshop\ExpertReview\container;
 
 /**
  * @var array    $atts
@@ -19,7 +19,7 @@ use Wpshop\ExpertReview\Settings\AdvancedOptions;
  * @var string   $expert_avatar
  */
 
-$advanced_options = PluginContainer::get( AdvancedOptions::class );
+$advanced_options = container()->get( AdvancedOptions::class );
 
 ?>
 

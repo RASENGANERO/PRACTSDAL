@@ -7,5 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     '7166494aeff09009178f278afd86c83f' => $vendorDir . '/yahnis-elsts/plugin-update-checker/load-v4p13.php',
-    '6f7cac58f18219699a7432b85ca4e47a' => $baseDir . '/src/function.php',
+    '75ce2c8808b21943324a9ff328402d05' => $baseDir . '/src/functions.php',
 );

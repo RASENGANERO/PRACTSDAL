@@ -7,15 +7,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
-"X-Generator: GlotPress/4.0.0\n"
+"X-Generator: GlotPress/4.0.1\n"
 "Language: ru\n"
 "Project-Id-Version: Plugins - Ad Inserter &#8211; Ad Manager &amp; AdSense Ads - Stable (latest release)\n"
 
-#: settings.php:2292
+#: settings.php:2304
 msgid "Enable insertion for REST requests"
 msgstr "Включить вставку для REST-запросов"
 
-#: ad-inserter.php:1448
+#: ad-inserter.php:1472
 msgid "CONTENT MARKER"
 msgstr "МАРКЕР СОДЕРЖИМОГО"
 
@@ -29,37 +29,32 @@ msgstr "ОБЫЧНЫЙ"
 msgid "NO CODE FOR INSERTION ON %s PAGES"
 msgstr "НЕТ КОДА ДЛЯ ВСТАВКИ НА %s СТРАНИЦЫ"
 
-#: settings.php:5836 settings.php:5841 settings.php:6060 settings.php:6069
-#: settings.php:6097 settings.php:6122
-msgid "The Google Analytics Alternative"
-msgstr "Альтернатива Google Analytics"
-
 #: class.php:3963 class.php:4061
 msgid "ACTIVATED GROUPS"
 msgstr "АКТИВИРОВАННЫЕ ГРУППЫ"
 
-#: settings.php:185
+#: settings.php:192
 msgid "Information"
 msgstr "Информация"
 
-#: settings.php:185
+#: settings.php:192
 msgid "Legacy JavaScript code used"
 msgstr "Используется устаревший код на JavaScript."
 
 #. translators: disable feature
-#: settings.php:185
+#: settings.php:192
 msgid "disable"
 msgstr "отключить"
 
-#: settings.php:2594
+#: settings.php:2606
 msgid "Administration"
 msgstr "Администрация"
 
-#: settings.php:2593
+#: settings.php:2605
 msgid "Frontend"
 msgstr "Внешний интерфейс"
 
-#: settings.php:2637
+#: settings.php:2649
 msgid "JavaScript code"
 msgstr "Код JavaScript"
 
@@ -67,7 +62,7 @@ msgstr "Код JavaScript"
 msgid "Inline"
 msgstr "Встроенный"
 
-#: settings.php:2640
+#: settings.php:2652
 msgid "Inline means inserting JavaScript code in the footer of the page, File means loading external JavaScript file"
 msgstr "Встроеный (Inline) означает вставку кода JavaScript в подвал страницы, File означает загрузку внешнего файла JavaScript."
 
@@ -75,7 +70,7 @@ msgstr "Встроеный (Inline) означает вставку кода Jav
 msgid "File"
 msgstr "Файл"
 
-#: ad-inserter.php:471
+#: ad-inserter.php:490
 msgctxt "Menu item, to label blocks"
 msgid "Label Blocks"
 msgstr "Этикетка блоков"
@@ -84,57 +79,57 @@ msgstr "Этикетка блоков"
 msgid "Top menu"
 msgstr "Верхнее меню"
 
-#: settings.php:2810
+#: settings.php:2822
 msgid "Menu for link"
 msgstr "Ссылка пункта меню"
 
 #. translators: %s: Ad Inserter
-#: settings.php:2813
+#: settings.php:2825
 msgid "WordPress sidebar menu for link to %s"
 msgstr "Меню боковой панели WordPress для ссылки на %s"
 
-#: settings.php:5760 settings.php:5774
+#: settings.php:5787 settings.php:5802
 msgid "Google AdX"
 msgstr "Google AdX"
 
 #. translators: %s: HTML tags
-#: settings.php:4973
+#: settings.php:4985
 msgid "Authorize %s to access your AdSense account."
 msgstr "Разрешить %s получить доступ к вашей учётной записи AdSense."
 
 #. translators: %s: HTML tags
-#: settings.php:4976
+#: settings.php:4988
 msgid "Now you can authorize %s to access your AdSense account. "
 msgstr "Теперь вы можете авторизовать %s для доступа к вашей учётной записи AdSense. "
 
-#: settings.php:6099 settings.php:6115 settings.php:6149
+#: settings.php:6128 settings.php:6144 settings.php:6178
 msgid "Stop invalid traffic with reCAPTCHA v3 score check"
 msgstr "Остановите недействительный трафик с помощью проверки рейтинга reCAPTCHA v3"
 
 #. translators: %s HTML tags
-#: settings.php:6192
+#: settings.php:6221
 msgid "Stop invalid traffic with %s reCAPTCHA score check %s"
 msgstr "Остановите недействительный трафик с помощью проверки балла reCAPTCHA %s %s."
 
-#: settings.php:2595
+#: settings.php:2607
 msgid "Constants"
 msgstr "Константы"
 
 #. Translators: %d: constant number
-#: settings.php:2898 settings.php:2909
+#: settings.php:2910 settings.php:2921
 msgid "Constant name"
 msgstr "Имя константы"
 
 #. Translators: %d: constant number
-#: settings.php:2897
+#: settings.php:2909
 msgid "Constant %d name"
 msgstr "Имя %d константа"
 
-#: settings.php:2899
+#: settings.php:2911
 msgid "Value"
 msgstr "Значение"
 
-#: settings.php:5853 settings.php:5858 settings.php:5870 settings.php:5875
+#: settings.php:5881 settings.php:5886 settings.php:5898 settings.php:5903
 msgid "Maximize Revenue"
 msgstr "Максимизировать доход"
 
@@ -142,21 +137,21 @@ msgstr "Максимизировать доход"
 msgid "all devices"
 msgstr "все устройства"
 
-#: settings.php:3161
+#: settings.php:3173
 msgid "Enabled for"
 msgstr "Включено для"
 
-#: ad-inserter.php:4057 ad-inserter.php:4312
+#: ad-inserter.php:4081 ad-inserter.php:4336
 msgid "UNFILTERED HTML DISABLED"
 msgstr "НЕФИЛЬТРИРОВАННЫЙ HTML ОТКЛЮЧЕН"
 
 #. translators: %s: HTML link code
-#: settings.php:202
+#: settings.php:209
 msgid "Warning: %s Unfiltered HTML %s is disabled for this website - most ad codes can't be used"
 msgstr "Предупреждение: %s Нефильтрованный HTML %s отключен для этого веб-сайта - большинство рекламных кодов не могут быть использованы."
 
 #. translators: 1: Ad Inserter, 2, 3: HTML tags
-#: ad-inserter.php:3480
+#: ad-inserter.php:3504
 msgid "Error: plugin settings corrupt"
 msgstr "Ошибка: настройки плагина повреждены"
 
@@ -170,13 +165,13 @@ msgctxt "fallback"
 msgid "ACTIVE"
 msgstr "АКТИВНО"
 
-#: settings.php:5752 settings.php:5765 settings.php:5779 settings.php:6056
-#: settings.php:6057 settings.php:6083 settings.php:6084 settings.php:6093
-#: settings.php:6094 settings.php:6116 settings.php:6117
+#: settings.php:5778 settings.php:5792 settings.php:5807 settings.php:6085
+#: settings.php:6086 settings.php:6112 settings.php:6113 settings.php:6122
+#: settings.php:6123 settings.php:6145 settings.php:6146
 msgid "Maximize Your Ad Revenue"
 msgstr "Максимизируйте доход от рекламы"
 
-#: settings.php:2441
+#: settings.php:2453
 msgid "Block background: empty means background not defined, #hex number means HTML color"
 msgstr "Фон блока: пусто означает, что фон не определен, номер #hex означает цвет HTML"
 
@@ -185,15 +180,15 @@ msgctxt "Block"
 msgid "FALLBACK CODE"
 msgstr "ЗАПАСНОЙ КОД"
 
-#: settings.php:2056
+#: settings.php:2068
 msgid "Cookies"
 msgstr "Файлы cookie"
 
-#: settings.php:2060
+#: settings.php:2072
 msgid "Toggle cookie editor"
 msgstr "Переключить редактор файлов cookie"
 
-#: settings.php:2063
+#: settings.php:2075
 msgid "Comma separated cookies with optional values (use 'cookie' or 'cookie=value')"
 msgstr "Cookie, разделенные запятыми, с необязательными значениями (используйте 'cookie' или 'cookie=value')"
 
@@ -202,7 +197,7 @@ msgid "cookies='%s' type='%s'"
 msgstr "cookies='%s' type='%s'"
 
 #. translators: %s HTML tags
-#: settings.php:6184
+#: settings.php:6213
 msgid "Ad rotation %s optimization based on CTR %s"
 msgstr "Оптимизация ротации объявлений %s на основе CTR %s"
 
@@ -214,15 +209,15 @@ msgstr "Элемент прокручивается"
 msgid "Element scrolls out"
 msgstr "Элемент прокручивается"
 
-#: settings.php:3223
+#: settings.php:3235
 msgid "Use external scripts"
 msgstr "Использовать внешние скрипты"
 
-#: settings.php:3223
+#: settings.php:3235
 msgid "Use external scripts for ad blocking detection. Disable when you need to obtain user consent before collecting personal information. In such case use shortcut to insert external scripts after the consent is given."
 msgstr "Используйте внешние скрипты для обнаружения блокировки рекламы. Отключите, если вам необходимо получить согласие пользователя перед сбором личной информации. В этом случае используйте ярлык для вставки внешних скриптов после получения согласия."
 
-#: settings.php:420
+#: settings.php:427
 msgid "Scheduling parameters"
 msgstr "Параметры расписания"
 
@@ -235,179 +230,179 @@ msgstr "Удалить все"
 msgid "Delete website?"
 msgstr "Удалить вебсайт?"
 
-#: settings.php:1128 settings.php:1278
+#: settings.php:1140 settings.php:1290
 msgid "Block on consent"
 msgstr "Блокировка при согласии"
 
-#: settings.php:1029
+#: settings.php:1036
 msgid "Lazy loading"
 msgstr "Отложенная загрузка"
 
-#: settings.php:1612
+#: settings.php:1624
 msgid "Delay"
 msgstr "Задержка"
 
 #. translators: %s: Ad Inserter
-#: settings.php:3425
+#: settings.php:3437
 msgid "%s HTML CODE"
 msgstr "%s HTML CODE"
 
-#: settings.php:1594
+#: settings.php:1606
 msgid "Wait for"
 msgstr "Подождите"
 
-#: ad-inserter.php:4052
+#: ad-inserter.php:4076
 msgid "Click to delete the cookie for the consents"
 msgstr "Нажмите, чтобы удалить файл cookie для получения согласия"
 
 #. translators: %s: Ad Inserter
-#: settings.php:3387
+#: settings.php:3399
 msgid "Disable %s HTML code"
 msgstr "Отключить %s HTML код"
 
 #. translators: %s: HTML tags
-#: settings.php:5036
+#: settings.php:5048
 msgid "For %s Which API are you using? %s select %s AdSense Management API %s"
 msgstr "Для %s какой API вы используете? %s выберите %s AdSense Management API %s"
 
-#: settings.php:2138
+#: settings.php:2150
 msgid "Sidebars (or widget positions) where this widget is used"
 msgstr "Боковые панели (или позиции виджета), где используется этот виджет"
 
 #. translators: %s HTML tags
-#: settings.php:6193
+#: settings.php:6222
 msgid "Support for %s GDPR consent cookie checks %s"
 msgstr "Поддержка %s GDPR согласие на проверку файлов cookie %s"
 
-#: settings.php:1613
+#: settings.php:1625
 msgid "Time in ms to delay insertion"
 msgstr "Время задержки вставки в мс"
 
-#: settings.php:1606
+#: settings.php:1618
 msgid "Wait for HTML element to be loaded"
 msgstr "Ожидание загрузки элемента HTML"
 
 #. translators: %s: HTML tags
-#: settings.php:5040
+#: settings.php:5052
 msgid "When %s Set up OAuth consent screen %s window is displayed select %s Setup Consent Screen %s"
 msgstr "Когда появится окно %s Set up OAuth consent screen %s, выберите %s Setup Consent Screen %s."
 
 #. translators: %s: HTML tags
-#: settings.php:5045
+#: settings.php:5057
 msgid "Click again on %s SAVE AND CONTINUE %s and then on %s BACK TO DASHBOARD %s"
 msgstr "Снова нажмите на %s СОХРАНИТЬ И ПРОДОЛЖИТЬ %s, а затем на %s ВЕРНУТЬСЯ НА КОНСОЛЬ %s"
 
 #. translators: %s: HTML tags
-#: settings.php:5047
+#: settings.php:5059
 msgid "Click on %s Create OAuth client ID %s and then click on %s DONE %s"
 msgstr "Нажмите %s Создать ID клиента OAuth %s и затем нажмите %s ГОТОВО %s"
 
 #. translators: %s: HTML tags
-#: settings.php:5042
+#: settings.php:5054
 msgid "For %s App name %s enter %s and for %s User support email %s select your Google account email address"
 msgstr "Для %s Название приложения %s введите %s, а для %s Электронная почта поддержки пользователей %s выберите email-адрес вашего аккаунта Google."
 
 #. translators: %s: HTML tags
-#: settings.php:5043
+#: settings.php:5055
 msgid "For %s Developer contact information %s enter your email address and click on %s SAVE AND CONTINUE %s"
 msgstr "Для получения %s контактной информации разработчика %s введите свой email-адрес и нажмите на %s СОХРАНИТЬ И ПРОДОЛЖИТЬ %s"
 
 #. translators: %s: HTML tags
-#: settings.php:5041
+#: settings.php:5053
 msgid "For %s User Type %s select %s External %s and click on %s CREATE %s"
 msgstr "Для %s Тип пользователя %s выберите %s Внешний %s и нажмите %s СОЗДАТЬ %s"
 
 #. Translators: do not translate [[height]] - it is a CSS property
-#: settings.php:2435
+#: settings.php:2447
 msgid "Block height: empty means height not defined, number means height in pixels, any other value means CSS [[height]] property"
 msgstr "Высота блока: пусто означает, что высота не определена, число означает высоту в пикселях, любое другое значение означает свойство CSS [[height]]"
 
 #. Translators: do not translate [[width]] - it is a CSS property
-#: settings.php:2431
+#: settings.php:2443
 msgid "Block width: empty means width not defined, number means width in pixels, any other value means CSS [[width]] property"
 msgstr "Ширина блока: пусто означает, что ширина не определена, число означает ширину в пикселях, любое другое значение означает свойство CSS [[width]]"
 
 #. translators: %s: HTML tags
-#: settings.php:5044
+#: settings.php:5056
 msgid "Click again on %s SAVE AND CONTINUE %s and then click on %s ADD USERS %s and add your Google account email address"
 msgstr "Снова нажмите на %s СОХРАНИТЬ И ПРОДОЛЖИТЬ %s, а затем нажмите на %s ДОБАВИТЬ ПОЛЬЗОВАТЕЛЯ %s и добавьте email-адрес своего аккаунта Google"
 
 #. translators: %s: HTML tags
-#: settings.php:5046
+#: settings.php:5058
 msgid "Create an OAuth 2.0 client ID: For %s OAuth 2.0 client ID %s name enter %s Ad Inserter client %s and then click on %s REFRESH %s"
 msgstr "Создайте ID клиента OAuth 2.0: Для имени %s OAuth 2.0 ID клиента %s введите %s Ad Inserter client %s и затем нажмите %s REFRESH %s."
 
-#: settings.php:1021
+#: settings.php:1028
 msgid "Alt text"
 msgstr "Атрибут alt"
 
-#: settings.php:2351
+#: settings.php:2363
 msgid "Embed JS code"
 msgstr "Встраивать код JS"
 
 #. translators: %s HTML tags
-#: settings.php:6175
+#: settings.php:6204
 msgid "%s Background ads %s with one or left and right background images"
 msgstr "%s Фоновые объявления %s с одним или левым и правым фоновыми изображениями"
 
 #. translators: %s: HTML tags
-#: settings.php:5995
+#: settings.php:6023
 msgid "%s New to %s AdSense? %s %s %s Connect your site %s - %s In-feed ads, %s %s Auto ads, %s %s AMP ads %s"
 msgstr "%s Новичок в %s AdSense? %s %s %s Подключите свой сайт %s - %s объявления в ленте, %s %s Авто объявления, %s %s AMP объявления %s"
 
-#: settings.php:6055 settings.php:6068 settings.php:6141
+#: settings.php:6084 settings.php:6097 settings.php:6170
 msgid "Ad blocking detection and content protection"
 msgstr "Обнаружение блокировок рекламы и защита контента"
 
 #. Translators: Do not insert for first X and last Y paragraphs
-#: settings.php:1778
+#: settings.php:1790
 msgid "and last"
 msgid_plural "and last"
 msgstr[0] "и последний"
 msgstr[1] "и последних"
 msgstr[2] "и последних"
 
-#: settings.php:1756
+#: settings.php:1768
 msgid "Check only tag attributes"
 msgstr "Проверяйте только атрибуты тегов"
 
-#: settings.php:1775
+#: settings.php:1787
 msgid "Excludes first paragraphs from insertion, leave empty for no exclusion of first paragraphs"
 msgstr "Исключает первые абзацы из вставки, оставьте пустым, чтобы не исключать первые абзацы"
 
-#: settings.php:1784
+#: settings.php:1796
 msgid "Excludes last paragraphs from insertion, leave empty for no exclusion of last paragraphs"
 msgstr "Исключает из вставки последние абзацы, оставьте пустым, чтобы не исключать последние абзацы"
 
-#: settings.php:1755 settings.php:1756
+#: settings.php:1767 settings.php:1768
 msgid "If checked it will search for the text only in tag attributes like [[id]], [[class]], [[style]], etc. Otherwise the whole tag including its content will be searched."
 msgstr "Если флажок установлен, то текст будет искаться только в атрибутах тега, таких как [[id]], [[class]], [[style]] и т. д. В противном случае будет искаться весь тег, включая его содержимое."
 
-#: settings.php:6074
+#: settings.php:6103
 msgid "Insert ads on AMP pages"
 msgstr "Вставить объявления на страницах AMP"
 
-#: settings.php:4819
+#: settings.php:4831
 msgid "No active block"
 msgstr "Нет активного блока"
 
-#: settings.php:4820
+#: settings.php:4832
 msgid "No block matches search keywords"
 msgstr "Ни один блок не соответствует ключевым словам для поиска"
 
-#: settings.php:4752
+#: settings.php:4764
 msgid "Pause block"
 msgstr "Приостановить блок"
 
-#: settings.php:2829
+#: settings.php:2841
 msgid "Tab setup delay"
 msgstr "Задержка установки вкладки"
 
-#: settings.php:2347
+#: settings.php:2359
 msgid "When enabled, Javascript code (if needed for the blok) will be inserted next to the block HTML code. Otherwise, the Javascript code will be inserted in the page footer. Plugin Javascript functions will still be inserted in the footer."
 msgstr "Если эта функция включена, код Javascript (если он необходим для блока) будет вставлен рядом с HTML-кодом блока. В противном случае код Javascript будет вставлен в нижний колонтитул страницы. Функции Javascript плагинов по-прежнему будут вставляться в нижний колонтитул."
 
-#: settings.php:2107
+#: settings.php:2119
 msgid "Comma separated names (operating systems, browsers, devices). You can also list partial user agent strings with * (user-agent-start*. *user-agent-pattern*, *user-agent-end)"
 msgstr "Названия разделенные запятыми (операционные системы, браузеры, устройства). Вы также можете перечислить частичные строки пользовательского агента с помощью * (user-agent-start *. * User-agent-pattern *, * user-agent-end)"
 
@@ -500,7 +495,7 @@ msgstr "Выберите или загрузите фоновое изображ
 msgid "start='%s' end='%s' days='%s' type='%s'"
 msgstr "start='%s' end='%s' days='%s' type='%s'"
 
-#: settings.php:192 settings.php:195
+#: settings.php:199 settings.php:202
 msgid "Warning: only exceptions for %d posts cleared, %d posts still have exceptions"
 msgstr "Предупреждение: удалены только исключения для %d записей, для %d записей по-прежнему есть исключения"
 
@@ -514,7 +509,7 @@ msgctxt "image size"
 msgid "Fit"
 msgstr "Вместить"
 
-#: ad-inserter.php:3420
+#: ad-inserter.php:3444
 msgid "Maybe later"
 msgstr "Возможно позже"
 
@@ -562,7 +557,7 @@ msgstr "ВСЕ"
 msgid "viewport='%s' type='%s'"
 msgstr "viewport='%s' type='%s'"
 
-#: ad-inserter.php:3524
+#: ad-inserter.php:3548
 msgid "Safe mode"
 msgstr "Безопасный режим"
 
@@ -572,7 +567,7 @@ msgid "Sticky"
 msgstr "Прилеплена"
 
 #. translators: %s: HTML tags for text and link
-#: settings.php:2500
+#: settings.php:2512
 msgid "%s WARNING: %s Settings Filter or Max insertions can't work with %s Client-side %s insertion. Use %s Server-side %s insertion."
 msgstr "%s ПРЕДУПРЕЖДЕНИЕ: %s Фильтр настроек или максимальные вставки не могут работать со %s вставкой %s на стороне клиента. Используйте вставку %s на стороне сервера %s."
 
@@ -581,496 +576,496 @@ msgctxt "AdSense Ad Type"
 msgid "AMP Only"
 msgstr "Только AMP"
 
-#: settings.php:2734
+#: settings.php:2746
 msgid "Block name class"
 msgstr "Класс названия блока"
 
-#: settings.php:5907
+#: settings.php:5935
 msgctxt "Rate Ad Inserter"
 msgid "Rate"
 msgstr "Ставка"
 
-#: settings.php:371
+#: settings.php:378
 msgid "SAFE MODE"
 msgstr "БЕЗОПАСНЫЙ РЕЖИМ"
 
-#: settings.php:1930 settings.php:1953 settings.php:1976 settings.php:1999
-#: settings.php:2022 settings.php:2045 settings.php:2068 settings.php:2090
-#: settings.php:2112
+#: settings.php:1942 settings.php:1965 settings.php:1988 settings.php:2011
+#: settings.php:2034 settings.php:2057 settings.php:2080 settings.php:2102
+#: settings.php:2124
 msgid "Click to select black or white list"
 msgstr "Щелкните, чтобы выбрать черный или белый список"
 
-#: settings.php:1618
+#: settings.php:1630
 msgid "Code position"
 msgstr "Позиция кода"
 
 #. Translators: %s: Ad Inserter
-#: ad-inserter.php:3425
+#: ad-inserter.php:3449
 msgid "Hey, you are using %s and I hope you're happy with it."
 msgstr "Привет, вы используете %s, и я надеюсь, что вы довольны этим."
 
-#: settings.php:5907
+#: settings.php:5935
 msgid "If you like Ad Inserter and have a moment, please help me spread the word by rating the plugin on WordPres"
 msgstr "Если вам нравится Ad Inserter и у вас есть минутка, пожалуйста, помогите мне распространить информацию, оценив плагин на WordPres"
 
-#: settings.php:2734
+#: settings.php:2746
 msgid "Include block name class"
 msgstr "Вставить класс с названием блока"
 
-#: ad-inserter.php:3524
+#: ad-inserter.php:3548
 msgid "Load settings page in safe mode to avoid collisions with other plugins or theme"
 msgstr "Загрузите страницу настроек в безопасном режиме, чтобы избежать конфликтов с другими плагинами или темами"
 
-#: ad-inserter.php:3416
+#: ad-inserter.php:3440
 msgid "Please help me to solve a problem first"
 msgstr "Пожалуйста, помогите мне сначала решить проблему"
 
-#: ad-inserter.php:3441
+#: ad-inserter.php:3465
 msgid "Please take a moment to rate the plugin. When you rate it with 5 stars it's like saying 'Thank you'. Somebody will be happy."
 msgstr "Пожалуйста, уделите время, чтобы оценить плагин. Когда вы оцениваете его 5 звездами, это все равно, что сказать \"Спасибо\". Кто-то будет счастлив."
 
-#: ad-inserter.php:605
+#: ad-inserter.php:624
 msgctxt "Menu item"
 msgid "Show Log"
 msgstr "Показать журнал"
 
 #. translators: disable feature
-#: settings.php:185 settings.php:2626
+#: settings.php:192 settings.php:2638
 msgid "Wait for jQuery"
 msgstr "Ожидание jQuery"
 
 #. translators: 1: Ad Inserter, 2, 3: HTML tags
-#: ad-inserter.php:3473
+#: ad-inserter.php:3497
 msgid "Warning: %1$s requires PHP 5.6 or newer. %2$s Please update! %3$s"
 msgstr "Предупреждение: %1$s требует PHP 5.6 или новее. %2$s Пожалуйста, обновите! %3$s"
 
-#: settings.php:2629
+#: settings.php:2641
 msgid "When enabled, Ad Inserter will wait for jQuery library to be loaded before it will run the scripts that may need it"
 msgstr "Если эта функция включена, Ad Inserter будет ждать загрузки библиотеки jQuery, прежде чем запускать скрипты, которым она может понадобиться"
 
-#: ad-inserter.php:3449
+#: ad-inserter.php:3473
 msgid "Sure"
 msgstr "Конечно"
 
 #. translators: %s: HTML tags
-#: settings.php:373
+#: settings.php:380
 msgid "Page is loaded in %s safe mode. %s Not all scripts are loaded."
 msgstr "Страница загружается в %s безопасном режиме. %s Не все скрипты загружены."
 
-#: settings.php:1619
+#: settings.php:1631
 msgid "Page position where the code for client-side insertion will be inserted."
 msgstr "Позиция страницы, на которой будет вставлен код для вставки на стороне клиента."
 
-#: ad-inserter.php:3428
+#: ad-inserter.php:3452
 msgid "OK, but please help me with the settings first"
 msgstr "Хорошо, но, пожалуйста, сначала помогите мне с настройками"
 
 #. translators: %s HTML tags
-#: settings.php:6218
+#: settings.php:6247
 msgid "Premium support"
 msgstr "Премиум поддержка"
 
 #. translators: %s HTML tags
-#: settings.php:6206
+#: settings.php:6235
 msgid "%s Black/White-list %s categories, tags, taxonomies, users, post IDs, urls, referrers, operating systems, browsers"
 msgstr "%s Черный / Белый список %s категории, теги, таксономии, пользователи, идентификаторы постов, URL-адреса, источники ссылок, операционные системы, браузеры"
 
 #. translators: %s HTML tags
-#: settings.php:6191
+#: settings.php:6220
 msgid "Click fraud %s protection %s"
 msgstr "%s Защита %s от Мошенничества с кликами"
 
 #. translators: %s HTML tags
-#: settings.php:6190
+#: settings.php:6219
 msgid "Frequency capping - %s limit impressions or clicks %s"
 msgstr "Ограничение частоты - %s лимит показов или кликов %s"
 
 #. translators: %s HTML tags
-#: settings.php:6188
+#: settings.php:6217
 msgid "%s Public web reports %s for clients, export to PDF"
 msgstr "%s Публичные веб-отчеты %s для клиентов, экспорт в PDF"
 
 #. translators: %s HTML tags
-#: settings.php:6187
+#: settings.php:6216
 msgid "Internal or external %s tracking %s (via Google Analytics or Matomo)"
 msgstr "Внутреннее или внешнее %s отслеживание %s  (через Google Analytics или Matomo)"
 
 #. translators: %s HTML tags
-#: settings.php:6185
+#: settings.php:6214
 msgid "Create, edit and check %s ads.txt %s file"
 msgstr "Создавайте, редактируйте и проверяйте файл %s ads.txt %s"
 
 #. Translators: %s: price of Ad Inserter Pro
-#: settings.php:6159
+#: settings.php:6188
 msgid "Different license types starting from %s"
 msgstr "Различные типы лицензий, начиная с %s"
 
-#: settings.php:5179
+#: settings.php:5191
 msgid "All static pages"
 msgstr "Все статические страницы"
 
-#: settings.php:5178
+#: settings.php:5190
 msgid "All posts"
 msgstr "Все записи"
 
-#: settings.php:4802
+#: settings.php:4814
 msgid "Limits"
 msgstr "Лимиты"
 
-#: settings.php:4801
+#: settings.php:4813
 msgid "Tracking"
 msgstr "Отслеживание"
 
-#: settings.php:4796
+#: settings.php:4808
 msgid "Device detection"
 msgstr "Идентификация устройства"
 
-#: settings.php:4795
+#: settings.php:4807
 msgid "Exceptions"
 msgstr "Исключения"
 
-#: settings.php:4380
+#: settings.php:4392
 msgid "Account ID found in block but not present in ads.txt"
 msgstr "Идентификатор аккаунта найден в блоке, но отсутствует в ads.txt"
 
-#: settings.php:4376
+#: settings.php:4388
 msgid "Account ID found in block and present in ads.txt"
 msgstr "Идентификатор аккаунта найден в блоке и присутствует в ads.txt"
 
-#: settings.php:4361
+#: settings.php:4373
 msgid "Certification authority ID"
 msgstr "Удостоверяющий ID центр"
 
-#: settings.php:4359
+#: settings.php:4371
 msgid "Account ID"
 msgstr "Идентификатор учетной записи"
 
-#: settings.php:4358
+#: settings.php:4370
 msgid "Advertising system"
 msgstr "Рекламная система"
 
 #. translators: %s: Ad Inserter
-#: settings.php:4336
+#: settings.php:4348
 msgid "%s virtual ads.txt file"
 msgstr "%s виртуальный файл ads.txt"
 
-#: settings.php:4330
+#: settings.php:4342
 msgid "Account IDs found in blocks but not present in the ads.txt file"
 msgstr "Идентификаторы аккаунта найдены в блоках, но отсутствуют в ads.txt"
 
-#: settings.php:4320
+#: settings.php:4332
 msgid "file %s not found"
 msgstr "Файл %s не найден"
 
-#: settings.php:4313
+#: settings.php:4325
 msgid "NOT WRITABLE"
 msgstr "Недоступен для записи"
 
-#: settings.php:4313
+#: settings.php:4325
 msgid "ads.txt file"
 msgstr "файл ads.txt"
 
-#: settings.php:4308
+#: settings.php:4320
 msgid "ads.txt file must be placed on the root domain"
 msgstr "Файл ads.txt должен быть размещен в корневой директории"
 
-#: settings.php:4308
+#: settings.php:4320
 msgid "IMPORTANT"
 msgstr "ВАЖНО"
 
 #. translators: %s: Ad Inserter
-#: settings.php:4300
+#: settings.php:4312
 msgid "%s virtual file ads.txt not found"
 msgstr "%s виртуальный файл ads.txt не найден"
 
 #. translators: %s: Ad Inserter
-#: settings.php:4295
+#: settings.php:4307
 msgid "ads.txt file: %s virtual ads.txt file"
 msgstr "файл ads.txt: %s виртуальный файл ads.txt"
 
-#: settings.php:4109
+#: settings.php:4121
 msgid "Reload ads.txt file"
 msgstr "Перезагрузить файл ads.txt"
 
 #. translators: %s: ads.txt
-#: settings.php:4101
+#: settings.php:4113
 msgid "Open %s"
 msgstr "Открыть %s"
 
-#: settings.php:4081
+#: settings.php:4093
 msgid "Switch to virtual ads.txt file"
 msgstr "Переключиться на виртуальный файл ads.txt"
 
-#: settings.php:4080
+#: settings.php:4092
 msgid "Switch to physical ads.txt file"
 msgstr "Переключиться на физический файл ads.txt"
 
-#: settings.php:3971
+#: settings.php:3983
 msgid "Position not available because output buffering (tab [*]) is not enabled"
 msgstr "Позиция недоступна, поскольку выходная буферизация (tab [*]) не включена"
 
-#: settings.php:3912
+#: settings.php:3924
 msgid "Archive pages"
 msgstr "Архивные страницы"
 
-#: settings.php:3907
+#: settings.php:3919
 msgid "Position"
 msgstr "Позиция"
 
-#: settings.php:3900
+#: settings.php:3912
 msgctxt "Button"
 msgid "Check"
 msgstr "Проверить"
 
-#: settings.php:3900
+#: settings.php:3912
 msgid "Toggle theme checker for available positions for automatic insertion"
 msgstr "Переключатель проверки Темы на предмет доступных позиций для автоматической вставки"
 
-#: settings.php:3897
+#: settings.php:3909
 msgid "Error checking pages"
 msgstr "Ошибка проверки страниц"
 
-#: settings.php:3896
+#: settings.php:3908
 msgid "Available positions for current theme"
 msgstr "Доступные позиции для текущей Темы"
 
-#: settings.php:3326
+#: settings.php:3338
 msgid "Users which can close the warning message."
 msgstr "Пользователи, которые могут закрыть предупреждение."
 
-#: settings.php:3187
+#: settings.php:3199
 msgid "Exceptions for global action when ad blocking is detected."
 msgstr "Исключения для глобальных действий при обнаружении блокировки рекламы."
 
-#: settings.php:3186
+#: settings.php:3198
 msgid "No action for"
 msgstr "Нет действий для"
 
-#: settings.php:3151
+#: settings.php:3163
 msgctxt "ad blocking detection"
 msgid "NOT ENABLED"
 msgstr "НЕ ВКЛЮЧЕНО"
 
-#: settings.php:3141
+#: settings.php:3153
 msgid "Code for ad blocking detection inserted. Click for details."
 msgstr "Код для обнаружения блокировки рекламы вставлен. Нажмите для подробностей."
 
 #. translators: %s: HTML tags
-#: settings.php:3092
+#: settings.php:3104
 msgctxt "code in the footer"
 msgid "NOT ENABLED"
 msgstr "НЕ ВКЛЮЧЕНО"
 
-#: settings.php:3023
+#: settings.php:3035
 msgctxt "code in the header"
 msgid "NOT ENABLED"
 msgstr "НЕ ВКЛЮЧЕНО"
 
-#: settings.php:2850
+#: settings.php:2862
 msgid "Enabled means that logged in administrators will see non-cached (live) pages (applies to WP Super Cache, W3 Total Cache and WP Rocket plugins)"
 msgstr "Включено означает, что вошедшие в систему администраторы будут видеть не кэшированные (живые) страницы (относится к плагинам WP Super Cache, W3 Total Cache и WP Rocket)"
 
-#: settings.php:2847
+#: settings.php:2859
 msgid "Disable caching for logged in administrators"
 msgstr "Отключить кеширование для авторизованных администраторов"
 
-#: settings.php:2187
+#: settings.php:2199
 msgid "Either show/hide or insert when the page is loaded on wanted viewports"
 msgstr "Показать / скрыть, либо вставить, когда страница загружена в требуемых областях просмотра"
 
-#: settings.php:2104
+#: settings.php:2116
 msgid "Toggle client editor"
 msgstr "Переключить клиентский редактор"
 
-#: settings.php:2101
+#: settings.php:2113
 msgid "Clients"
 msgstr "Посетители"
 
-#: settings.php:1810
+#: settings.php:1822
 msgid "Maximum number of paragraphs, leave empty for no limit"
 msgstr "Максимальное количество абзацев, оставьте пустым для снятия ограничений"
 
-#: settings.php:1801
+#: settings.php:1813
 msgid "Minimum number of paragraphs, leave empty for no limit"
 msgstr "Минимальное количество абзацев, оставьте пустым для снятия ограничений"
 
 #. translators: inside [HTML tags] elements that contain
-#: settings.php:1725
+#: settings.php:1737
 msgid "elements that"
 msgstr "элементы, которые"
 
-#: settings.php:1716
+#: settings.php:1728
 msgid "Comma separated HTML tag names of container elements"
 msgstr "Разделенные запятыми имена HTML тегов элементов"
 
 #. translators: inside [HTML tags] elements that contain
-#: settings.php:1710
+#: settings.php:1722
 msgid "inside"
 msgstr "внутри"
 
 #. Translators: %s: HTML tags
-#: settings.php:1761
+#: settings.php:1773
 msgid "Count inside %s elements"
 msgstr "Количество элементов внутри %s "
 
-#: settings.php:1518
+#: settings.php:1530
 msgid "Toggle insertion and alignment icons"
 msgstr "Переключатель вставки и выравнивания иконок"
 
-#: settings.php:1500
+#: settings.php:1512
 msgid "Toggle insertion filter settings"
 msgstr "Переключатель настройки фильтра вставки"
 
-#: settings.php:1497
+#: settings.php:1509
 msgid "Toggle paragraph clearance settings"
 msgstr "Переключатель настройки оформления абзаца"
 
-#: settings.php:1496
+#: settings.php:1508
 msgid "Toggle paragraph counting settings"
 msgstr "Переключатель настройки подсчета абзацев"
 
-#: settings.php:1489
+#: settings.php:1501
 msgid "Insertion Filter Mirror Setting | Comment number or comma separated comment numbers, %N means every N comments, empty means all comments"
 msgstr "Вставка зеркала настроек фильтров | Номер комментария или разделенные запятыми номера комментариев, %N означает каждый N комментариев, пустой означает все комментарии"
 
-#: settings.php:1488
+#: settings.php:1500
 msgid "Insertion Filter Mirror Setting | Post number or comma separated post numbers, %N means every N posts, empty means all posts"
 msgstr "Вставка зеркала настроек фильтров | Номер записи или разделенные запятыми номера записей, %N означает каждые N записей, пустой означает все записи"
 
-#: settings.php:1487
+#: settings.php:1499
 msgid "Insertion Filter Mirror Setting | Excerpt number or comma separated excerpt numbers, %N means every N excerpts, empty means all excerpts"
 msgstr "Вставка зеркала настроек фильтров | Номер выдержки или номера выдержек, разделенных запятыми, %N означает каждую выдержку N, пустая означает все выдержки"
 
-#: settings.php:1382
+#: settings.php:1394
 msgid "No exception for post or static page defined. Block will not be inserted."
 msgstr "Не определено исключение для поста или статической страницы. Блок не будет вставлен."
 
 #. Translators: Disabled means...
-#: settings.php:1374
+#: settings.php:1386
 msgid "When individual post/page exceptions are enabled they can be configured on the individual post/page editor page (in the settings below the editor)."
 msgstr "Когда отдельные исключения сообщений / страниц включены, они могут быть настроены на отдельной странице редактора сообщений / страниц (в настройках под редактором)."
 
 #. Translators: Disabled means...
-#: settings.php:1373
+#: settings.php:1385
 msgid "means the insertion for this block is disabled by default and enabled for exceptions."
 msgstr "означает, что вставка для этого блока отключена по умолчанию и включена для исключений."
 
 #. Translators: Enabled means...
-#: settings.php:1372
+#: settings.php:1384
 msgid "means the insertion for this block is enabled by default and disabled for exceptions."
 msgstr "означает, что вставка для этого блока включена по умолчанию и отключена для исключений."
 
-#: settings.php:1364
+#: settings.php:1376
 msgid "Use exceptions for individual posts or pages to change insertion"
 msgstr "Используйте исключения для отдельных сообщений или страниц, чтобы изменить вставку"
 
-#: settings.php:1364
+#: settings.php:1376
 msgid "Enable individual post/page exceptions for insertion of this block. When enabled they can be configured on the individual post/page editor page (in the settings below the editor)."
 msgstr "Включить отдельные исключения записей / страниц для вставки этого блока. Когда они включены, их можно настроить на странице редактора отдельных записей / страниц (в настройках под редактором)."
 
-#: settings.php:1363
+#: settings.php:1375
 msgid "Enable individual post/page exceptions for insertion of this block. They can be configured on the individual post/page editor page (in the settings below the editor)."
 msgstr "Включить отдельные исключения записей / страниц для вставки этого блока. Их можно настроить на странице редактора отдельных записей / страниц (в настройках под редактором)."
 
-#: settings.php:1351
+#: settings.php:1363
 msgid "Toggle settings for default insertion and list of individual exceptions"
 msgstr "Переключатель настроек для вставки исключений по умолчанию и списка отдельных исключений"
 
-#: settings.php:1178
+#: settings.php:1190
 msgctxt "Full width"
 msgid "Disabled"
 msgstr "Выключено"
 
-#: settings.php:1177
+#: settings.php:1189
 msgctxt "Full width"
 msgid "Enabled"
 msgstr "Включено"
 
-#: settings.php:1175
+#: settings.php:1187
 msgid "Full width"
 msgstr "Во всю ширину"
 
-#: settings.php:969
+#: settings.php:976
 msgid "Rotation groups"
 msgstr "Группы ротации"
 
-#: settings.php:404
+#: settings.php:411
 msgid "Group name"
 msgstr "Имя группы"
 
-#: settings.php:330
+#: settings.php:337
 msgid "List all blocks"
 msgstr "Список всех блоков"
 
-#: settings.php:326 settings.php:1330
+#: settings.php:333 settings.php:1342
 msgid "Check theme for available positions for automatic insertion"
 msgstr "Проверьте Тему на наличие позиций для автоматической вставки"
 
-#: settings.php:323
+#: settings.php:330
 msgid "Edit ads.txt file"
 msgstr "Редактировать файл ads.txt"
 
-#: settings.php:1387
+#: settings.php:1399
 msgid "Settings for individual exceptions have been updated. Please check all blocks that have exceptions and and then save settings."
 msgstr "Настройки для отдельных исключений были обновлены. Пожалуйста, проверьте все блоки, которые имеют исключения, а затем сохраните настройки."
 
 #. translators: %s: Ad Inserter
-#: ad-inserter.php:7794 ad-inserter.php:8114
+#: ad-inserter.php:7818 ad-inserter.php:8148
 msgid "Invalid data received - %s settings not saved."
 msgstr "Получены неверные данные - настройки %s не сохранены."
 
-#: ad-inserter.php:3735
+#: ad-inserter.php:3759
 msgid "This way you can individually enable or disable blocks on specific posts or pages."
 msgstr "Таким образом, вы можете индивидуально включать или отключать блоки на определенных записях или страницах."
 
-#: ad-inserter.php:3734
+#: ad-inserter.php:3758
 msgid "When individual exceptions for a block are enabled, a checkbox will be listed here to change default insertion for this post or page."
 msgstr "Когда отдельные исключения для блока включены, здесь будет установлен флажок, чтобы изменить вставку по умолчанию для этой записи или страницы."
 
 #. translators: 1: Ad Inserter Settings (page), 2: Tag / Archive pages
-#: ad-inserter.php:3729
+#: ad-inserter.php:3753
 msgid "Default insertion can be configured for each block on %1$s page - button next to %2$s checkbox."
 msgstr "Вставка по умолчанию может быть настроена для каждого блока на %1$s  странице - кнопка рядом с флажком %2$s."
 
 #. translators: No individual exceptions enabled for pages or posts
-#: ad-inserter.php:3722
+#: ad-inserter.php:3746
 msgid "No block has individual exceptions enabled"
 msgstr "Ни в одном блоке не включены отдельные исключения"
 
 #. translators: Not enabled for pages or posts
-#: ad-inserter.php:3694
+#: ad-inserter.php:3718
 msgid "Not enabled for"
 msgstr "Не включено для"
 
-#: ad-inserter.php:3692
+#: ad-inserter.php:3716
 msgid "No individual exceptions"
 msgstr "Нет индивидуальных исключений"
 
 #. Translators: Do not insert for first X and last Y paragraphs
 #. Translators: Post/Static page must have between X and Y paragraphs
-#: settings.php:1787 settings.php:1813
+#: settings.php:1799 settings.php:1825
 msgid "paragraph"
 msgid_plural "paragraphs"
 msgstr[0] "абзац"
 msgstr[1] "абзаца"
 msgstr[2] "абзацев"
 
-#: settings.php:3325
+#: settings.php:3337
 msgid "Not undismissible for"
 msgstr "Не является недопустимым для"
 
 #. translators: %s: HTML tags
-#: settings.php:6012
+#: settings.php:6040
 msgid "Become an %s affiliate %s for Ad Inserter Pro and earn commission for each purchase you refer to us"
 msgstr "Станьте %s партнером %s для Ad Inserter Pro и получайте комиссионные за каждую покупку, которую вы направляете нам"
 
-#: ad-inserter.php:3652 settings.php:1370
+#: ad-inserter.php:3676 settings.php:1382
 msgid "Default insertion"
 msgstr "Вставка по умолчанию"
 
 #. translators: 1: AMPforWP Plugin Manager, 2: Ad Inserter
 #. translators: 1: AMPforWP Plugin Manager, 2: Ad Inserter, 3, 4: HTML tags
-#: ad-inserter.php:3466 ad-inserter.php:3509
+#: ad-inserter.php:3490 ad-inserter.php:3533
 msgid "Warning: %1$s %3$s disabled %4$s %2$s on AMP pages."
 msgstr "Внимание: %1$s %3$s отключено %4$s %2$s на AMP страницах."
 
@@ -1111,7 +1106,7 @@ msgstr "Проверка Темы | Выбранная позиция для а�
 msgid "Position not available"
 msgstr "Позиция недоступна"
 
-#: settings.php:3974 strings.php:262
+#: settings.php:3986 strings.php:262
 msgid "Position not checked yet"
 msgstr "Позиция еще не проверена"
 
@@ -1177,27 +1172,27 @@ msgid "No wrapping"
 msgstr "Без переноса"
 
 #. translators: %s HTML tags
-#: settings.php:6203
+#: settings.php:6232
 msgid "Client-side %s mobile device detection %s (works with caching)"
 msgstr "%s Обнаружение мобильного устройства %s на стороне пользователя (работает с кэшированием)"
 
-#: settings.php:2965 settings.php:2968
+#: settings.php:2977 settings.php:2980
 msgid "Enable hook"
 msgstr "Включить хук"
 
-#: settings.php:2085
+#: settings.php:2097
 msgid "Comma separated domains, use # for no referrer, you can also use partial domains with * (domain-start*. *domain-pattern*, *domain-end)"
 msgstr "Разделенные запятыми домены, используйте #, чтобы не указывать referer, вы также можете использовать частичные домены с * (domain-start *,  * domain-pattern *, * domain-end)"
 
-#: settings.php:1474
+#: settings.php:1486
 msgid "Image number or comma separated image numbers: 1 to N means image number, %N means every N images, empty means all images, 0 means random image, value between 0 and 1 means relative position on the page (0.2 means paragraph at 20% of page images, 0.5 means middle image, 0.9 means paragraph at 90% of page images, etc.), negative number means counting from the opposite direction"
 msgstr "Номер изображения или номера изображений, разделенные запятыми: от 1 до N означает номер изображения, %N означает каждые N изображений, пусто означает все изображения, 0 означает случайное изображение, значение от 0 до 1 означает относительное положение на странице (0,2 означает абзац при 20% изображений страницы, 0,5 означает среднее изображение, 0,9 означает абзац на 90% изображений страницы и т.д.), отрицательное число означает счет в противоположном направлении"
 
-#: ad-inserter.php:4317
+#: ad-inserter.php:4341
 msgid "JAVASCRIPT ERRORS"
 msgstr "JAVASCRIPT ОШИБКИ"
 
-#: ad-inserter.php:4317
+#: ad-inserter.php:4341
 msgid "NO JAVASCRIPT ERRORS"
 msgstr "НЕТ JAVASCRIPT ОШИБОК"
 
@@ -1246,71 +1241,71 @@ msgid "Ajax request for block in iframe"
 msgstr "Ajax-запрос для блока в iframe"
 
 #. translators: %s: Ad Inserter
-#: settings.php:3427
+#: settings.php:3439
 msgid "%s JS CODE"
 msgstr "%s JS КОД"
 
 #. translators: %s: PHP tags
-#: settings.php:3420
+#: settings.php:3432
 msgid "BLOCK PHP CODE"
 msgstr "КОД БЛОКА PHP "
 
 #. translators: %s: Ad Inserter
-#: settings.php:3411
+#: settings.php:3423
 msgid "%s CSS CODE"
 msgstr "%s CSS КОД"
 
-#: settings.php:3399
+#: settings.php:3411
 msgid "Disable insertions"
 msgstr "Отключить вставки"
 
-#: settings.php:3395
+#: settings.php:3407
 msgid "Disable insertion of all blocks"
 msgstr "Отключить вставку для  всех блоков"
 
-#: settings.php:3391
+#: settings.php:3403
 msgid "Disable PHP code processing (in all blocks including header and footer code)"
 msgstr "Отключить обработку кода PHP (во всех блоках, включая код верхнего и нижнего колонтитула)"
 
 #. translators: %s: Ad Inserter
-#: settings.php:3383
+#: settings.php:3395
 msgid "Disable %s CSS code"
 msgstr "Отключить %s CSS код"
 
 #. translators: %s: Ad Inserter
-#: settings.php:3379
+#: settings.php:3391
 msgid "Disable %s JavaScript code"
 msgstr "Отключить %s JavaScript код"
 
-#: settings.php:3375
+#: settings.php:3387
 msgid "Disable footer code (Footer tab)"
 msgstr "Отключить код в подвале (Footer tab)"
 
-#: settings.php:3371
+#: settings.php:3383
 msgid "Disable header code (Header tab)"
 msgstr "Отключить код в шапке (Header tab)"
 
-#: settings.php:3363
+#: settings.php:3375
 msgid "Force showing admin toolbar for administrators when viewing site. Enable this option when you are logged in as admin and you don't see admin toolbar."
 msgstr "Принудительно показывать панель администратора для администраторов при просмотре сайта. Включите эту опцию, когда вы вошли в систему как администратор, и вы не видите панель инструментов администратора."
 
-#: settings.php:2373
+#: settings.php:2385
 msgid "Filter multiple insertions by specifying wanted insertions for this block - single number, comma separated numbers or %N for every N insertions - empty means all insertions / no filter. Set Counter for filter to Auto if you are using only one insertion type."
 msgstr "Отфильтруйте несколько вставок, указав нужные вставки для этого блока - одно число, числа, разделенные запятыми, или %N для каждых N вставок - пусто означает все вставки / нет фильтра. Установите счетчик для фильтра на Авто, если вы используете только один тип вставки."
 
-#: settings.php:387
+#: settings.php:394
 msgid "Debugging functions enabled - some code is not inserted"
 msgstr "Отладочные функции включены - некоторый код не вставлен"
 
-#: settings.php:385
+#: settings.php:392
 msgid "To disable debugging functions and to enable insertions go to tab [*] / tab Debugging"
 msgstr "Чтобы отключить функции отладки и включить вставки, перейдите на tab [*] / tab Отладка"
 
-#: settings.php:3430
+#: settings.php:3442
 msgid "FOOTER CODE"
 msgstr "КОД ПОДВАЛА"
 
-#: settings.php:3414
+#: settings.php:3426
 msgid "HEADER CODE"
 msgstr "КОД ЗАГОЛОВКА (HEADER)"
 
@@ -1401,7 +1396,7 @@ msgstr "Удалить все данные статистики?"
 msgid "Delete"
 msgstr "Удалить"
 
-#: settings.php:4300 settings.php:4320 strings.php:236
+#: settings.php:4312 settings.php:4332 strings.php:236
 msgid "Warning"
 msgstr "Предупреждение"
 
@@ -2148,15 +2143,15 @@ msgstr "Цвет текста"
 msgid "Text"
 msgstr "Текст"
 
-#: includes/placeholders.php:387 settings.php:1265 settings.php:2430
+#: includes/placeholders.php:387 settings.php:1277 settings.php:2442
 msgid "Width"
 msgstr "Ширина"
 
-#: includes/placeholders.php:382 settings.php:1271 settings.php:2434
+#: includes/placeholders.php:382 settings.php:1283 settings.php:2446
 msgid "Height"
 msgstr "Высота"
 
-#: includes/placeholders.php:377 includes/preview.php:2565 settings.php:2439
+#: includes/placeholders.php:377 includes/preview.php:2565 settings.php:2451
 msgid "Background color"
 msgstr "Цвет фона"
 
@@ -2165,7 +2160,7 @@ msgid "Placeholder"
 msgstr "Заполнитель"
 
 #: includes/editor.php:6 includes/placeholders.php:352
-#: includes/preview.php:2428 settings.php:4109 strings.php:240 strings.php:298
+#: includes/preview.php:2428 settings.php:4121 strings.php:240 strings.php:298
 msgid "Cancel"
 msgstr "Отмена"
 
@@ -2293,7 +2288,7 @@ msgstr "После содержимого"
 
 #. Translators: %d: constant number
 #: includes/editor.php:4 includes/placeholders.php:350
-#: includes/preview.php:2425 settings.php:2898 settings.php:2909
+#: includes/preview.php:2425 settings.php:2910 settings.php:2921
 #: strings.php:299
 msgid "Use"
 msgstr "Использовать"
@@ -2409,117 +2404,117 @@ msgstr "Дважды в месяц"
 msgid "Every minute"
 msgstr "Каждую минуту"
 
-#: ad-inserter.php:12638
+#: ad-inserter.php:12697
 msgid "<strong>WARNING</strong>: Please note that saving settings in Ad Inserter will clear all settings that are available only in the Pro version (additional block and plugin settings)!"
 msgstr "<strong>ПРЕДУПРЕЖДЕНИЕ</strong>. Обратите внимание, что при сохранении настроек в Ad Inserter будут удалены все настройки, которые доступные только в Pro версии (дополнительный блок и настройки плагина)!"
 
-#: ad-inserter.php:12637
+#: ad-inserter.php:12696
 msgid "Ad Inserter can't be used while Ad Inserter Pro is active! To activate Ad Inserter you need to first deactivate Ad Inserter Pro."
 msgstr "Ad Inserter нельзя использовать, пока Ad Inserter Pro активен! Чтобы активировать Ad Inserter, сначала необходимо деактивировать Ad Inserter Pro."
 
-#: ad-inserter.php:12586
+#: ad-inserter.php:12645
 msgctxt "Widget"
 msgid "Sticky"
 msgstr "Закрепить"
 
-#: ad-inserter.php:12555
+#: ad-inserter.php:12614
 msgid "Unknown block"
 msgstr "Неизвестный блок"
 
 #. translators: block status (widget title)
-#: ad-inserter.php:12554
+#: ad-inserter.php:12613
 msgid "WIDGET DISABLED"
 msgstr "ВИДЖЕТ ОТКЛЮЧЁН"
 
 #. translators: block status (widget title)
-#: ad-inserter.php:12553
+#: ad-inserter.php:12612
 msgctxt "block"
 msgid "PAUSED"
 msgstr "ПРИОСТАНОВЛЕН"
 
 #. translators: widget title
-#: ad-inserter.php:12546 ad-inserter.php:12577
+#: ad-inserter.php:12605 ad-inserter.php:12636
 msgid "Debugging tools"
 msgstr "Инструменты отладки"
 
 #. translators: widget title
-#: ad-inserter.php:12544 ad-inserter.php:12579
+#: ad-inserter.php:12603 ad-inserter.php:12638
 msgid "Dummy widget"
 msgstr "Фиктивный виджет"
 
 #. translators: widget title
-#: ad-inserter.php:12542 ad-inserter.php:12578
+#: ad-inserter.php:12601 ad-inserter.php:12637
 msgid "Processing log"
 msgstr "Обработка журнала логов"
 
 #. translators: %s: Ad Inserter
-#: ad-inserter.php:12526
+#: ad-inserter.php:12585
 msgid "%s block."
 msgstr "%s блок."
 
 #. translators: Deactivation message: %s: HTML tags
-#: ad-inserter.php:12478
+#: ad-inserter.php:12537
 msgid "Looking for %s Documentation, %s %s Common Settings, %s %s Quick Start %s or help for %s AdSense ads? %s The plugin doesn't work with your theme? %s Let us know %s and we'll try to help you."
 msgstr "Ищете %s Документацию, %s %s Общие настройки, %s %s Быстрый старт %s или справку для %s объявлений AdSense? %s Плагин не работает с вашей темой? %s Сообщите нам %s, и мы постараемся вам помочь."
 
-#: ad-inserter.php:12438
+#: ad-inserter.php:12497
 msgid "We don't record any sensitive data, only information regarding the WordPress environment and plugin usage, which will help us to make improvements to the plugin."
 msgstr "Мы не записываем какие-либо конфиденциальные данные, только информацию, касающуюся среды WordPress и использования плагина, что поможет нам улучшить его."
 
 #. translators: Opt-in message: %s: HTML tags
-#: ad-inserter.php:12436
+#: ad-inserter.php:12495
 msgid "We would like to %s track its usage %s on your site. This is completely optional and can be disabled at any time."
 msgstr "Мы бы хотели %s отслеживать его использование %s на вашем сайте. Это совершенно необязательно и может быть отключено в любое время."
 
 #. translators: Opt-in message: Thank you for installing Ad Inserter (plugin
 #. name with HTML tags will be added)
-#: ad-inserter.php:12434
+#: ad-inserter.php:12493
 msgid "Thank you for installing"
 msgstr "Спасибо за установку"
 
-#: ad-inserter.php:12149
+#: ad-inserter.php:12208
 msgid "Please update!"
 msgstr "Пожалуйста, обновитесь!"
 
-#: ad-inserter.php:12149
+#: ad-inserter.php:12208
 msgid "requires WordPress 4.6 or newer"
 msgstr "требуется WordPress 4.6 или новее"
 
-#: ad-inserter.php:8970
+#: ad-inserter.php:9006
 msgid "BETWEEN COMMENTS"
 msgstr "МЕЖДУ КОММЕНТАРИЯМИ"
 
-#: ad-inserter.php:8893
+#: ad-inserter.php:8929
 msgid "AFTER COMMENTS"
 msgstr "ПОСЛЕ КОММЕНТАРИЕВ"
 
-#: ad-inserter.php:8764
+#: ad-inserter.php:8800
 msgid "BEFORE COMMENTS"
 msgstr "ПЕРЕД КОММЕНТАРИЯМИ"
 
-#: ad-inserter.php:8558 ad-inserter.php:8685
+#: ad-inserter.php:8594 ad-inserter.php:8721
 msgid "HTML TAGS REMOVED"
 msgstr "HTML ТЭГИ  УДАЛЕНЫ"
 
 #. Translators: Post/Static page must have between X and Y words
-#: ad-inserter.php:8519 ad-inserter.php:8521 ad-inserter.php:8544
-#: settings.php:2405
+#: ad-inserter.php:8555 ad-inserter.php:8557 ad-inserter.php:8580
+#: settings.php:2417
 msgid "word"
 msgid_plural "words"
 msgstr[0] "слово"
 msgstr[1] "слова"
 msgstr[2] "слов"
 
-#: ad-inserter.php:8134
+#: ad-inserter.php:8168
 msgid "Settings cleared."
 msgstr "Настройки очищены."
 
-#: ad-inserter.php:8112
+#: ad-inserter.php:8144
 msgid "Settings saved."
 msgstr "Настройки сохранены."
 
 #. translators: %s: Ad Inserter
-#: ad-inserter.php:8089
+#: ad-inserter.php:8121
 msgid "Error importing settings for block"
 msgid_plural "Error importing settings for blocks:"
 msgstr[0] "Ошибка импорта настроек для блока"
@@ -2527,272 +2522,272 @@ msgstr[1] "Ошибка импорта настроек для блоков"
 msgstr[2] "Ошибка импорта настроек для блоков"
 
 #. translators: block name (block with default settings)
-#: ad-inserter.php:7338
+#: ad-inserter.php:7362
 msgctxt "Block name"
 msgid "Default"
 msgstr "По умолчанию"
 
-#: ad-inserter.php:4303
+#: ad-inserter.php:4327
 msgctxt "Footer code"
 msgid "DISABLED"
 msgstr "ОТКЛЮЧЕНО"
 
-#: ad-inserter.php:4303
+#: ad-inserter.php:4327
 msgid "Footer code"
 msgstr "Код в подвале (footer)"
 
-#: ad-inserter.php:4317
+#: ad-inserter.php:4341
 msgid "JAVASCRIPT NOT WORKING"
 msgstr "JAVASCRIPT НЕ РАБОТАЕТ"
 
-#: ad-inserter.php:4032 ad-inserter.php:4303
+#: ad-inserter.php:4056 ad-inserter.php:4327
 msgid "character inserted"
 msgid_plural "characters inserted"
 msgstr[0] "символ вставлен"
 msgstr[1] "символа вставлено"
 msgstr[2] "символов вставлено"
 
-#: ad-inserter.php:4032
+#: ad-inserter.php:4056
 msgctxt "Header code"
 msgid "DISABLED"
 msgstr "ОТКЛЮЧЕНО"
 
-#: ad-inserter.php:4032
+#: ad-inserter.php:4056
 msgid "Header code"
 msgstr "Код в шапке (header)"
 
-#: ad-inserter.php:4011
+#: ad-inserter.php:4035
 msgid "character"
 msgid_plural "characters"
 msgstr[0] "символ"
 msgstr[1] "символа"
 msgstr[2] "символов"
 
-#: ad-inserter.php:4011
+#: ad-inserter.php:4035
 msgid "Code for insertion"
 msgstr "Код для вставки"
 
 #. translators: %s: AdSense Auto Ads
-#: ad-inserter.php:3859
+#: ad-inserter.php:3883
 msgid "Code for %s detected - Code will automatically insert AdSense ads at optimal positions"
 msgstr "Код для %s обнаружен - Код автоматически вставит объявления AdSense в оптимальные позиции"
 
-#: ad-inserter.php:3830
+#: ad-inserter.php:3854
 msgid "AD BLOCKING STATUS UNKNOWN"
 msgstr "СТАТУС БЛОКИРОВКИ РЕКЛАМЫ НЕИЗВЕСТЕН"
 
-#: ad-inserter.php:3829
+#: ad-inserter.php:3853
 msgid "Click to delete ad blocking detection cokies"
 msgstr "Нажмите, чтобы удалить cookie для обнаружения блокировки рекламы"
 
-#: ad-inserter.php:3812
+#: ad-inserter.php:3836
 msgid "UNKNOWN PAGE TYPE"
 msgstr "НЕИЗВЕСТНЫЙ ТИП СТРАНИЦЫ"
 
-#: ad-inserter.php:3806
+#: ad-inserter.php:3830
 msgid "AJAX CALL"
 msgstr "AJAX ВЫЗОВ"
 
-#: ad-inserter.php:3803
+#: ad-inserter.php:3827
 msgid "ERROR 404 PAGE"
 msgstr "СТРАНИЦА 404 ОШИБКИ"
 
-#: ad-inserter.php:3800
+#: ad-inserter.php:3824
 msgid "ARCHIVE PAGE"
 msgstr "СТРАНИЦА АРХИВА"
 
-#: ad-inserter.php:3797
+#: ad-inserter.php:3821
 msgid "SEARCH PAGE"
 msgstr "СТРАНИЦА ПОИСКА"
 
-#: ad-inserter.php:3794
+#: ad-inserter.php:3818
 msgid "CATEGORY PAGE"
 msgstr "СТРАНИЦА КАТЕГОРИИ"
 
-#: ad-inserter.php:3791
+#: ad-inserter.php:3815
 msgid "HOMEPAGE"
 msgstr "ГЛАВНАЯ СТРАНИЦА"
 
-#: ad-inserter.php:3788
+#: ad-inserter.php:3812
 msgid "POST"
 msgstr "ЗАПИСЬ"
 
-#: ad-inserter.php:3785
+#: ad-inserter.php:3809
 msgid "STATIC PAGE"
 msgstr "СТАТИЧЕСКАЯ СТРАНИЦА"
 
 #. translators: Ad Inserter Exceptions documentation page
-#: ad-inserter.php:3739
+#: ad-inserter.php:3763
 msgid "Individual Exceptions"
 msgstr "Индивидуальные исключения"
 
-#: ad-inserter.php:3737
+#: ad-inserter.php:3761
 msgid "For more information check page %s"
 msgstr "Для получения дополнительной информации проверьте страницу %s"
 
 #. translators: Menu items
-#: ad-inserter.php:3690 ad-inserter.php:3702 strings.php:16
+#: ad-inserter.php:3714 ad-inserter.php:3726 strings.php:16
 msgid "Disabled"
 msgstr "Отключено"
 
-#: ad-inserter.php:3690 ad-inserter.php:3702 strings.php:180
+#: ad-inserter.php:3714 ad-inserter.php:3726 strings.php:180
 msgid "Enabled"
 msgstr "Включено"
 
 #. translators: %s: Ad Inserter
-#: ad-inserter.php:3619
+#: ad-inserter.php:3643
 msgctxt "Meta box name"
 msgid "%s Individual Exceptions"
 msgstr "%s Индивидуальные исключения"
 
-#: ad-inserter.php:3671
+#: ad-inserter.php:3695
 msgctxt "Enabled/disabled on all"
 msgid "posts"
 msgstr "записях"
 
-#: ad-inserter.php:3668
+#: ad-inserter.php:3692
 msgctxt "Enabled/disabled on all"
 msgid "pages"
 msgstr "страницах"
 
-#: ad-inserter.php:3656
+#: ad-inserter.php:3680
 msgctxt "Post"
 msgid "For this"
 msgstr "Для этой"
 
 #. translators: For this post or page
-#: ad-inserter.php:3655
+#: ad-inserter.php:3679
 msgctxt "Page"
 msgid "For this"
 msgstr "Для этой"
 
-#: ad-inserter.php:3491
+#: ad-inserter.php:3515
 msgctxt "Menu item"
 msgid "Settings"
 msgstr "Настройки"
 
 #. Translators: 1: number of blocks, 2: Ad Inserter
-#: ad-inserter.php:3413
+#: ad-inserter.php:3437
 msgid "Hey, you are now using %1$s %2$s block."
 msgid_plural "Hey, you are now using %1$s %2$s blocks."
 msgstr[0] "Эй, сейчас вы используете %1$s %2$s блок."
 msgstr[1] "Эй, сейчас вы используете %1$s %2$s блока."
 msgstr[2] "Эй, сейчас вы используете %1$s %2$s блоков."
 
-#: ad-inserter.php:2951
+#: ad-inserter.php:2975
 msgid "AD BLOCKING DETECTED - NO ACTION"
 msgstr "ОБНАРУЖЕНА БЛОКИРОВКА ОБЪЯВЛЕНИЯ - БЕЗ ДЕЙСТВИЙ"
 
-#: ad-inserter.php:2950
+#: ad-inserter.php:2974
 msgid "AD BLOCKING DETECTION COOKIES DELETED"
 msgstr "COOKIES ОБНАРУЖЕНИЯ БЛОКИРОВКИ ОБЪЯВЛЕНИЙ УДАЛЕНЫ"
 
-#: ad-inserter.php:2949
+#: ad-inserter.php:2973
 msgid "AD BLOCKING NOT DETECTED"
 msgstr "БЛОКИРОВКА ОБЪЯВЛЕНИЯ НЕ ОБНАРУЖЕНА"
 
 #. translators: AD BLOCKING DETECTED, PAGE VIEWS: n - NO ACTION
-#: ad-inserter.php:2947
+#: ad-inserter.php:2971
 msgid "AD BLOCKING DETECTED, COOKIE DETECTED - NO ACTION"
 msgstr "ОБНАРУЖЕНА БЛОКИРОВКА ОБЪЯВЛЕНИЯ, ОБНАРУЖЕНЫ КУКИ - БЕЗ ДЕЙСТВИЙ"
 
 #. translators: AD BLOCKING DETECTED, PAGE VIEWS: n - NO ACTION
-#: ad-inserter.php:2946
+#: ad-inserter.php:2970
 msgid "NO ACTION"
 msgstr "БЕЗ ДЕЙСТВИЙ"
 
 #. translators: AD BLOCKING DETECTED, PAGE VIEWS: n - NO ACTION
-#: ad-inserter.php:2946
+#: ad-inserter.php:2970
 msgid "AD BLOCKING DETECTED, PAGE VIEWS"
 msgstr "ОБНАРУЖЕНА БЛОКИРОВКА ОБЪЯВЛЕНИЙ, ПРОСМОТРЫ СТРАНИЦЫ"
 
 #. translators: %s: Ad Inserter
-#: ad-inserter.php:2141 ad-inserter.php:2144 ad-inserter.php:3731
+#: ad-inserter.php:2165 ad-inserter.php:2168 ad-inserter.php:3755
 msgid "%s Settings"
 msgstr "%s Настройки"
 
-#: ad-inserter.php:1721
+#: ad-inserter.php:1745
 msgctxt "Menu item"
 msgid "Log In"
 msgstr "Войти"
 
 #. translators: Debugging message when output buffering is enabled
-#: ad-inserter.php:1383
+#: ad-inserter.php:1407
 msgid "OUTPUT BUFFERING"
 msgstr "OUTPUT BUFFERING"
 
 #. translators: Debugging position name Replace HTML element
-#: ad-inserter.php:1336 strings.php:174
+#: ad-inserter.php:1360 strings.php:174
 msgid "Replace"
 msgstr "Заменить"
 
 #. translators: Debugging position name Replace content of HTML element
-#: ad-inserter.php:1331 strings.php:109
+#: ad-inserter.php:1355 strings.php:109
 msgid "Replace content"
 msgstr "Заменить контент"
 
 #. translators: Debugging position name Append content of HTML element (after
 #. the content of the HTML element)
-#: ad-inserter.php:1326 strings.php:108
+#: ad-inserter.php:1350 strings.php:108
 msgid "Append content"
 msgstr "Добавить контент"
 
 #. translators: Debugging position name Prepend content of HTML element (before
 #. the content of the HTML element)
-#: ad-inserter.php:1321 strings.php:107
+#: ad-inserter.php:1345 strings.php:107
 msgid "Prepend content"
 msgstr "Готовый контент"
 
 #. translators: Debugging position name After HTML element
-#: ad-inserter.php:1316
+#: ad-inserter.php:1340
 msgid "After"
 msgstr "После"
 
 #. translators: Debugging position name Before HTML element
-#: ad-inserter.php:1311
+#: ad-inserter.php:1335
 msgid "Before"
 msgstr "Перед"
 
-#: ad-inserter.php:598
+#: ad-inserter.php:617
 msgctxt "Menu item"
 msgid "Log Processing"
 msgstr "Обработка журнала логов"
 
-#: ad-inserter.php:587
+#: ad-inserter.php:606
 msgctxt "Menu item"
 msgid "Simulate Ad Blocking"
 msgstr "Имитация блокировки рекламы"
 
-#: ad-inserter.php:580
+#: ad-inserter.php:599
 msgctxt "Menu item"
 msgid "Ad Blocking Status"
 msgstr "Статус блокировки рекламы"
 
-#: ad-inserter.php:571
+#: ad-inserter.php:590
 msgctxt "Menu item"
 msgid "Disable Insertion"
 msgstr "Отключить Вставку"
 
-#: ad-inserter.php:564
+#: ad-inserter.php:583
 msgctxt "Menu item"
 msgid "Show HTML Tags"
 msgstr "Показать теги HTML"
 
-#: ad-inserter.php:478
+#: ad-inserter.php:497
 msgctxt "Menu item"
 msgid "Show Positions"
 msgstr "Показать Позиции"
 
-#: ad-inserter.php:446
+#: ad-inserter.php:465
 msgctxt "Menu item"
 msgid "Debugging DEMO"
 msgstr "ДЕМО Отладка"
 
-#: class.php:10459
+#: class.php:10492
 msgid "ERROR: class DOMDocument not found. Your webhost needs to install the DOM extension for PHP."
 msgstr "ОШИБКА: класс DOMDocument не найден. На вашем хостинге необходимо установить расширение DOM для PHP."
 
-#: ad-inserter.php:11743 ad-inserter.php:11844
+#: ad-inserter.php:11802 ad-inserter.php:11903
 msgctxt "category name"
 msgid "Uncategorized"
 msgstr "Без категории"
@@ -2892,407 +2887,407 @@ msgid "PHP error in %s block"
 msgstr "PHP ошибка в %s блоке"
 
 #. translators: %s HTML tags
-#: settings.php:6273
+#: settings.php:6302
 msgid "%s GEO targeting %s"
 msgstr "%s GEO таргетинг %s"
 
 #. translators: %s HTML tags
-#: settings.php:6272
+#: settings.php:6301
 msgid "64 code blocks"
 msgstr "64 блока с кодом"
 
 #. translators: %s HTML tags
-#: settings.php:6265
+#: settings.php:6294
 msgid "%s Mobile device detection %s"
 msgstr "%s Обнаружение мобильных устройств %s"
 
 #. translators: %s HTML tags
-#: settings.php:6264
+#: settings.php:6293
 msgid "%s Ad blocking detection %s"
 msgstr "%s Обнаружение блокировки рекламы %s"
 
 #. translators: %s HTML tags
-#: settings.php:6263
+#: settings.php:6292
 msgid "Support for %s AMP pages %s"
 msgstr "Поддержка для %s AMP страниц %s"
 
 #. translators: %s HTML tags
-#: settings.php:6256
+#: settings.php:6285
 msgid "%s A/B testing %s"
 msgstr "%s A/B тестирование %s"
 
 #. translators: %s HTML tags
-#: settings.php:6249
+#: settings.php:6278
 msgid "%s Clearance %s options"
 msgstr "%s Clearance %s options"
 
 #. translators: %s HTML tags
-#: settings.php:6248
+#: settings.php:6277
 msgid "%s Limit insertions %s"
 msgstr "%s Limit insertions %s"
 
 #. translators: %s HTML tags
-#: settings.php:6247
+#: settings.php:6276
 msgid "%s Sticky positions %s"
 msgstr "%s Закреплённые позиции %s"
 
 #. translators: %s HTML tags
-#: settings.php:6240
+#: settings.php:6269
 msgid "Ads between comments"
 msgstr "Объявление между комментариями"
 
 #. translators: %s HTML tags
-#: settings.php:6239
+#: settings.php:6268
 msgid "Ads between posts"
 msgstr "Объявление между записями"
 
 #. translators: %s HTML tags
-#: settings.php:6234
+#: settings.php:6263
 msgid "Looking for %s Pro Ad Management plugin? %s"
 msgstr "Ищете %s Проф. плагин управления рекламой? %s"
 
 #. translators: %s HTML tags
-#: settings.php:6221
+#: settings.php:6250
 msgid "Ad Inserter Pro is a complete all-in-one ad management plugin for WordPress website with many advertising features to automatically insert adverts on posts and pages. With Ad Inserter Pro you also get <strong>one year of free updates and support via email</strong>. If you find Ad Inserter useful and need ad statistics for impressions and clicks, A/B testing, sticky ads, slider ads, pop-up ads, geotargeting or geolocation to serve country-specific ads, to protect content or to serve different ads for users using ad blockers, multisite options to limit settings for ads, to block some IP addresses, to schedule ads, then you can simply upgrade to %s Ad Inserter Pro %s (existing settings will be preserved)."
 msgstr "Ad Inserter Pro - это полноценный плагин управления рекламой для веб-сайта WordPress со множеством функций для автоматической вставки рекламы в записи и страницы. С Ad Inserter Pro вы также получаете <strong>один год бесплатных обновлений и поддержки по электронной почте</strong>. Если Ad Inserter Free оказался вам полезным, но вы нуждаетесь в статистике объявлений по показам и кликам; A/B-тестировании; прикрепленных объявлениях; слайд-объявлениях; всплывающих объявлениях; геотаргетинге или геолокации для показа объявлений в конкретной стране; защите контента или показе различных объявлений для пользователей, использующих блокировщики рекламы; мультисайтовых опциях; ограничениях настроек для рекламы; блокировке некоторых IP-адресов; планировщике рекламы, - то вы можете просто обновиться до %s Ad Inserter Pro %s (существующие настройки будут сохранены)."
 
 #. translators: %s HTML tags
-#: settings.php:6241
+#: settings.php:6270
 msgid "Support via email"
 msgstr "Поддержка по email"
 
 #. translators: %s HTML tags
-#: settings.php:6217
+#: settings.php:6246
 msgid "No ads on the settings page"
 msgstr "На странице настроек нет рекламы"
 
 #. translators: %s HTML tags
-#: settings.php:6216
+#: settings.php:6245
 msgid "%s Clipboard support %s to easily copy blocks or settings"
 msgstr "%s Поддержка буфера обмена %s для простого копирования блоков или настроек"
 
 #. translators: %s HTML tags
-#: settings.php:6212
+#: settings.php:6241
 msgid "Simple troubleshooting with many %s debugging functions %s"
 msgstr "Простое устранение неполадок со многими %s функциями отладки %s"
 
 #. translators: %s HTML tags
-#: settings.php:6211
+#: settings.php:6240
 msgid "Country-level %s GEO targeting %s (works also with caching)"
 msgstr "%s GEO-таргетинг %s на уровне страны (работает также с кэшированием)"
 
 #. translators: %s HTML tags
-#: settings.php:6210
+#: settings.php:6239
 msgid "%s Insertion scheduling %s with fallback option"
 msgstr "%s Планирование вставки %s с резервной опцией"
 
 #. translators: %s HTML tags
-#: settings.php:6209
+#: settings.php:6238
 msgid "%s Import/Export %s block or plugin settings"
 msgstr "%s Импорт/Экспорт %s настроек блока или плагина"
 
 #. translators: %s HTML tags
-#: settings.php:6208
+#: settings.php:6237
 msgid "%s Multisite options %s to limit settings on the sites"
 msgstr "%s Мультисайтовые опции %s для ограничения настроек на сайтах"
 
 #. translators: %s HTML tags
-#: settings.php:6207
+#: settings.php:6236
 msgid "%s Black/White-list %s IP addresses or countries (works also with caching)"
 msgstr "%s Черный/Белый список %s IP-адресов или стран (работает также с кэшированием)"
 
 #. translators: %s HTML tags
-#: settings.php:6205
+#: settings.php:6234
 msgid "%s Ad blocking statistics %s"
 msgstr "%s Статистика блокировки рекламы %s"
 
 #. translators: %s HTML tags
-#: settings.php:6204
+#: settings.php:6233
 msgid "%s Ad blocking detection %s - popup message, ad replacement, content protection"
 msgstr "%s Обнаружение блокировки рекламы %s - всплывающее сообщение, замена рекламы, защита контента"
 
 #. translators: %s HTML tags
-#: settings.php:6202
+#: settings.php:6231
 msgid "Desktop, tablet and phone server-side %s device detection %s"
 msgstr "%s Обнаружение настольных ПК, планшетов и телефонов %s на стороне сервера"
 
 #. translators: %s HTML tags
-#: settings.php:6201
+#: settings.php:6230
 msgid "Support for Google Analytics, Matomo or any other web analytics code"
 msgstr "Поддержка Google Analytics, Matomo или любого другого кода веб-аналитики"
 
 #. translators: %s HTML tags
-#: settings.php:6200
+#: settings.php:6229
 msgid "Support for %s header and footer %s code"
 msgstr "Поддержка кода %s в шапке и подвале (header/footer) %s"
 
 #. translators: %s HTML tags
-#: settings.php:6199
+#: settings.php:6228
 msgid "%s Banner %s code generator"
 msgstr "Генератор кода %s баннеров %s"
 
 #. translators: %s HTML tags
-#: settings.php:4794 settings.php:6198
+#: settings.php:4806 settings.php:6227
 msgid "PHP code processing"
 msgstr "Обработка кода PHP"
 
 #. translators: %s HTML tags
-#: settings.php:6197
+#: settings.php:6226
 msgid "Custom CSS class name for wrapping divs to avoid ad blockers"
 msgstr "Настраиваемое имя CSS-класса для обёртки div, чтобы избежать блокировщиков рекламы"
 
 #. translators: %s HTML tags
-#: settings.php:6196
+#: settings.php:6225
 msgid "Support for contextual %s Amazon Native Shopping Ads %s (responsive)"
 msgstr "Поддержка контекстной рекламы %s Amazon Native Shopping %s"
 
 #. translators: %s HTML tags
-#: settings.php:6195
+#: settings.php:6224
 msgid "Support for ads on %s AMP pages %s"
 msgstr "Поддержка рекламы на %s страницах AMP %s"
 
 #. translators: %s HTML tags
-#: settings.php:6194
+#: settings.php:6223
 msgid "Support for %s lazy loading %s"
 msgstr "Поддержка %s отложенной загрузки %s"
 
 #. translators: %s HTML tags
-#: settings.php:6189
+#: settings.php:6218
 msgid "Support for %s A/B testing %s"
 msgstr "Поддержка %s A/B-тестирования %s"
 
 #. translators: %s HTML tags
-#: settings.php:6182
+#: settings.php:6211
 msgid "Options to %s disable insertion %s on Ajax calls, 404 error pages or in RSS feeds"
 msgstr "Опции для %s отключения вставки %s на Ajax-вызовах, 404-х страницах ошибок или в RSS-каналах"
 
 #. translators: %s HTML tags
-#: settings.php:6181
+#: settings.php:6210
 msgid "%s Clearance %s options to avoid insertion near images or headers (AdSense TOS)"
 msgstr "Параметры %s очистки %s, чтобы избежать вставки рядом с изображениями или заголовками (AdSense TOS)"
 
 #. translators: %s HTML tags
-#: settings.php:6180
+#: settings.php:6209
 msgid "Block %s alignment and style %s customizations"
 msgstr "%s Выравнивание блоков и кастомизация стилей %s"
 
 #. translators: %s HTML tags
-#: settings.php:6179
+#: settings.php:6208
 msgid "%s Sticky (fixed) widgets %s (sidebar does not move when the page scrolls)"
 msgstr "%s Закреплённые (фиксированные) виджеты %s (сайдбар не перемещается при прокрутке страницы)"
 
 #. translators: %s HTML tags
-#: settings.php:6178
+#: settings.php:6207
 msgid "%s Sticky ad trigger %s (page scroll in %% or px, HTML element becomes visible)"
 msgstr "%s Триггер Закреплённого объявления %s (прокрутка страницы в %% или px до момента, когда HTML-элемент становится видимым)"
 
 #. translators: %s HTML tags
-#: settings.php:6174
+#: settings.php:6203
 msgid "%s Sticky ads %s with optional close button (ads stay fixed when the page scrolls)"
 msgstr "%s Закреплённые объявления %s с настраиваемой кнопкой закрытия (объявления остаются фиксированными, когда страница прокручивается)"
 
 #. translators: %s HTML tags
-#: settings.php:6173
+#: settings.php:6202
 msgid "%s Manual insertion: %s widgets, shortcodes, PHP function call"
 msgstr "%s Ручная вставка: %s виджеты, шорткоды, вызовы PHP-функции"
 
 #. translators: %s HTML tags
-#: settings.php:6172
+#: settings.php:6201
 msgid "%s Insertion exceptions %s for individual posts and pages"
 msgstr "%s Исключения вставки %s для отдельных записей и страниц"
 
 #. translators: %s HTML tags
-#: settings.php:6171
+#: settings.php:6200
 msgid "Insertion %s before or after any HTML element on the page %s (using CSS selectors)"
 msgstr "Вставка %s до или после любого HTML-элемента на странице %s (с помощью CSS-селекторов)"
 
 #. translators: %s HTML tags
-#: settings.php:6170
+#: settings.php:6199
 msgid "Automatic insertion at %s custom hook positions %s"
 msgstr "Автоматическая вставка в %s пользовательские положения хуков %s"
 
 #. translators: %s HTML tags
-#: settings.php:6169
+#: settings.php:6198
 msgid "%s Automatic insertion %s after %s or before %s tag"
 msgstr "%s Автоматическая вставка %s до %s или после %s тега"
 
 #. translators: %s HTML tags
-#: settings.php:6168
+#: settings.php:6197
 msgid "%s Automatic insertion %s before, between and after comments"
 msgstr "%s Автоматическая вставка %s до/после и между комментариев"
 
 #. translators: %s HTML tags
-#: settings.php:6167
+#: settings.php:6196
 msgid "%s Automatic insertion %s between posts on blog pages"
 msgstr "%s Автоматическая вставка %s между записями на страницах блога"
 
 #. translators: %s HTML tags
-#: settings.php:6166
+#: settings.php:6195
 msgid "%s Automatic insertion %s before or after post / content / %s paragraph %s / image / excerpt"
 msgstr "%s Автоматическая вставка %s до или после публикации / содержимого / %s абзаца %s / изображения / выдержки"
 
 #. translators: %s HTML tags
-#: settings.php:6165
+#: settings.php:6194
 msgid "Simple user interface - all settings on a single page"
 msgstr "Простой пользовательский интерфейс - все настройки на одной странице"
 
 #. translators: %s HTML tags
-#: settings.php:6164
+#: settings.php:6193
 msgid "%s Code preview %s with visual CSS editor"
 msgstr "%s Предварительный просмотр кода %s с помощью визуального CSS-редактора"
 
 #. translators: %s HTML tags
-#: settings.php:6163
+#: settings.php:6192
 msgid "Syntax highlighting %s editor %s"
 msgstr "%s Редактор %s подсветки синтаксиса"
 
-#: settings.php:6158
+#: settings.php:6187
 msgid "To Optimally Monetize your WordPress website?"
 msgstr "Оптимально монетизировать ваш WordPress вебсайт?"
 
-#: settings.php:6157
+#: settings.php:6186
 msgid "Looking for Pro Ad Management plugin?"
 msgstr "Ищете плагин для Проф. управления рекламой?"
 
-#: settings.php:6050 settings.php:6059 settings.php:6121 settings.php:6129
-#: settings.php:6137
+#: settings.php:6079 settings.php:6088 settings.php:6150 settings.php:6158
+#: settings.php:6166
 msgid "Code preview with visual CSS editor"
 msgstr "Предпросмотр кода с помощью визуального CSS-редактора"
 
 #. translators: %s: HTML tags
-#: settings.php:6023
+#: settings.php:6051
 msgid "If you need any kind of help or support, please do not hesitate to open a thread on the %s support forum. %s"
 msgstr "Если вам нужна какая-либо помощь, пожалуйста, не стесняйтесь открывать ветку на %s форуме тех. поддержки. %s"
 
 #. translators: %s: HTML tags
-#: settings.php:6019
+#: settings.php:6047
 msgid "Ads are not showing? Check %s troubleshooting guide %s to find out how to diagnose and fix the problem."
 msgstr "Объявления не показываются? Обратитесь к %s руководству по устранению неполадок %s, чтобы узнать как диагностировать и устранить проблему."
 
 #. translators: %s: HTML tags
-#: settings.php:5983
+#: settings.php:6011
 msgid "Need help with %s settings? %s Check %s Quick Start, %s %s Code Editing %s and %s Common Settings %s pages"
 msgstr "Нужна помощь с %s настройками? %s Проверьте страницы %s Быстрого запуска, %s %s Редактирования кода %s и %s Общих настроек %s"
 
-#: settings.php:5956
+#: settings.php:5984
 msgid "Follow Ad Inserter"
 msgstr "Следить за Ad Inserter"
 
-#: settings.php:5953
+#: settings.php:5981
 msgid "Ad Inserter on Facebook"
 msgstr "Ad Inserter на Facebook"
 
-#: settings.php:5952
+#: settings.php:5980
 msgid "Ad Inserter on Twitter"
 msgstr "Ad Inserter на Twitter"
 
-#: settings.php:5948
+#: settings.php:5976
 msgid "Review"
 msgstr "Отзыв"
 
 #. translators: %s: Ad Inserter, HTML tags
-#: settings.php:5930
+#: settings.php:5958
 msgid "You've been using %s for a while now, and I hope you're happy with it. Positive %s reviews %s are a great way to show your appreciation for my work. Besides being an incredible boost to my morale, they are also a great incentive to fix bugs and to add new features for better monetization of your website. When you rate it with 5 stars it's like saying 'Thank you'."
 msgstr "Вы уже некоторое время используете плагин, %s и я надеюсь, что вы довольны им. %s Положительные отзывы %s - отличный способ показать вашу признательность за мою работу. Помимо того, что они невероятно повышают мой моральный дух, они также являются отличным стимулом для исправления ошибок и добавления новых функций для лучшей монетизации вашего сайта. %s Спасибо!"
 
-#: settings.php:5919 settings.php:5963
+#: settings.php:5947 settings.php:5991
 msgid "Average rating of the plugin - Thank you!"
 msgstr "Средняя оценка плагина - Спасибо!"
 
-#: settings.php:5912
+#: settings.php:5940
 msgid "Donate"
 msgstr "Пожертвовать"
 
-#: settings.php:5912
+#: settings.php:5940
 msgid "Support free Ad Inserter development. If you are making money with Ad Inserter consider donating some small amount. Even 1 dollar counts. Thank you!"
 msgstr "Поддержка бесплатной версии Ad Inserter. Если вы зарабатываете деньги с помощью Ad Inserter, рассмотрите возможность пожертвовать небольшую сумму. Даже 1 доллар считается. Спасибо!"
 
-#: settings.php:5902
+#: settings.php:5930
 msgctxt "Review Ad Inserter"
 msgid "Review"
 msgstr "Отзыв"
 
-#: settings.php:5902 settings.php:5948
+#: settings.php:5930 settings.php:5976
 msgid "If you like Ad Inserter and have a moment, please help me spread the word by reviewing the plugin on WordPres"
 msgstr "Если вам нравится Ad Inserter и у вас есть минутка, помогите мне рассказать об этом миру, написав отзыв о плагине на WordPress."
 
-#: settings.php:5897 settings.php:5947
+#: settings.php:5925 settings.php:5975
 msgid "Support plugin development"
 msgstr "Поддержка разработки плагина"
 
-#: settings.php:5824 settings.php:6051 settings.php:6073 settings.php:6100
-#: settings.php:6128
+#: settings.php:5852 settings.php:6080 settings.php:6102 settings.php:6129
+#: settings.php:6157
 msgid "Use Infolinks ads with Adsense to earn more"
 msgstr "Используйте рекламу Infolinks с Adsense, чтобы заработать больше"
 
-#: settings.php:5819
+#: settings.php:5847
 msgid "Try Infolinks Ads with Adsense or Media.net ads"
 msgstr "Попробуйте Infolinks Ads с рекламой Adsense или Media.net"
 
-#: settings.php:5793 settings.php:5807 settings.php:6053 settings.php:6078
-#: settings.php:6102 settings.php:6103 settings.php:6111
+#: settings.php:5821 settings.php:5835 settings.php:6082 settings.php:6107
+#: settings.php:6131 settings.php:6132 settings.php:6140
 msgid "Looking for AdSense alternative?"
 msgstr "Ищете альтернативу AdSense?"
 
-#: settings.php:5788 settings.php:5802
+#: settings.php:5816 settings.php:5830
 msgid "Blank ad blocks? Looking for AdSense alternative?"
 msgstr "Пустые рекламные блоки? Ищете альтернативу AdSense?"
 
-#: settings.php:4115 settings.php:5081
+#: settings.php:4127 settings.php:5093
 msgid "Save"
 msgstr "Сохранить"
 
-#: settings.php:5076
+#: settings.php:5088
 msgid "Use default API IDs"
 msgstr "Использовать идентификаторы API по умолчанию"
 
-#: settings.php:5066
+#: settings.php:5078
 msgid "Enter Client secret"
 msgstr "Введите Client secret"
 
-#: settings.php:5063
+#: settings.php:5075
 msgid "Client secret"
 msgstr "Client secret"
 
-#: settings.php:5058
+#: settings.php:5070
 msgid "Enter Client ID"
 msgstr "Введите Client ID"
 
-#: settings.php:5055
+#: settings.php:5067
 msgid "Client ID"
 msgstr "Client ID"
 
 #. translators: %s: HTML tags
-#: settings.php:5049
+#: settings.php:5061
 msgid "Copy them to the appropriate fields below"
 msgstr "Скопируйте их в соответствующие поля ниже"
 
 #. translators: %s: HTML tags
-#: settings.php:5048
+#: settings.php:5060
 msgid "Click on %s Ad Inserter client %s to get %s Client ID %s and %s Client secret %s"
 msgstr "Нажмите на %s клиент Ad Inserter %s, чтобы получить %s Client ID %s и %s Client secret %s"
 
 #. translators: %s: HTML tags
-#: settings.php:5039
+#: settings.php:5051
 msgid "Click on %s What credentials do I need? %s"
 msgstr "Нажмите на %s Какие учетные данные мне нужны? %s"
 
 #. translators: %s: HTML tags
-#: settings.php:5038
+#: settings.php:5050
 msgid "For %s What data will you be accessing? %s select %s User data %s"
 msgstr "Для %s Каких данных вы будете получать доступ? %s Выберите %s Данные пользователя %s"
 
 #. translators: %s: HTML tags
-#: settings.php:5037
+#: settings.php:5049
 msgid "For %s Where will you be calling the API from? %s select %s Other UI %s"
 msgstr "Для %s Где вы будете вызывать API? %s Выберите %s Другой интерфейс %s"
 
 #. translators: %s: HTML tags
-#: settings.php:5035
+#: settings.php:5047
 msgid "Click on %s CREATE CREDENTIALS %s"
 msgstr "Нажмите на %s СОЗДАТЬ ПОЛНОМОЧИЯ %s"
 
-#: settings.php:306
+#: settings.php:313
 msgid "Online documentation"
 msgstr "Онлайн документация"
 
@@ -3321,302 +3316,302 @@ msgstr "https://adinserter.pro/documentation"
 msgid "Ad Inserter"
 msgstr "Ad Inserter"
 
-#: settings.php:426
+#: settings.php:433
 msgid "Option time in seconds - 0 means option is disabled and will be skipped. Leave all time fields empty for no timed rotation."
 msgstr "Опция Времени в секундах - 0 означает, что опция отключена и будет пропущена. Оставьте все поля пустыми для бесконечной ротации."
 
-#: settings.php:423
+#: settings.php:430
 msgid "Time"
 msgstr "Время"
 
-#: settings.php:414
+#: settings.php:421
 msgid "Option share in percents - 0 means option is disabled, if share for one option is not defined it will be calculated automatically. Leave all share fields empty for equal option shares."
 msgstr "Опция видимости в процентах - 0 означает, что опция отключена, если процент видимости для одной опции не определен, она будет рассчитана автоматически. Оставьте все поля пустыми для равного процента видимости."
 
 #. translators: %s: HTML tags
-#: settings.php:362
+#: settings.php:369
 msgid "Check ad blocking software that may block CSS, JavaScript or image files."
 msgstr "Проверьте ПО для блокировки рекламы, которое может блокировать CSS, JavaScript или файлы изображений."
 
 #. translators: %s: HTML tags
-#: settings.php:361
+#: settings.php:368
 msgid "Page may %s not be loaded properly. %s"
 msgstr "Возможно, страница %s загружена неправильно. %s"
 
-#: settings.php:359 settings.php:385
+#: settings.php:366 settings.php:392
 msgid "WARNING"
 msgstr "ВНИМАНИЕ"
 
-#: includes/editor.php:261 settings.php:359
+#: includes/editor.php:261 settings.php:366
 msgid "Error loading page"
 msgstr "Ошибка загрузки страницы"
 
-#: settings.php:352
+#: settings.php:359
 msgid "Incompatible (old) CSS file loaded, probably due to inappropriate caching."
 msgstr "Загружен несовместимый (старый) CSS-файл, возможно, из-за неправильного кэширования."
 
 #. translators: %s: HTML tags
-#: settings.php:351
+#: settings.php:358
 msgid "Missing version parameter of the CSS file, probably due to inappropriate caching."
 msgstr "Отсутствует параметр версии CSS-файла, возможно, из-за неправильного кэширования."
 
 #. translators: %s: HTML tags
-#: settings.php:340
+#: settings.php:347
 msgid "Missing version parameter of the JavaScript file, probably due to inappropriate caching."
 msgstr "Отсутствует параметр версии JavaScript-файла, возможно, из-за неправильного кэширования."
 
 #. translators: %s: HTML tags
-#: settings.php:339
+#: settings.php:346
 msgid "Wrong or %s missing version parameter %s of the JavaScript file, probably due to inappropriate caching."
 msgstr "Неверный или %s отсутствует параметр версии %s JavaScript-файла, возможно, из-за неправильного кэширования."
 
 #. translators: %s: HTML tags
-#: settings.php:350
+#: settings.php:357
 msgid "Wrong or %s missing version parameter %s of the CSS file, probably due to inappropriate caching."
 msgstr "Неверный или %s отсутствует параметр версии %s CSS-файла, возможно, из-за неправильного кэширования."
 
-#: settings.php:337
+#: settings.php:344
 msgid "Loaded plugin JavaScript file version"
 msgstr "Версия загруженного JavaScript-файла плагина"
 
-#: settings.php:348
+#: settings.php:355
 msgid "Loaded plugin CSS file version"
 msgstr "Версия загруженного CSS-файла плагина"
 
-#: settings.php:342 settings.php:353
+#: settings.php:349 settings.php:360
 msgid "Please delete browser's cache and all other caches used and then reload this page."
 msgstr "Пожалуйста, удалите кеш браузера и все другие используемые кеши, а затем перезагрузите эту страницу."
 
-#: settings.php:341
+#: settings.php:348
 msgid "Incompatible (old) JavaScript file loaded, probably due to inappropriate caching."
 msgstr "Загружен несовместимый (старый) JavaScript-файл, возможно, из-за неправильного кэширования."
 
-#: settings.php:950
+#: settings.php:957
 msgid "Paste block (name, code and settings)"
 msgstr "Вставить блок (название, код и настройки)"
 
-#: settings.php:946
+#: settings.php:953
 msgid "Paste settings"
 msgstr "Вставить настройки"
 
-#: settings.php:942
+#: settings.php:949
 msgid "Paste code"
 msgstr "Вставить код"
 
-#: settings.php:938
+#: settings.php:945
 msgid "Paste name"
 msgstr "Вставить название"
 
-#: settings.php:934 settings.php:4748
+#: settings.php:941 settings.php:4760
 msgid "Copy block"
 msgstr "Копировать блок"
 
-#: settings.php:929
+#: settings.php:936
 msgid "Clear block"
 msgstr "Очистить блок"
 
-#: settings.php:314 settings.php:920 settings.php:2545
+#: settings.php:321 settings.php:927 settings.php:2557
 msgid "Show AdSense ad units"
 msgstr "Показывать рекламные блоки AdSense"
 
-#: settings.php:910
+#: settings.php:917
 msgid "Open visual HTML editor"
 msgstr "Открыть визуальный HTML-редактор"
 
-#: settings.php:902
+#: settings.php:909
 msgid "Toggle code generator"
 msgstr "Скрыть/Отобразить Генератора кода"
 
-#: settings.php:906
+#: settings.php:913
 msgid "Toggle rotation editor"
 msgstr "Скрыть/Отобразить Редактор ротации"
 
-#: settings.php:411
+#: settings.php:418
 msgid "Share"
 msgstr "Видимость"
 
-#: settings.php:405
+#: settings.php:412
 msgid "Option name"
 msgstr "Название"
 
-#: settings.php:603
+#: settings.php:610
 msgid "General Settings"
 msgstr "Основные настройки"
 
-#: settings.php:890
+#: settings.php:897
 msgid "Disable insertion of this block"
 msgstr "Отключить вставку этого блока"
 
-#: settings.php:883
+#: settings.php:890
 msgid "Process PHP code in block"
 msgstr "Обрабатывать PHP-код в блоке"
 
-#: settings.php:875
+#: settings.php:882
 msgid "Toggle tools"
 msgstr "Скрыть/Отобразить Доп. Инструменты"
 
-#: settings.php:868 settings.php:2999 settings.php:3068 settings.php:3281
+#: settings.php:875 settings.php:3011 settings.php:3080 settings.php:3293
 msgid "Toggle Syntax Highlighting / Simple editor for mobile devices"
 msgstr "Скрыть/Отобразить Подсветку синтаксиса / Простой редактор для мобильных устройств"
 
-#: includes/placeholders.php:361 settings.php:1102 settings.php:4884
+#: includes/placeholders.php:361 settings.php:1114 settings.php:4896
 msgid "Size"
 msgstr "Размер"
 
-#: settings.php:1089
+#: settings.php:1101
 msgid "Ad Type"
 msgstr "Тип объявлений"
 
-#: settings.php:1071
+#: settings.php:1083
 msgctxt "AdSense"
 msgid "Publisher ID"
 msgstr "ID Издателя"
 
-#: settings.php:1062
+#: settings.php:1074
 msgid "Comment"
 msgstr "Комментарий"
 
-#: settings.php:1050
+#: settings.php:1057
 msgid "Select Placeholder"
 msgstr "Выбрать Заполнитель"
 
-#: settings.php:1049
+#: settings.php:1056
 msgid "Select Image"
 msgstr "Выбрать изображение"
 
-#: settings.php:1046
+#: settings.php:1053
 msgid "Open link in a new tab"
 msgstr "Открывать ссылку в новой вкладке"
 
-#: settings.php:1035
+#: settings.php:1042
 msgid "Link"
 msgstr "Ссылка"
 
-#: settings.php:1013
+#: settings.php:1020
 msgid "Image"
 msgstr "Изображение"
 
-#: settings.php:1001
+#: settings.php:1008
 msgid "Banner"
 msgstr "Баннер"
 
-#: settings.php:996
+#: settings.php:1003
 msgid "Generate code"
 msgstr "Создать код"
 
-#: settings.php:992
+#: settings.php:999
 msgid "Import code"
 msgstr "Импортировать код"
 
-#: settings.php:977
+#: settings.php:984
 msgid "Add option"
 msgstr "Опция \"Добавить\""
 
-#: settings.php:973
+#: settings.php:980
 msgid "Remove option"
 msgstr "Опция \"Удалить\""
 
-#: includes/preview.php:2437 settings.php:1300 settings.php:3290
+#: includes/preview.php:2437 settings.php:1312 settings.php:3302
 msgid "Preview"
 msgstr "Предпросмотр"
 
-#: settings.php:1300
+#: settings.php:1312
 msgid "Preview code and alignment"
 msgstr "Предпросмотр кода и выравнивания"
 
-#: settings.php:1299
+#: settings.php:1311
 msgid "Misc"
 msgstr "Разное"
 
-#: settings.php:1299
+#: settings.php:1311
 msgid "Check for user status, Limit insertions (error 404 page, Ajax requests, RSS feeds), Filter, Scheduling, General tag"
 msgstr "Проверка статуса пользователя, Ограничение вставок (страница 404-й ошибки, Ajax-запросы, RSS-каналы), Фильтр, Планирование, Общий тег"
 
-#: settings.php:1298
+#: settings.php:1310
 msgid "Devices"
 msgstr "Устройства"
 
-#: settings.php:1298
+#: settings.php:1310
 msgid "Client/Server-side Device Detection (Desktop, Tablet, Phone,...)"
 msgstr "Обнаружение устройств на стороне клиента/сервера (ноутбук, планшет, телефон, ...)"
 
-#: settings.php:1297
+#: settings.php:1309
 msgid "Manual"
 msgstr "Руководство"
 
-#: settings.php:1297
+#: settings.php:1309
 msgid "Widget, Shortcode and PHP function call"
 msgstr "Отображение блока через виджет, шорткод или PHP"
 
-#: settings.php:1296
+#: settings.php:1308
 msgid "White/Black-list Category, Tag, Taxonomy, Post ID, Url, Url parameter, Cookie or Referer (domain)"
 msgstr "Чёрные/Белые списки категорий, тегов, таксономий, идентификаторов записей, URL, URL-параметров, файлов cookie или Реферер"
 
-#: settings.php:1165
+#: settings.php:1177
 msgctxt "AdSense"
 msgid "Layout Key"
 msgstr "Ключ макета"
 
-#: settings.php:1156
+#: settings.php:1168
 msgctxt "AdSense"
 msgid "Layout"
 msgstr "Макет"
 
-#: settings.php:1139
+#: settings.php:1151
 msgid "AdSense ad units"
 msgstr "Рекламные блоки AdSense"
 
-#: settings.php:1139
+#: settings.php:1151
 msgid "Show ad units from your AdSense account"
 msgstr "Показывать рекламные блоки из вашего аккаунта AdSense"
 
-#: settings.php:1114 settings.php:1256
+#: settings.php:1126 settings.php:1268
 msgid "AMP Ad"
 msgstr "Реклама AMP"
 
-#: settings.php:1342 settings.php:1343
+#: settings.php:1354 settings.php:1355
 msgid "Enable insertion on search blog pages"
 msgstr "Включить вставку на страницах поиска"
 
-#: settings.php:1338 settings.php:3909
+#: settings.php:1350 settings.php:3921
 msgid "Static pages"
 msgstr "Статические страницы"
 
-#: settings.php:1337 settings.php:1338
+#: settings.php:1349 settings.php:1350
 msgid "Enable insertion on static pages"
 msgstr "Включить вставку на статических страницах"
 
-#: settings.php:1326 settings.php:1327
+#: settings.php:1338 settings.php:1339
 msgid "Enable insertion on category blog pages (including sub-pages)"
 msgstr "Включить вставку на страницах рубрик (включая подрубрики)"
 
-#: settings.php:1322 settings.php:3910
+#: settings.php:1334 settings.php:3922
 msgid "Homepage"
 msgstr "Главная"
 
-#: settings.php:1321 settings.php:1322
+#: settings.php:1333 settings.php:1334
 msgid "Enable insertion on homepage: latest posts (including on sub-pages), static page or theme homepage (available positions may depend on hooks used by the theme)"
 msgstr "Включить вставку на домашней странице: последние сообщения (в том числе на подстраницах), статическая страница или домашняя страница темы (доступные позиции могут зависеть от хуков, используемых темой)"
 
-#: settings.php:1317 settings.php:3908
+#: settings.php:1329 settings.php:3920
 msgid "Posts"
 msgstr "Записи"
 
-#: settings.php:1316 settings.php:1317
+#: settings.php:1328 settings.php:1329
 msgid "Enable insertion on posts"
 msgstr "Включить вставку в записях"
 
-#: settings.php:1535 settings.php:1536 settings.php:1537 settings.php:1538
-#: settings.php:1539 settings.php:1540
+#: settings.php:1547 settings.php:1548 settings.php:1549 settings.php:1550
+#: settings.php:1551 settings.php:1552
 msgid "CSS code for the wrapping div, click to edit"
 msgstr "CSS-код для обёртки div, кликните для редактирования"
 
-#: includes/placeholders.php:351 includes/preview.php:2819 settings.php:1543
-#: settings.php:4115
+#: includes/placeholders.php:351 includes/preview.php:2819 settings.php:1555
+#: settings.php:4127
 msgid "Edit"
 msgstr "Правка"
 
-#: settings.php:1532
+#: settings.php:1544
 msgid "Custom CSS code for the wrapping div"
 msgstr "Пользовательский CSS-код для обёртки div"
 
@@ -3625,1024 +3620,1024 @@ msgctxt "Button"
 msgid "Show"
 msgstr "Показать"
 
-#: settings.php:4793
+#: settings.php:4805
 msgid "Automatic insertion"
 msgstr "Автоматическая вставка"
 
-#: settings.php:1303 settings.php:2526
+#: settings.php:1315 settings.php:2538
 msgid "Rotation editor active - rotation code not generated! Make sure no rotation editor is active before saving settings."
 msgstr "Редактор ротации активен - код ротации не генерируется! Перед сохранением настроек убедитесь, что редактор ротации не активен."
 
-#: settings.php:1584
+#: settings.php:1596
 msgid "Client-side insertion uses JavaScript to insert block when the page loads. Server-side insertion inserts block when the page is generated but needs Output buffering enabled."
 msgstr "Вставка на стороне клиента использует JavaScript для вставки блока при загрузке страницы. Вставка на стороне сервера вставляет блок, когда страница генерируется, но необходимо включить буферизацию вывода."
 
-#: settings.php:1435 settings.php:1583 settings.php:2264
+#: settings.php:1447 settings.php:1595 settings.php:2276
 msgid "Insertion"
 msgstr "Вставка"
 
-#: settings.php:1572 settings.php:3177
+#: settings.php:1584 settings.php:3189
 msgid "Action"
 msgstr "Действие"
 
-#: settings.php:1566
+#: settings.php:1578
 msgid "HTML element selector or comma separated list of selectors"
 msgstr "Селектор HTML-элемента или список селекторов через запятую"
 
-#: settings.php:1557 settings.php:1597 settings.php:3217
+#: settings.php:1569 settings.php:1609 settings.php:3229
 msgid "Open HTML element selector"
 msgstr "Открыть селектор HTML-элемента"
 
-#: settings.php:1553
+#: settings.php:1565
 msgid "HTML element"
 msgstr "HTML-элемент"
 
 #. translators: %d: block number
-#: settings.php:1406
+#: settings.php:1418
 msgid "Clear listed exceptions for block"
 msgstr "Очистить все исключения для блока"
 
 #. translators: %d: block number
-#: settings.php:1405
+#: settings.php:1417
 msgid "Are you sure you want to clear listed exceptions for block %d?"
 msgstr "Вы уверены, что хотите очистить все исключения для блока %d?"
 
-#: ad-inserter.php:12564 settings.php:1400
+#: ad-inserter.php:12623 settings.php:1412
 msgid "Title"
 msgstr "Заголовок"
 
-#: settings.php:1400
+#: settings.php:1412
 msgctxt "post"
 msgid "Type"
 msgstr "Тип"
 
-#: settings.php:1347 settings.php:1348
+#: settings.php:1359 settings.php:1360
 msgid "Enable insertion on tag or archive blog pages"
 msgstr "Разрешить вставку на страницы тегов или в архив блога"
 
-#: settings.php:1343 settings.php:3913
+#: settings.php:1355 settings.php:3925
 msgid "Search pages"
 msgstr "Страницы поиска"
 
-#: settings.php:1837 settings.php:1863
+#: settings.php:1849 settings.php:1875
 msgid "In"
 msgstr "В"
 
-#: settings.php:1827
+#: settings.php:1839
 msgid "Used only with automatic insertion After paragraph and empty paragraph numbers"
 msgstr "Используется только с автоматической вставкой после абзаца и пустых номеров абзаца"
 
-#: settings.php:1821
+#: settings.php:1833
 msgid "Minimum number of words in paragraphs above"
 msgstr "Минимальное количество слов в вышерасположенных абзацах"
 
-#: settings.php:1748
+#: settings.php:1760
 msgid "Count also paragraphs inside these elements - defined on general plugin settings page - tab [*] / tab General"
 msgstr "Считать также абзацы внутри этих элементов (определенных на странице общих настроек плагина)"
 
-#: settings.php:1691 settings.php:1738 settings.php:1852 settings.php:1878
+#: settings.php:1703 settings.php:1750 settings.php:1864 settings.php:1890
 msgid "Comma separated texts"
 msgstr "Список, разделённый запятыми"
 
-#: settings.php:1676
+#: settings.php:1688
 msgid "words"
 msgstr "слова"
 
-#: settings.php:1667 settings.php:1682 settings.php:1804 settings.php:2403
+#: settings.php:1679 settings.php:1694 settings.php:1816 settings.php:2415
 msgid "and"
 msgstr "и"
 
-#: settings.php:1664
+#: settings.php:1676
 msgid "Minimum number of paragraph words, leave empty for no limit"
 msgstr "Минимальное количество слов в абзаце, оставьте пустым для сброса ограничений"
 
-#: settings.php:1673
+#: settings.php:1685
 msgid "Maximum number of paragraph words, leave empty for no limit"
 msgstr "Максимальное количество слов в абзаце, оставьте пустым для сброса ограничений"
 
-#: settings.php:1658
+#: settings.php:1670
 msgid "that have between"
 msgstr "которые содержат между"
 
-#: settings.php:1649
+#: settings.php:1661
 msgid "Comma separated HTML tag names, usually only 'p' tags are used"
 msgstr "Разделенные запятыми имена тегов HTML, обычно используются только теги 'p'"
 
-#: settings.php:1643
+#: settings.php:1655
 msgid "paragraphs with tags"
 msgstr "абзацев с тегами"
 
-#: settings.php:1637
+#: settings.php:1649
 msgid "Count"
 msgstr "Кол-во"
 
-#: settings.php:1945
+#: settings.php:1957
 msgid "Toggle tag editor"
 msgstr "Скрыть/Отобразить Редактор тегов"
 
-#: settings.php:1942
+#: settings.php:1954
 msgid "Tags"
 msgstr "Теги"
 
-#: settings.php:1925
+#: settings.php:1937
 msgid "Comma separated category slugs"
 msgstr "Разделенные запятыми названия категорий (en)"
 
-#: settings.php:1948
+#: settings.php:1960
 msgid "Comma separated tag slugs"
 msgstr "Разделенные запятыми названия тегов (en)"
 
-#: settings.php:1922
+#: settings.php:1934
 msgid "Toggle category editor"
 msgstr "Скрыть/Отобразить Редактор категорий"
 
-#: settings.php:1919
+#: settings.php:1931
 msgid "Categories"
 msgstr "Категории"
 
-#: settings.php:1895
+#: settings.php:1907
 msgid "check up to"
 msgstr "проверить до"
 
-#: settings.php:1888
+#: settings.php:1900
 msgid "If text is found"
 msgstr "Если текст найден"
 
-#: settings.php:1872
+#: settings.php:1884
 msgid "paragraphs below avoid"
 msgstr "избегать нижерасположенные абзацы"
 
-#: settings.php:1869
+#: settings.php:1881
 msgid "Number of paragraphs below to check, leave empty to disable checking"
 msgstr "Проверка количества абзацев ниже блока, оставьте поле пустым, чтобы отключить проверку"
 
-#: settings.php:1843
+#: settings.php:1855
 msgid "Number of paragraphs above to check, leave empty to disable checking"
 msgstr "Проверка количества абзацев выше блока, оставьте поле пустым, чтобы отключить проверку"
 
-#: settings.php:1903
+#: settings.php:1915
 msgctxt "check up to"
 msgid "paragraphs"
 msgstr "абзацев"
 
-#: settings.php:2017
+#: settings.php:2029
 msgid "Comma separated urls (page addresses) starting with / after domain name (e.g. /permalink-url, use only when you need to taget a specific url not accessible by other means). You can also use partial urls with * (/url-start*. *url-pattern*, *url-end)"
 msgstr "URL-адреса, разделенные запятыми, начинающиеся с / после имени домена (например, /permalink-url, используйте только в том случае, если вам нужно указать конкретный URL-адрес, недоступный другими способами). Вы также можете использовать частичные URL с * (/url-start *.* url-pattern *.* url-end)"
 
-#: settings.php:2014
+#: settings.php:2026
 msgid "Toggle url editor"
 msgstr "Скрыть/Отобразить редактор URL"
 
-#: settings.php:2011
+#: settings.php:2023
 msgid "Urls"
 msgstr "Список URL"
 
-#: settings.php:1994
+#: settings.php:2006
 msgid "Comma separated post/page IDs"
 msgstr "Разделённый запятыми список ID записей/страниц"
 
-#: settings.php:1991
+#: settings.php:2003
 msgid "Toggle post/page ID editor"
 msgstr "Скрыть/Отобразить редактор ID записей/страниц"
 
-#: settings.php:1988
+#: settings.php:2000
 msgid "Post IDs"
 msgstr "ID записей"
 
-#: settings.php:1971
+#: settings.php:1983
 msgid "Comma separated slugs: taxonomy, term or taxonomy:term"
 msgstr "Разделённые запятыми slugs: taxonomy, term or taxonomy:term"
 
-#: settings.php:1968
+#: settings.php:1980
 msgid "Toggle taxonomy editor"
 msgstr "Скрыть/Отобразить редактор таксономий"
 
-#: settings.php:1965
+#: settings.php:1977
 msgid "Taxonomies"
 msgstr "Таксономии"
 
-#: settings.php:2161
+#: settings.php:2173
 msgid "Enable PHP function call to insert this block at any position in theme file. If function is disabled for block it will return empty string."
 msgstr "Включите вызов функции PHP, чтобы вставить этот блок в любое место в файле, Темы. Если функция заблокирована для блока, она вернет пустую строку."
 
-#: settings.php:2146 settings.php:4807
+#: settings.php:2158 settings.php:4819
 msgid "Shortcode"
 msgstr "Шорткод"
 
-#: class.php:2608 settings.php:2134 settings.php:4808
+#: class.php:2608 settings.php:2146 settings.php:4820
 msgid "Widget"
 msgstr "Виджет"
 
-#: settings.php:2133
+#: settings.php:2145
 msgid "Enable widget for this block"
 msgstr "Включить Виджет для этого блока"
 
-#: settings.php:2145
+#: settings.php:2157
 msgid "Enable shortcode for manual insertion of this block in posts and pages"
 msgstr "Включить Шорткод для ручной вставки этого блока в посты и страницы"
 
-#: settings.php:2079
+#: settings.php:2091
 msgid "Referrers"
 msgstr "Рефереры"
 
-#: settings.php:2040
+#: settings.php:2052
 msgid "Comma separated url query parameters or cookies with optional values (use 'parameter', 'parameter=value', 'cookie' or 'cookie=value')"
 msgstr "Разделенные запятыми параметры запроса URL или файлы cookie с необязательными значениями (используйте «параметр», «параметр=значение», «cookie» или «cookie=значение»)"
 
-#: settings.php:2037
+#: settings.php:2049
 msgid "Toggle url parameter and cookie editor"
 msgstr "Скрыть/Отобразить редактор url-параметров и cookie-файлов"
 
-#: settings.php:2033
+#: settings.php:2045
 msgid "Url parameters"
 msgstr "URL-параметры"
 
-#: settings.php:2282
+#: settings.php:2294
 msgid "AMP pages"
 msgstr "AMP страницы"
 
-#: settings.php:2282
+#: settings.php:2294
 msgid "To insert different codes on normal and AMP pages separate them with [ADINSERTER AMP] separator. Here you can enable insertion on AMP pages only when you need to insert THE SAME CODE also on AMP pages (no AMP separator)."
 msgstr "Чтобы вставить разные коды на обычные страницы и страницы AMP, разделите их разделителем [ADINSERTER AMP]. Здесь вы можете включить вставку на страницах AMP только тогда, когда вам нужно вставить тот же код на страницы AMP (без разделителя AMP)."
 
-#: settings.php:2282
+#: settings.php:2294
 msgid "Old settings for AMP pages detected"
 msgstr "Обнаружены старые настройки для страниц AMP"
 
-#: settings.php:2270 settings.php:2578
+#: settings.php:2282 settings.php:2590
 msgid "General"
 msgstr "Основные"
 
-#: settings.php:2268
+#: settings.php:2280
 msgid "Display"
 msgstr "Отображение"
 
-#: settings.php:417 settings.php:2267 settings.php:4797
+#: settings.php:424 settings.php:2279 settings.php:4809
 msgid "Scheduling"
 msgstr "Планирование"
 
-#: settings.php:2266
+#: settings.php:2278
 msgid "Word Count"
 msgstr "Кол-во слов"
 
-#: settings.php:2265
+#: settings.php:2277
 msgid "Filter"
 msgstr "Фильтр"
 
-#: settings.php:2246
+#: settings.php:2258
 msgid "Use server-side detection to insert block only for"
 msgstr "Вставить блок только на следующие устройства "
 
-#: settings.php:2220
+#: settings.php:2232
 msgid "Device min width %s px"
 msgstr "Мин. ширина устройства %s px"
 
 #. Translators: only on (the following devices): viewport names (devices)
 #. listed
-#: settings.php:2192
+#: settings.php:2204
 msgid "only on"
 msgstr "только на"
 
-#: settings.php:2185
+#: settings.php:2197
 msgid "Use client-side detection to"
 msgstr "Обнаружение на стороне клиента, чтобы"
 
-#: settings.php:2178
+#: settings.php:2190
 msgid "Server-side device detection"
 msgstr "Обнаружение устр-ва на стороне сервера"
 
-#: settings.php:2177
+#: settings.php:2189
 msgid "Client-side device detection"
 msgstr "Обнаружение устр-ва на стороне клиента"
 
-#: settings.php:2162
+#: settings.php:2174
 msgid "PHP function"
 msgstr "PHP функция"
 
-#: settings.php:2354
+#: settings.php:2366
 msgid "Disable caching for WP Super Cache, W3 Total Cache and WP Rocket plugins"
 msgstr "Отключить кэширование для плагинов WP Super Cache, W3 Total Cache и WP Rocket"
 
-#: settings.php:2344
+#: settings.php:2356
 msgid "Insert only in the loop"
 msgstr "Вставить только в цикле"
 
-#: settings.php:2340
+#: settings.php:2352
 msgid "Insert block only when WP function [[in_the_loop ()]] returns true (WP loop is currently active). Might speed up insertion on content pages when [[the_content]] filter hook is called multiple times."
 msgstr "Вставлять блок только тогда, когда функция in_the_loop() возвращает true (цикл WP в настоящее время активен). Может ускорить вставку содержимого на страницы, когда фильтр the_content вызывается несколько раз."
 
-#: settings.php:2332
+#: settings.php:2344
 msgid "Insert for"
 msgstr "Вставить для"
 
-#: settings.php:2320 settings.php:2708
+#: settings.php:2332 settings.php:2720
 msgid "Max blocks per page"
 msgstr "Макс. кол-во блоков на страницу"
 
-#: settings.php:2315
+#: settings.php:2327
 msgid "insertions"
 msgstr "вставки"
 
-#: settings.php:2314
+#: settings.php:2326
 msgid "Maximum number of insertions of this block. Empty or 0 means no limit."
 msgstr "Максимальное количество вставок этого блока. Пустое поле или 0 означает отсутствие ограничений."
 
-#: settings.php:2302
+#: settings.php:2314
 msgid "Error 404 page"
 msgstr "Страница 404-й ошибки"
 
-#: settings.php:2297
+#: settings.php:2309
 msgid "RSS Feed"
 msgstr "RSS лента"
 
-#: settings.php:2302
+#: settings.php:2314
 msgid "Enable insertion on page for Error 404: Page not found"
 msgstr "Включить вставку на странице для 404-й ошибки (страница не найдена)"
 
-#: settings.php:2297
+#: settings.php:2309
 msgid "Enable insertion in RSS feeds"
 msgstr "Включить вставку в RSS ленте"
 
-#: settings.php:2287
+#: settings.php:2299
 msgid "Ajax requests"
 msgstr "Ajax запросы"
 
-#: settings.php:2287
+#: settings.php:2299
 msgid "Enable insertion for Ajax requests"
 msgstr "Включить вставку для Ajax запросов"
 
 #. translators: %s: HTML tags
-#: settings.php:2486
+#: settings.php:2498
 msgid "%s WARNING: %s %s No Wrapping %s style has no wrapping code needed for client-side device detection!"
 msgstr "%s ПРЕДУПРЕЖДЕНИЕ: %s Стиль Без Обёртки %s не имеет кода обертки, необходимого для обнаружения устройства на стороне клиента!"
 
-#: settings.php:2477
+#: settings.php:2489
 msgid "Used for [adinserter data=''] shortcodes when no data is found"
 msgstr "Используется для шорткодов [adinserter data = 'N'], когда данные не найдены"
 
-#: settings.php:2473
+#: settings.php:2485
 msgid "General tag"
 msgstr "Общий тег"
 
-#: settings.php:2419
+#: settings.php:2431
 msgid "Not available"
 msgstr "Не доступно"
 
-#: settings.php:2417
+#: settings.php:2429
 msgid "days after publishing"
 msgstr "дней после публикации"
 
-#: settings.php:2417
+#: settings.php:2429
 msgid "for"
 msgstr "для"
 
-#: settings.php:2404
+#: settings.php:2416
 msgid "Maximum number of post/static page words, leave empty for no limit"
 msgstr "Максимальное кол-во слов записи/статической страницы, оставьте поле пустым для снятия ограничений"
 
-#: settings.php:2402
+#: settings.php:2414
 msgid "Minimum number of post/static page words, leave empty for no limit"
 msgstr "Минимальное кол-во слов записи/статической страницы, оставьте поле пустым для снятия ограничений"
 
-#: settings.php:1795 settings.php:2401
+#: settings.php:1807 settings.php:2413
 msgid "Post/Static page must have between"
 msgstr "Запись/Статическая страница должна иметь между"
 
-#: settings.php:2395
+#: settings.php:2407
 msgid "Invert filter"
 msgstr "Инвертировать фильтр"
 
-#: settings.php:2395
+#: settings.php:2407
 msgid "Checked means specified calls are unwanted"
 msgstr "Если отмечено, значит что указанные вызовы являются нежелательными"
 
-#: settings.php:2376
+#: settings.php:2388
 msgid "using"
 msgstr "используя"
 
-#: settings.php:2370
+#: settings.php:2382
 msgid "Filter insertions"
 msgstr "Фильтр вставок"
 
-#: settings.php:2358
+#: settings.php:2370
 msgid "Disable caching"
 msgstr "Отключить кеширование"
 
-#: settings.php:2759
+#: settings.php:2771
 msgid "Syntax highlighting theme"
 msgstr "Тема Синтаксической подсветки"
 
-#: settings.php:2618
+#: settings.php:2630
 msgid "Needed for position Above header but may not work with all themes"
 msgstr "Требуется для позиции Выше заголовка, но может не поддерживаться некоторыми Темами"
 
-#: settings.php:2615
+#: settings.php:2627
 msgid "Output buffering"
 msgstr "Буферизация вывода"
 
-#: settings.php:2607
+#: settings.php:2619
 msgid "Plugin priority"
 msgstr "Приоритет плагина"
 
-#: settings.php:2587
+#: settings.php:2599
 msgid "Debugging"
 msgstr "Отладка"
 
-#: settings.php:2585
+#: settings.php:2597
 msgid "Ad Blocking"
 msgstr "Блокировка рекламы"
 
-#: settings.php:2582 strings.php:30
+#: settings.php:2594 strings.php:30
 msgid "Footer"
 msgstr "Footer"
 
-#: settings.php:2580
+#: settings.php:2592
 msgid "Hooks"
 msgstr "Хуки"
 
-#: settings.php:2579
+#: settings.php:2591
 msgid "Viewports"
 msgstr "Области просмотра"
 
-#: settings.php:2535
+#: settings.php:2547
 msgid "Reset All Settings"
 msgstr "Сбросить все настройки"
 
-#: settings.php:2535
+#: settings.php:2547
 msgid "Are you sure you want to reset all settings?"
 msgstr "Вы уверены, что хотите сбросить все настройки?"
 
-#: settings.php:1305 settings.php:2528
+#: settings.php:1317 settings.php:2540
 msgid "Save Settings"
 msgstr "Сохранить Настройки"
 
-#: settings.php:2519
+#: settings.php:2531
 msgid "Settings timestamp"
 msgstr "Настройки времени"
 
-#: settings.php:2516
+#: settings.php:2528
 msgid "Settings"
 msgstr "Настройки"
 
-#: settings.php:2867
+#: settings.php:2879
 msgid "Plugin usage tracking"
 msgstr "Плагин использует отслеживание"
 
-#: settings.php:2711
+#: settings.php:2723
 msgid "Maximum number of inserted blocks per page. You need to enable Max page insertions (button Misc / tab Insertion) to count block for this limit."
 msgstr "Максимальное количество вставленных блоков на страницу. Вам нужно включить максимальное количество вставок страницы (кнопка Разное / вкладка Вставка), чтобы подсчитать количество блоков для этого лимита."
 
-#: settings.php:2703
+#: settings.php:2715
 msgid "Label text or HTML code"
 msgstr "Текст метки или HTML-код"
 
-#: settings.php:2692
+#: settings.php:2704
 msgid "No paragraph counting inside"
 msgstr "Нет абзацев, подсчитанных внутри"
 
-#: settings.php:2684
+#: settings.php:2696
 msgid "Standard PHP functions are faster and work in most cases, use Multibyte functions if paragraphs are not counted properly on non-english pages."
 msgstr "Стандартные функции PHP в большинстве случаев работают быстрее, использование многобайтовых функций для подсчёта слов в абзацах не всегда работает корректно на неанглийских страницах."
 
-#: settings.php:2681
+#: settings.php:2693
 msgid "Functions for paragraph counting"
 msgstr "Функции для подсчета абзацев"
 
-#: settings.php:2668
+#: settings.php:2680
 msgid "Dynamic blocks"
 msgstr "Динамические блоки"
 
-#: settings.php:2651
+#: settings.php:2663
 msgid "CSS mode is the best approach but may not work with all themes. JavaScript mode works with most themes but may reload ads on page load."
 msgstr "Режим CSS - лучший подход, но он может работать не со всеми Темами. Режим JavaScript работает с большинством Тем, но может перезагрузить рекламу при загрузке страницы."
 
-#: settings.php:2648
+#: settings.php:2660
 msgid "Sticky widget mode"
 msgstr "Режим Закрепленного виджета"
 
-#: settings.php:2660
+#: settings.php:2672
 msgid "Sticky widget top margin"
 msgstr "Верхний отступ Закреплённого виджета"
 
-#: settings.php:2837
+#: settings.php:2849
 msgid "Min. user role for ind. exceptions editing"
 msgstr "Мин. права пользователя для редактирования исключений"
 
-#: settings.php:2784
+#: settings.php:2796
 msgctxt "syntax highlighting themes"
 msgid "Dark"
 msgstr "Тёмная"
 
-#: settings.php:2769
+#: settings.php:2781
 msgctxt "syntax highlighting themes"
 msgid "Light"
 msgstr "Светлая"
 
-#: settings.php:2767
+#: settings.php:2779
 msgid "No Syntax Highlighting"
 msgstr "Без Подсветки синтаксиса"
 
-#: settings.php:2766
+#: settings.php:2778
 msgctxt "no syntax highlighting themes"
 msgid "None"
 msgstr "Нет"
 
-#: settings.php:2940
+#: settings.php:2952
 msgid "min width"
 msgstr "мин. ширина"
 
 #. Translators: %d: viewport number
-#: settings.php:2937
+#: settings.php:2949
 msgid "Viewport %d name"
 msgstr "Название %d -й Области просмотра"
 
-#: settings.php:2929
+#: settings.php:2941
 msgid "Viewport Settings used for client-side device detection"
 msgstr "Настройки области просмотра, используемые для обнаружения устройства на стороне клиента"
 
 #. translators: %s: PHP tags
-#: settings.php:2747 settings.php:3421
+#: settings.php:2759 settings.php:3433
 msgid "BLOCK CODE"
 msgstr "КОД БЛОКА"
 
-#: settings.php:2746
+#: settings.php:2758
 msgid "Wrapping div"
 msgstr "Div обёртка"
 
-#: settings.php:2745
+#: settings.php:2757
 msgid "Preview of the block wrapping code"
 msgstr "Предпросмотр кода блока-обёртки"
 
-#: settings.php:2739
+#: settings.php:2751
 msgid "Inline styles"
 msgstr "Встроенные стили"
 
-#: settings.php:2739
+#: settings.php:2751
 msgid "Instead of alignment classes generate inline alignment styles for blocks"
 msgstr "Вместо классов генерирует встроенные стили для выравнивания блоков"
 
-#: settings.php:2729
+#: settings.php:2741
 msgid "Block number class"
 msgstr "Класс + Номер блока"
 
-#: settings.php:2729
+#: settings.php:2741
 msgid "Include block number class"
 msgstr "Вставляет класс с номером блока"
 
-#: settings.php:2723
+#: settings.php:2735
 msgid "Block class name"
 msgstr "Название класса блока"
 
-#: settings.php:2723
+#: settings.php:2735
 msgid "CSS class name for the wrapping div"
 msgstr "Имя CSS-класса для div-обёртки"
 
 #. translators: %s: Ad Inserter
-#: settings.php:2870
+#: settings.php:2882
 msgid "Enable tracking of %s usage and help us to make improvements to the plugin. Only information regarding the WordPress environment and %s usage is recorded (once per month and on events like plugin activation/deactivation)."
 msgstr "Включите отслеживание %s использования и помогите нам улучшить плагин. Записывается только информация, касающаяся среды WordPress и %s плагина  (один раз в месяц и при таких событиях, как активация / деактивация плагина)."
 
-#: settings.php:3073
+#: settings.php:3085
 msgid "Enable insertion of this code into HTML page footer"
 msgstr "Включить вставку этого кода в подвал (footer) HTML-страницы"
 
-#: settings.php:3055 settings.php:3125
+#: settings.php:3067 settings.php:3137
 msgid "Insert on Error 404 page"
 msgstr "Вставить на страницу 404-й ошибки"
 
-#: settings.php:3055
+#: settings.php:3067
 msgid "Enable insertion of this code into HTML page header on page for Error 404: Page not found"
 msgstr "Включить вставку этого кода в заголовок (header) HTML на странице для 404-й ошибки 404"
 
-#: settings.php:3040 settings.php:3110
+#: settings.php:3052 settings.php:3122
 msgid "Use server-side detection to insert code only for"
 msgstr "Использовать обнаружение на стороне сервера, чтобы вставить код только на"
 
-#: settings.php:3022
+#: settings.php:3034
 msgid "Code in the %s section of the HTML page"
 msgstr "Код в разделе %s HTML-страницы"
 
-#: settings.php:3014
+#: settings.php:3026
 msgid "HTML Page Header Code"
 msgstr "HTML-код Заголовка (Header) страницы"
 
-#: settings.php:3009 settings.php:3078 settings.php:3287
+#: settings.php:3021 settings.php:3090 settings.php:3299
 msgid "Process PHP code"
 msgstr "Обрабатывать код PHP"
 
-#: settings.php:3004
+#: settings.php:3016
 msgid "Enable insertion of this code into HTML page header"
 msgstr "Включить вставку этого кода в заголовок (header) HTML-страницы"
 
-#: settings.php:2983
+#: settings.php:2995
 msgid "Priority for the hook (default is 10)"
 msgstr "Приоритет для хука (по умолчанию 10)"
 
-#: settings.php:2980
+#: settings.php:2992
 msgid "priority"
 msgstr "приоритет"
 
-#: settings.php:2977
+#: settings.php:2989
 msgid "Action name as used in the do_action () function"
 msgstr "Имя сценария, используемое в функции do_action()"
 
-#: settings.php:2974
+#: settings.php:2986
 msgid "action"
 msgstr "действие"
 
-#: settings.php:2971
+#: settings.php:2983
 msgid "Hook name for automatic insertion selection"
 msgstr "Название хука для автоматического выбора вставки"
 
 #. translators: %d: hook number
-#: settings.php:2968
+#: settings.php:2980
 msgid "Hook %d name"
 msgstr "Название %d-го хука"
 
-#: settings.php:2953
+#: settings.php:2965
 msgid "Custom Hooks"
 msgstr "Пользовательские Хуки"
 
-#: settings.php:3237
+#: settings.php:3249
 msgid "Redirection Page"
 msgstr "Страница редиректа"
 
-#: settings.php:3216
+#: settings.php:3228
 msgid "Comma seprarated list of selectors (.class, #id) used for additional ad blocking detection. Invisible element or element with zero height means ad blocking is present."
 msgstr "Разделенный запятыми список селекторов (.class, #id), используемых для определения дополнительной блокировки рекламы. Невидимый элемент или элемент с нулевой высотой означает, что рекламная блокировка присутствует."
 
-#: settings.php:3213
+#: settings.php:3225
 msgid "Custom Selectors"
 msgstr "Пользовательские селекторы"
 
-#: settings.php:3208
+#: settings.php:3220
 msgctxt "no action period"
 msgid "days"
 msgstr "дней"
 
-#: settings.php:3205
+#: settings.php:3217
 msgid "No Action Period"
 msgstr "Период бездействия"
 
-#: settings.php:3200
+#: settings.php:3212
 msgctxt "Delay Action for x "
 msgid "page views"
 msgstr "просмотров страниц"
 
-#: settings.php:3200
+#: settings.php:3212
 msgid "Number of page views to delay action when ad blocking is detected. Leave empty for no delay (action fires on first page view). Sets cookie."
 msgstr "Количество просмотров страницы для задержки действия при обнаружении блокировки рекламы. Оставьте пустым для отключения задержки (действие запускается при просмотре первой страницы). Устанавливает cookie."
 
-#: settings.php:3208
+#: settings.php:3220
 msgid "Number of days to supress action when ad blocking is detected. Leave empty for no no-action period (action fires always after defined page view delay). Sets cookie."
 msgstr "Количество дней для бездействия при обнаружении блокировки рекламы. Оставьте пустым для полного бездействия (действие срабатывает всегда после заданной задержки просмотра страницы). Устанавливает cookie."
 
-#: settings.php:3197
+#: settings.php:3209
 msgid "Delay Action"
 msgstr "Задержка действий"
 
-#: settings.php:3180
+#: settings.php:3192
 msgid "Global action when ad blocking is detected"
 msgstr "Базовое действие при обнаружении блокировки рекламы"
 
-#: settings.php:3150
+#: settings.php:3162
 msgid "Ad Blocking Detection"
 msgstr "Обнаружение блокировки рекламы"
 
-#: settings.php:3146
+#: settings.php:3158
 msgid "Enable detection of ad blocking"
 msgstr "Включить обнаружение блокировки рекламы"
 
-#: settings.php:3125
+#: settings.php:3137
 msgid "Enable insertion of this code into HTML page footer on page for Error 404: Page not found"
 msgstr "Разрешить вставку этого кода в подвал (footer) HTML на странице для 404-й ошибки"
 
 #. translators: %s: HTML tags
-#: settings.php:3091
+#: settings.php:3103
 msgid "Code before the %s tag of the HTML page"
 msgstr "Код перед тегом %s HTML-страницы"
 
-#: settings.php:3083
+#: settings.php:3095
 msgid "HTML Page Footer Code"
 msgstr "Код в подвале (footer) HTML-страницы"
 
-#: settings.php:3466
+#: settings.php:3478
 msgid "Enable Debugger widget and code insertion debugging (blocks, positions, tags, processing) by url parameters for non-logged in users. Enable this option to allow other users to see Debugger widget, labeled blocks and positions in order to help you to diagnose problems. For logged in administrators debugging is always enabled."
 msgstr "Включить отладку виджетов и вставок кода (блоки, позиции, теги, обработка) по параметрам URL для незарегистрированных пользователей. Включите эту опцию, чтобы другие пользователи могли видеть виджет отладчика, помеченные блоки и позиции, чтобы помочь вам диагностировать проблемы. Для авторизованных администраторов отладка всегда включена."
 
-#: settings.php:3457
+#: settings.php:3469
 msgid "Debugging functions on mobile screens"
 msgstr "Функции отладки на мобильных экранах"
 
-#: settings.php:3455
+#: settings.php:3467
 msgid "Enable debugging functions in admin toolbar on mobile screens"
 msgstr "Включить функции отладки в тулбаре администратора на мобильных экранах"
 
-#: settings.php:3448
+#: settings.php:3460
 msgid "Debugging functions in admin toolbar"
 msgstr "Функции отладки в тулбаре"
 
-#: settings.php:3446
+#: settings.php:3458
 msgid "Enable debugging functions in admin toolbar"
 msgstr "Включить функции отладки в тулбаре администратора"
 
-#: settings.php:3439
+#: settings.php:3451
 msgid "Force showing admin toolbar when viewing site"
 msgstr "Принудительно показывать тулбар администратора при просмотре сайта"
 
-#: settings.php:3319
+#: settings.php:3331
 msgid "Undismissible Message"
 msgstr "Неделимое сообщение"
 
-#: settings.php:3319
+#: settings.php:3331
 msgid "Prevent visitors from closing the warning message"
 msgstr "Запретить посетителям закрывать предупреждение"
 
-#: includes/preview-adb.php:365 settings.php:3311
+#: includes/preview-adb.php:365 settings.php:3323
 msgid "Overlay CSS"
 msgstr "Наложение CSS"
 
-#: includes/preview-adb.php:360 settings.php:3303
+#: includes/preview-adb.php:360 settings.php:3315
 msgid "Message CSS"
 msgstr "Сообщение CSS"
 
-#: settings.php:3290
+#: settings.php:3302
 msgid "Preview message when ad blocking is detected"
 msgstr "Предпросмотр сообщения при обнаружении блокировки рекламы"
 
-#: settings.php:3275
+#: settings.php:3287
 msgid "Message HTML code"
 msgstr "HTML-код сообщения"
 
-#: settings.php:3263
+#: settings.php:3275
 msgid "Custom Redirection Url"
 msgstr "Пользовательский URL перенаправления"
 
-#: settings.php:3254
+#: settings.php:3266
 msgid "Static page for redirection when ad blocking is detected. For other pages select Custom url and set it below."
 msgstr "Статическая страница для перенаправления при обнаружении блокировки рекламы. Для других страниц выберите Пользовательский URL и установите в качестве значения эту страницу."
 
-#: settings.php:3249
+#: settings.php:3261
 msgid "Custom Url"
 msgstr "Пользовательский URL"
 
-#: ad-inserter.php:3649 settings.php:4791 settings.php:4881
+#: ad-inserter.php:3673 settings.php:4803 settings.php:4893
 msgid "Name"
 msgstr "Название"
 
-#: ad-inserter.php:3648 ad-inserter.php:12569 class.php:2629
+#: ad-inserter.php:3672 ad-inserter.php:12628 class.php:2629
 #: includes/preview.php:2439 includes/preview.php:2484
-#: includes/preview.php:2521 settings.php:4790 strings.php:3 strings.php:210
+#: includes/preview.php:2521 settings.php:4802 strings.php:3 strings.php:210
 msgid "Block"
 msgstr "Блок"
 
-#: settings.php:4745
+#: settings.php:4757
 msgid "Preview block"
 msgstr "Предпросмотр блока"
 
-#: settings.php:4059 settings.php:4969 settings.php:5016 strings.php:257
+#: settings.php:4071 settings.php:4981 settings.php:5028 strings.php:257
 msgid "Google AdSense Homepage"
 msgstr "Главная страница Google AdSense"
 
-#: settings.php:4055
+#: settings.php:4067
 msgid "Clear authorization to access AdSense account"
 msgstr "Очистить авторизацию для доступа к аккаунту AdSense"
 
-#: settings.php:4051
+#: settings.php:4063
 msgid "Reload AdSense ad units"
 msgstr "Обновить рекламные блоки AdSense"
 
-#: settings.php:4029 settings.php:4065 settings.php:4126 strings.php:254
+#: settings.php:4041 settings.php:4077 settings.php:4138 strings.php:254
 msgid "Loading..."
 msgstr "Загрузка..."
 
-#: settings.php:4021
+#: settings.php:4033
 msgid "Save new block order"
 msgstr "Сохранить новый порядок блоков"
 
-#: settings.php:4015 strings.php:249
+#: settings.php:4027 strings.php:249
 msgid "Rearrange block order"
 msgstr "Изменить порядок блоков"
 
-#: settings.php:4010
+#: settings.php:4022
 msgid "Toggle active/all blocks"
 msgstr "Скрыть/Отобразить все/активные  блоки"
 
-#: settings.php:4047
+#: settings.php:4059
 msgid "Toggle active/all ad units"
 msgstr "Скрыть/Отобразить все/активные рекламные блоки"
 
-#: settings.php:3479
+#: settings.php:3491
 msgid "Disable translation"
 msgstr "Отключить перевод"
 
-#: settings.php:3477
+#: settings.php:3489
 msgid "Disable translation to see original texts for the settings and messages in English"
 msgstr "Отключить перевод, чтобы увидеть оригинальные тексты для настроек и сообщений на английском языке"
 
-#: settings.php:3468
+#: settings.php:3480
 msgid "Remote debugging"
 msgstr "Удаленная отладка"
 
 #. translators: %s: HTML tags
-#: settings.php:4974
+#: settings.php:4986
 msgid "If you get error, can't access ad units or would like to use own Google API IDs click on the button %s Use own API IDs %s to enter Client ID and Client Secret."
 msgstr "Если вы получили ошибку и не можете получить доступ к рекламным блокам, или хотели бы использовать собственные идентификаторы Google API, нажмите кнопку %s Использовать собственные API-идентификаторы %s, чтобы ввести ID клиента и Secret клиента."
 
-#: settings.php:4967
+#: settings.php:4979
 msgid "AdSense Integration - Step 2"
 msgstr "Интеграция AdSense - Шаг 2"
 
-#: settings.php:4965
+#: settings.php:4977
 msgid "AdSense Integration"
 msgstr "Интеграция AdSense"
 
 #. translators: %s: HTML tags
-#: settings.php:4946
+#: settings.php:4958
 msgid "Please %s clear authorization %s with the button %s above and once again authorize access to your AdSense account."
 msgstr "Пожалуйста, %s сбросьте авторизацию %s с помощью кнопки %s выше и еще раз авторизуйте доступ к своей учетной записи AdSense."
 
-#: settings.php:4914
+#: settings.php:4926
 msgid "Get AdSense code"
 msgstr "Получить код AdSense"
 
-#: settings.php:4911
+#: settings.php:4923
 msgid "Preview AdSense ad"
 msgstr "Предпросмотр объявления AdSense"
 
-#: settings.php:4908
+#: settings.php:4920
 msgid "Copy AdSense code"
 msgstr "Копировать код AdSense"
 
-#: settings.php:4360 settings.php:4883
+#: settings.php:4372 settings.php:4895
 msgid "Type"
 msgstr "Тип"
 
-#: settings.php:4882
+#: settings.php:4894
 msgid "Slot ID"
 msgstr "ID слота"
 
-#: settings.php:4880
+#: settings.php:4892
 msgid "Ad unit"
 msgstr "Рекламный блок"
 
-#: class.php:2613 settings.php:4806
+#: class.php:2613 settings.php:4818
 msgid "PHP function call"
 msgstr "Вызов функции PHP"
 
-#: includes/preview.php:2549 includes/preview.php:2761 settings.php:1504
+#: includes/preview.php:2549 includes/preview.php:2761 settings.php:1516
 msgid "Alignment"
 msgstr "Выравнивание"
 
 #. translators: %s: HTML tags
-#: settings.php:5034
+#: settings.php:5046
 msgid "Search for adsense and enable %s"
 msgstr "Поиск для AdSense и включить %s"
 
 #. translators: %s: HTML tags
-#: settings.php:5033
+#: settings.php:5045
 msgid "Click on %s ENABLE APIS AND SERVICES %s"
 msgstr "Кликните на %s ВКЛЮЧИТЬ API И СЕРВИСЫ %s"
 
 #. translators: 1: Ad Inserter, 2, 3: HTML tags
-#: settings.php:5031
+#: settings.php:5043
 msgid "Enter %1$s for project name and click on the %2$s Create %3$s button"
 msgstr "Введите %1$s в качестве имени проекта и нажмите на кнопку %2$s Создать %3$s."
 
 #. translators: %1: Ad Inserter, 2, 3: HTML tags
-#: settings.php:5029
+#: settings.php:5041
 msgid "Create %1$s project - if the project and IDs are already created click on the %2$s Credentials %3$s in the sidebar and go to step 21"
 msgstr "Создать проект %1$s - если проект и идентификаторы уже созданы, нажмите на %2$s Полномочия %3$s на боковой панели и перейдите к шагу 16"
 
 #. translators: %s: HTML tags
-#: settings.php:5028
+#: settings.php:5040
 msgid "Go to %s Google APIs and Services console %s"
 msgstr "Перейти к %s консоли Google API и служб Google %s"
 
-#: settings.php:5015
+#: settings.php:5027
 msgid "AdSense Integration - Step 1"
 msgstr "Интеграция AdSense - Шаг 1"
 
-#: settings.php:4999
+#: settings.php:5011
 msgid "Authorize"
 msgstr "Авторизоваться"
 
-#: settings.php:4995
+#: settings.php:5007
 msgid "Clear and return to Step 1"
 msgstr "Очистить и вернуться к Шагу 1"
 
-#: settings.php:4993
+#: settings.php:5005
 msgid "Use own API IDs"
 msgstr "Использовать собственные API ID"
 
 #. translators: %s: HTML tags
-#: settings.php:4977
+#: settings.php:4989
 msgid "If you get error %s invalid client %s click on the button %s Clear and return to Step 1 %s to re-enter Client ID and Client Secret."
 msgstr "Если вы получили ошибку %s Неверный клиент %s, нажмите кнопку %s Очистить и вернуться к Шагу 1 %s, чтобы повторно ввести ID и  Secret клиента."
 
 #. translators: %s: Ad Inserter
-#: settings.php:5019
+#: settings.php:5031
 msgid "Here can %s list configured AdSense ad units and get code for AdSense ads. To do this you need to authorize %s to access your AdSense account. The first step is to create a Google API project in order to get Client ID and Client Secret."
 msgstr "Здесь можно %s  список настроенных рекламных блоков AdSense и получить код для рекламы AdSense. Для этого вам необходимо авторизоваться для %s доступа к вашему аккаунту AdSense. Первым шагом является создание API Google проекта для получения ID клиента и Secret клиента."
 
 #. translators: %s HTML tags
-#: settings.php:6162
+#: settings.php:6191
 msgid "%s AdSense Integration %s"
 msgstr "%s Интеграция с AdSense %s"
 
 #. translators: %s HTML tags
-#: settings.php:6274
+#: settings.php:6303
 msgid "%s Scheduling %s"
 msgstr "%s Планирование %s"
 
 #. translators: Debugging position
-#: ad-inserter.php:1387
+#: ad-inserter.php:1411
 msgid "Above Header"
 msgstr "Выше заголовка"
 
-#: ad-inserter.php:3443
+#: ad-inserter.php:3467
 msgid "Positive reviews are a great incentive to fix bugs and to add new features for better monetization of your website."
 msgstr "Положительные отзывы являются отличным стимулом для исправления ошибок и добавления новых функций для лучшей монетизации вашего сайта. "
 
-#: settings.php:1296
+#: settings.php:1308
 msgid "Lists"
 msgstr "Списки"
 
-#: settings.php:1327 settings.php:3911
+#: settings.php:1339 settings.php:3923
 msgid "Category pages"
 msgstr "Страницы рубрик"
 
 #. translators: %s: Ad Inserter
-#: ad-inserter.php:3732 settings.php:1348
+#: ad-inserter.php:3756 settings.php:1360
 msgid "Tag / Archive pages"
 msgstr "Страницы меток/архивов"
 
-#: settings.php:1846
+#: settings.php:1858
 msgid "paragraphs above avoid"
 msgstr "избегайте абзацы выше "
 
-#: settings.php:2317
+#: settings.php:2329
 msgid "Count this block for Max blocks per page limit (defined on the tab [*] / tab General)"
 msgstr "Учитывайте этот блок для максимального количества блоков на страницу (определяется на вкладке [*]/вкладка Общие (tab General))"
 
-#: ad-inserter.php:2948
+#: ad-inserter.php:2972
 msgid "AD BLOCKING DETECTED - ACTION"
 msgstr "ОБНАРУЖЕНА БЛОКИРОВКА РЕКЛАМЫ - ДЕЙСТВИЕ"
 
 #. translators: %s HTML tags
-#: settings.php:6183
+#: settings.php:6212
 msgid "%s Ad rotation %s (works also with caching)"
 msgstr "%s Чередование объявлений %s (работает также с кэшированием)"
 
 #. translators: %s HTML tags
-#: settings.php:6257
+#: settings.php:6286
 msgid "%s Ad tracking %s"
 msgstr "%s Отслеживание объявлений %s"
 
 #. translators: %s HTML tags
-#: settings.php:6177
+#: settings.php:6206
 msgid "%s Sticky ad animations %s (fade, slide, turn, flip, zoom)"
 msgstr "%s Анимация фиксированных объявлений %s (исчезновение, скольжение, поворот, переворот, масштабирование)"
 
 #. translators: %s HTML tags
-#: settings.php:6176
+#: settings.php:6205
 msgid "%s Sticky sidebar ads %s (stick to the screen or to the content)"
 msgstr "%s Закрепленные объявления в области виджетов %s (фиксация на экране или на контенте)"
 
 #. translators: %s HTML tags
-#: settings.php:6215
+#: settings.php:6244
 msgid "%s Visualization %s of HTML tags for easier ad placement between paragraphs"
 msgstr "%s Визуализация %s HTML-тегов для более удобного размещения объявлений между абзацами"
 
 #. translators: %s HTML tags
-#: settings.php:6214
+#: settings.php:6243
 msgid "%s Visualization %s of available positions for automatic ad insertion"
 msgstr "%s Визуализация %s доступных позиций для автоматической вставки объявлений"
 
 #. translators: %s HTML tags
-#: settings.php:6213
+#: settings.php:6242
 msgid "%s Visualization %s of inserted blocks or ads for easier placement"
 msgstr "%s Визуализация %s вставленных блоков или объявлений для более удобного размещения"
 
-#: settings.php:6123
+#: settings.php:6078 settings.php:6152
 msgid "A/B testing - Track ad impressions and clicks"
 msgstr "A/B тестирование - отслеживание показов объявлений и кликов"
 
 #. translators: %s HTML tags
-#: settings.php:6186
+#: settings.php:6215
 msgid "Ad impression and click %s tracking %s (works also with Javascript ads like AdSense)"
 msgstr "Показ объявлений и %s отслеживание %s кликов (работает также с объявлениями Javascript, такими как AdSense)"
 
-#: settings.php:2450 settings.php:2700
+#: settings.php:2462 settings.php:2712
 msgid "Ad label"
 msgstr "Этикетка объявления"
 
 #. translators: %s HTML tags
-#: settings.php:6255
+#: settings.php:6284
 msgid "Ad rotation"
 msgstr "Ротация объявлений"
 
-#: settings.php:1080
+#: settings.php:1092
 msgctxt "AdSense"
 msgid "Ad Slot ID"
 msgstr "ID слота объявления"
@@ -4652,36 +4647,36 @@ msgid "Automatically placed by AdSense Auto ads code"
 msgstr "Автоматически помещается с помощью кода AdSense Auto"
 
 #. translators: %s: HTML tags
-#: settings.php:5030
+#: settings.php:5042
 msgid "Click on project selection and then click on the %s NEW PROJECT %s button to create a new project"
 msgstr "Нажмите на выбор проекта, а затем нажмите кнопку %s НОВЫЙ ПРОЕКТ %s, чтобы создать новый проект"
 
 #. translators: %s: HTML tags
-#: settings.php:5032
+#: settings.php:5044
 msgid "Click on project selection, wait for the project to be created and then and select %s as the current project"
 msgstr "Нажмите на выбор проекта, подождите, пока проект будет создан, а затем выберите %s в качестве текущего проекта"
 
 #. translators: %s: Ad Inserter
-#: ad-inserter.php:8088
+#: ad-inserter.php:8120
 msgid "Error importing %s settings."
 msgstr "Ошибка импорта %s настроек."
 
-#: settings.php:2315
+#: settings.php:2327
 msgid "Max"
 msgstr "Макс"
 
-#: settings.php:2082
+#: settings.php:2094
 msgid "Toggle referrer editor"
 msgstr "Переключить редактор ссылок"
 
-#: settings.php:309
+#: settings.php:316
 msgid "Support Forum"
 msgstr "Форум поддержки"
 
-#: settings.php:1473
+#: settings.php:1485
 msgid "Paragraph number or comma separated paragraph numbers: 1 to N means paragraph number, %N means every N paragraphs, empty means all paragraphs, 0 means random paragraph, value between 0 and 1 means relative position on the page (0.2 means paragraph at 20% of page paragraphs, 0.5 means paragraph halfway down the page, 0.9 means paragraph at 90% of page paragraphs, etc.), negative number means counting from the opposite direction"
 msgstr "Номер абзаца или разделенные запятыми номера абзацев: от 1 до N означает номер абзаца, %N означает каждые N абзацев, пустой означает все абзацы, 0 означает случайный абзац, значение от 0 до 1 означает относительное положение на странице (0,2 означает расположение после 20% абзацев страницы, 0,5 означает  расположение посередине страницы, 0,9 означает расположение после 90% абзацев страницы и т. д.), отрицательное число означает счет в противоположном направлении"
 
-#: settings.php:2581
+#: settings.php:2593
 msgid "Header"
 msgstr "Заголовок"

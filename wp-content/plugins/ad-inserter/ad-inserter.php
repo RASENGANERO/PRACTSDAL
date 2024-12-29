@@ -2,7 +2,7 @@
 
 /*
 Plugin Name: Ad Inserter
-Version: 2.7.35
+Version: 2.7.38
 Description: Ad management with many advanced advertising features to insert ads at optimal positions
 Author: Igor Funa
 Author URI: http://igorfuna.com/
@@ -11,11 +11,25 @@ Text Domain: ad-inserter
 Domain Path: /languages
 Requires at least: 5
 Requires PHP: 7.2
+License: GPLv3
 */
 
 /*
 
 Change Log
+
+Ad Inserter 2.7.38 - 2024-10-03
+- Security fix for potential cross site scripting
+
+Ad Inserter 2.7.37 - 2024-09-16
+- Removed deprecated setting Wait for jQuery
+- Few minor bug fixes, cosmetic changes and code improvements
+
+Ad Inserter 2.7.36 - 2024-08-11
+- Added support for WPML languages in the taxonomy list
+- Added support to disable caching for LiteSpeed Cache and WP Fastest Cache plugins
+- Added support to define the minimal block height for the close button to appear (Pro only)
+- Few minor bug fixes, cosmetic changes and code improvements
 
 Ad Inserter 2.7.35 - 2024-04-23
 - Added support for "Simple History – user activity log, audit tool" plugin
@@ -370,6 +384,14 @@ function ai_disable_caching () {
   if (!defined('DONOTCACHEDB'))
     define('DONOTCACHEDB', true);
 
+  // LiteSpeed Cache
+  do_action ('litespeed_control_set_nocache', /* translators: %s: Ad Inserter */ sprintf (__('Caching disabled by %s settings', 'ad-inserter'), AD_INSERTER_NAME));
+
+  // WP Fastest Cache
+  if (function_exists ('wpfc_exclude_current_page')) {
+    wpfc_exclude_current_page ();
+  }
+
   if (!headers_sent () && !is_user_logged_in ()) {
     header('Cache-Control: private, proxy-revalidate, s-maxage=0');
   }
@@ -662,11 +684,16 @@ if (!function_exists ('is_rest')) {
         if ($wp_rewrite === null) $wp_rewrite = new WP_Rewrite();
 
         // (#4)
-        $rest_url = wp_parse_url( trailingslashit( rest_url( ) ) );
-        $current_url = wp_parse_url( add_query_arg( array( ) ) );
+        $rest_url = wp_parse_url (trailingslashit (rest_url ()));
+        $current_url = wp_parse_url (add_query_arg (array ()));
+
+        if (!isset ($rest_url ['path'])) {
+          return false;
+        }
         // PHP 7
 //        return strpos( $current_url['path'] ?? '/', $rest_url['path'], 0 ) === 0;
-        return strpos((isset ($current_url['path']) && $current_url['path'] != NULL ? $current_url['path'] : '/'), $rest_url['path'], 0 ) === 0;
+        return strpos ((isset ($current_url ['path']) && $current_url ['path'] != NULL ? $current_url ['path'] : '/'), $rest_url ['path'], 0) === 0;
+
     }
 }
 
@@ -2686,7 +2713,7 @@ function ai_replace_js_data ($js) {
   if (preg_match_all ('/AI_POST_([_A-Z0-9]+)/', $js, $match)) {
     foreach ($match [1] as $index => $post) {
       $post_name = strtolower ($post);
-      $js = str_replace ($match [0][$index], isset ($_POST [$post_name]) ? sanitize_text_field (urldecode ($_POST [$post_name])) : '', $js);
+      $js = str_replace ($match [0][$index], isset ($_POST [$post_name]) ? esc_js (sanitize_text_field (urldecode ($_POST [$post_name]))) : '', $js);
     }
   }
 
@@ -5799,6 +5826,9 @@ function get_disable_caching (){
 
 function get_wait_for_jquery (){
   global $ai_db_options;
+
+  // Deprecated - return false
+  return false;
 
   if (!isset ($ai_db_options [AI_OPTION_GLOBAL]['WAIT_FOR_JQUERY'])) $ai_db_options [AI_OPTION_GLOBAL]['WAIT_FOR_JQUERY'] = DEFAULT_WAIT_FOR_JQUERY;
 
@@ -10894,6 +10924,16 @@ function ai_get_taxonomy_list ($limited = false) {
     }
   }
 
+  if (has_filter ('wpml_active_languages') !== false) {
+    $wpml_active_languages = apply_filters ('wpml_active_languages', null, 'orderby=id&order=desc');
+
+    if (!empty ($wpml_active_languages)) {
+      foreach ($wpml_active_languages as $language_code => $language) {
+        $taxonomies ['wpml-current-language:' . $language_code] = esc_html ($language ['native_name']);
+      }
+    }
+  }
+
   ksort ($taxonomies);
 
   return $taxonomies;
@@ -11116,7 +11156,11 @@ function get_paragraph_end_positions ($content, $multibyte, $paragraph_start_pos
           }
       }
     } else {
+        // Weird timeout
+        if (strlen ($paragraph_end) >= 4)
+
         while (stripos ($content, $paragraph_end, $last_position + 1) !== false) {
+//          echo strlen ($content),  ' ', strlen ($paragraph_end), "<br />\n";
           $last_position = stripos ($content, $paragraph_end, $last_position + 1) + strlen ($paragraph_end) - 1;
           if ($paragraph_end_string == "#") {
             $paragraph_positions [] = $last_position - 4;

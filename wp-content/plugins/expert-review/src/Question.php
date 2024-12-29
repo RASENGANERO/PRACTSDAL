@@ -122,7 +122,7 @@ class Question {
 
             $message = wp_strip_all_tags( $data['text'] );
             $message = esc_html( sprintf(
-                    __( "Question from: %s %s, page: %s\n\n", Plugin::TEXT_DOMAIN ),
+                    __( "Question from: %s\n\nEmail: %s\n\nPage: %s\n\n", Plugin::TEXT_DOMAIN ),
                     $data['name'],
                     $data['_a'] ? "<{$data['_a']}>" : "Tel: {$data['_p']}",
                     $_SERVER['HTTP_REFERER']
@@ -201,7 +201,7 @@ class Question {
             $settings = $data['settings'];
             if ( $settings['expertType'] === 'expert_id' &&
                  ! $settings['use_phone'] &&
-                 ( $expert = PluginContainer::get( ExpertOptions::class )->get_by_id( $settings['expertId'] ) )
+                 ( $expert = container()->get( ExpertOptions::class )->get_by_id( $settings['expertId'] ) )
             ) {
                 $type = $this->advanced_options->email_to_expert === 'cc' ? 'Cc' : 'Bcc';
                 if ( ! empty( $expert['email'] ) ) {

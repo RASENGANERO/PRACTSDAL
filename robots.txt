@@ -1,17 +1,113 @@
-User-agent: *
+User-agent: Yandex
+Clean-param: get /post-services/otchet-po-praktike-v-centre-dlja-detej/
 Disallow: /wp-admin
 Disallow: /wp-includes
-Disallow: /wp-content/plugins
-Disallow: /wp-content/cache
-Disallow: /wp-json/
+Disallow: /bh.php
+Disallow: /sf.php
+Disallow: /wp-login.php
+Disallow: /wp-register.php
 Disallow: /xmlrpc.php
-Disallow: /readme.html
-Disallow: /*?
-Disallow: /?s=
-Allow: /wp-includes/*.css
-Allow: /wp-includes/*.js
-Allow: /wp-content/plugins/*.css
-Allow: /wp-content/plugins/*.js
-Allow: /*.css
-Allow: /*.js
-Sitemap: https://praktika-studenta.ru/sitemap_index.xml
+Disallow: */?s=*
+Disallow: */?qw=*
+Disallow: /search*
+Disallow: */trackback/
+Disallow: */comments/
+Disallow: */comment
+Disallow: */attachment/*
+Disallow: */print/
+Disallow: *?print=*
+Disallow: */embed*
+Disallow: */page/*
+Allow: */blog/
+Disallow: */s/
+Allow: /wp-content/uploads/
+Allow: /file.rss
+Host: https://otchet-studenta.ru
+
+User-agent: Googlebot
+Clean-param: get /post-services/otchet-po-praktike-v-centre-dlja-detej/
+Disallow: /wp-admin
+Disallow: /bh.php
+Disallow: /sf.php
+Disallow: /wp-login.php
+Disallow: /wp-register.php
+Disallow: /xmlrpc.php
+Disallow: */?s=*
+Disallow: */?qw=*
+Disallow: /search*
+Disallow: */trackback/
+Disallow: */feed
+Disallow: */comments/
+Disallow: */comment
+Disallow: */attachment/*
+Disallow: */print/
+Disallow: *?print=*
+Disallow: */embed*
+Disallow: */page/*
+Allow: */blog/
+Disallow: */s/
+Allow: /wp-content/uploads/
+
+User-agent: Mail.Ru
+Clean-param: get /post-services/otchet-po-praktike-v-centre-dlja-detej/
+Disallow: /wp-admin
+Disallow: /wp-includes
+Disallow: /bh.php
+Disallow: /sf.php
+Disallow: /wp-login.php
+Disallow: /wp-register.php
+Disallow: /xmlrpc.php
+Disallow: */?s=*
+Disallow: */?qw=*
+Disallow: /search*
+Disallow: */trackback/
+Disallow: */feed
+Disallow: */comments/
+Disallow: */comment
+Disallow: */attachment/*
+Disallow: */print/
+Disallow: *?print=*
+Disallow: */embed*
+Disallow: */page/*
+Allow: */blog/
+Disallow: */s/
+Allow: /wp-content/uploads/
+
+User-agent: *
+Clean-param: get /post-services/otchet-po-praktike-v-centre-dlja-detej/
+Disallow: /wp-admin
+Disallow: /wp-includes
+Disallow: /bh.php
+Disallow: /sf.php
+Disallow: /wp-login.php
+Disallow: /wp-register.php
+Disallow: /xmlrpc.php
+Disallow: */?s=*
+Disallow: */?qw=*
+Disallow: /search*
+Disallow: */trackback/
+Disallow: */feed
+Disallow: */comments/
+Disallow: */comment
+Disallow: */attachment/*
+Disallow: */print/
+Disallow: *?print=*
+Disallow: */embed*
+Disallow: */page/*
+Allow: */blog/
+Disallow: */s/
+Allow: /wp-content/uploads/
+
+User-agent: Googlebot-Image
+Allow: /wp-content/uploads/
+
+User-agent: YandexImages
+Allow: /wp-content/uploads/
+
+User-agent: Mediapartners-Google
+Disallow:
+
+User-Agent: YaDirectBot
+Disallow:
+
+Sitemap: https://otchet-studenta.ru/sitemap.xml

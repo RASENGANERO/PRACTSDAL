@@ -1,5 +1,5 @@
-# Translation of Plugins - Duplicator &#8211; Migration &amp; Backup Plugin - Stable (latest release) in Russian
-# This file is distributed under the same license as the Plugins - Duplicator &#8211; Migration &amp; Backup Plugin - Stable (latest release) package.
+# Translation of Plugins - Duplicator &#8211; Backups &amp; Migration Plugin &#8211; Cloud Backups, Scheduled Backups, &amp; More - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Duplicator &#8211; Backups &amp; Migration Plugin &#8211; Cloud Backups, Scheduled Backups, &amp; More - Stable (latest release) package.
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2024-10-03 10:51:28+0000\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
 "X-Generator: GlotPress/4.0.1\n"
 "Language: ru\n"
-"Project-Id-Version: Plugins - Duplicator &#8211; Migration &amp; Backup Plugin - Stable (latest release)\n"
+"Project-Id-Version: Plugins - Duplicator &#8211; Backups &amp; Migration Plugin &#8211; Cloud Backups, Scheduled Backups, &amp; More - Stable (latest release)\n"
 
 #: views/parts/migration-almost-complete.php:31
 msgid "Go to: Duplicator > Tools > General > Information > Utils and click the \"Remove Installation Files\" button"

@@ -1,0 +1,1 @@
+<?php echo do_shortcode('[video src="https://otchet-studenta.ru/wp-content/uploads/2024/09/otchet-studenta.ru-about.mp4" class="'.(isset($args['class']) ? $args['class'] : 'promo-post__video').'" poster="https://otchet-studenta.ru/wp-content/uploads/2024/09/screenshot_12.png" height="330"]'); ?>

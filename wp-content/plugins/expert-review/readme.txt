@@ -2,9 +2,9 @@
 
 Contributors:      wpshopbiz
 Requires at least: 5.3
-Tested up to:      6.1
-Requires PHP:      5.6
-Stable tag:        1.8.0
+Tested up to:      6.6
+Requires PHP:      7.2
+Stable tag:        1.8.1
 License:           WPShop License
 License URI:       https://wpshop.ru/license
 Tags:              expert content, expert blocks, expert
@@ -19,6 +19,9 @@ Plugin helps to create expert content on your site.
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Changelog ==
+
+= 1.8.1 - 2024-10-11 =
+* Исправлено: поддержка php8
 
 = 1.8.0 - 2023-02-09 =
 * Добавлено: возможность включить вывод микроразметки для лайков/дизлайков в записях

@@ -4,15 +4,15 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 use Wpshop\ExpertReview\Plugin;
-use Wpshop\ExpertReview\PluginContainer;
 use Wpshop\ExpertReview\Preset;
+use function Wpshop\ExpertReview\container;
 
 /**
  * @var array $experts
  * @var array $users
  */
 
-$presets = PluginContainer::get(Preset::class)->get_all_preses();
+$presets = container()->get(Preset::class)->get_all_preses();
 $preset_names = [];
 foreach ($presets as $preset) {
     $preset_names[] = $preset['name'];

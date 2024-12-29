@@ -1,8 +1,8 @@
 <?php
 
 use Wpshop\ExpertReview\Plugin;
-use Wpshop\ExpertReview\PluginContainer;
 use Wpshop\ExpertReview\Shortcodes\Poll;
+use function Wpshop\ExpertReview\container;
 
 if ( ! defined( 'WPINC' ) ) {
     die;
@@ -12,7 +12,7 @@ if ( ! defined( 'WPINC' ) ) {
  * @var \WP_Post $post
  */
 
-$answers = PluginContainer::get( Poll::class )->get_answers_with_percent( $post->ID );
+$answers = container()->get( Poll::class )->get_answers_with_percent( $post->ID );
 ?>
 
 <h3><?php echo _x( 'Poll Result', 'tpl', Plugin::TEXT_DOMAIN ) ?> "<?php echo esc_html( $post->post_title ) ?>"</h3>

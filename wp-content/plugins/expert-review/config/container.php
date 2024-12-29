@@ -4,6 +4,8 @@ if ( ! defined( 'WPINC' ) ) {
     die;
 }
 
+use WPShop\Container\ServiceIterator;
+use WPShop\Container\ServiceRegistry;
 use Wpshop\ExpertReview\AdminMenu;
 use Wpshop\ExpertReview\CustomStyle;
 use Wpshop\ExpertReview\Likes;
@@ -20,20 +22,21 @@ use Wpshop\ExpertReview\Settings\ExpertOptions;
 use Wpshop\ExpertReview\Settings\QaOptions;
 use Wpshop\ExpertReview\Settings\LikeOptions;
 use Wpshop\ExpertReview\Settings\PluginOptions;
-use Pimple\Container;
 use Wpshop\ExpertReview\SettingsProvider;
 use Wpshop\ExpertReview\Shortcodes;
 use Wpshop\ExpertReview\Support\AmpSupport;
 use Wpshop\ExpertReview\Support\SimpleAuthorBoxSupport as SABSupport;
 use Wpshop\ExpertReview\Support\YTurboSupport;
+use Wpshop\MetaBox\Form\Render\ElementRenderer;
+use Wpshop\MetaBox\Form\Render\LabelRenderer;
 use Wpshop\MetaBox\MetaBoxContainer\SimpleMetaBoxContainer;
-use Wpshop\MetaBox\MetaBoxManagerProvider;
-use Wpshop\SettingApi\SettingsManagerProvider;
+use Wpshop\MetaBox\MetaBoxManager;
+use Wpshop\SettingApi\SettingsManager;
 
 return function ( $config ) {
     global $wpdb;
 
-    $container = new Container( [
+    $container = new ServiceRegistry( [
         'config'                  => $config,
         Plugin::class             => function ( $c ) {
             return new Plugin( $c['config']['plugin_config'], $c[ PluginOptions::class ] );
@@ -120,10 +123,46 @@ return function ( $config ) {
         },
     ] );
 
-    if ( class_exists( SettingsManagerProvider::class ) ) {
-        $container->register( new SettingsManagerProvider() );
-    }
-    $container->register( new MetaBoxManagerProvider() );
+    _expert_review_register_setting_provider( $container );
+    _expert_review_register_metabox_provider( $container );
 
     return $container;
 };
+
+function _expert_review_register_setting_provider( $c ) {
+    if ( $c['config']['settings_providers'] && is_array( $c['config']['settings_providers'] ) ) {
+        $providers = $c['config']['settings_providers'];
+    }
+
+    foreach ( $providers as $provider ) {
+        if ( ! isset( $c[ $provider ] ) ) {
+            $c[ $provider ] = function () use ( $provider ) {
+                return new $provider;
+            };
+        }
+    }
+
+    $c[ SettingsManager::class ] = function ( $c ) use ( $providers ) {
+        return new SettingsManager( new ServiceIterator( $c, $providers ) );
+    };
+}
+
+function _expert_review_register_metabox_provider( $c ) {
+    $c[ SimpleMetaBoxContainer::class ] = $c->factory( function ( $c ) {
+        return new SimpleMetaBoxContainer(
+            $c[ LabelRenderer::class ],
+            $c[ ElementRenderer::class ]
+        );
+    } );
+
+    $metaBoxProviders = [];
+    if ( isset( $c['config']['metabox_providers'] ) && is_array( $c['config']['metabox_providers'] ) ) {
+        $metaBoxProviders = $c['config']['metabox_providers'];
+    }
+    $c[ MetaBoxManager::class ] = function ( $c ) use ( $metaBoxProviders ) {
+        return new MetaBoxManager( new ServiceIterator( $c, $metaBoxProviders ) );
+    };
+
+    $register_metabox_render_provider = include __DIR__ . '/metabox-render-provider.php';
+    $register_metabox_render_provider( $c );
+}

@@ -9,5 +9,6 @@ return array(
     'Wpshop\\SettingApi\\' => array($vendorDir . '/wpshop/wp-settings-component/src'),
     'Wpshop\\MetaBox\\' => array($vendorDir . '/wpshop/wp-metabox-component/src'),
     'Wpshop\\ExpertReview\\' => array($baseDir . '/src'),
+    'WPShop\\Container\\' => array($vendorDir . '/wpshop/container/src'),
     'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
 );

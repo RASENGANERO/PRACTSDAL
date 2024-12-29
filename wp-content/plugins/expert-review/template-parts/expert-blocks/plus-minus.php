@@ -1,15 +1,15 @@
 <?php
 
 /**
- * @version 1.8.0
+ * @version 1.8.1
  */
 
 if ( ! defined( 'WPINC' ) ) {
     die;
 }
 
-use Wpshop\ExpertReview\PluginContainer;
 use Wpshop\ExpertReview\Settings\QaOptions;
+use function Wpshop\ExpertReview\container;
 
 /**
  * @var array    $atts
@@ -23,7 +23,7 @@ $show_general_title = apply_filters( 'expert_review:show_general_title', $atts['
 $show_pluses_title  = apply_filters( 'expert_review:show_pluses_title', 1, $atts );
 $show_minuses_title = apply_filters( 'expert_review:show_minuses_title', 1, $atts );
 
-$qa_options = PluginContainer::get( QaOptions::class );
+$qa_options = container()->get( QaOptions::class );
 
 $tag = apply_filters( 'expert_review/plus_minus/header_tag', $qa_options->pluses_header_tag ?: 'div', $atts );
 ?>

@@ -1,0 +1,479 @@
+
+13-09-2021 13:37:09 [praktikusdal.ru][info] Parent plugin start installation!
+13-09-2021 13:37:09 [praktikusdal.ru][info] Plugin installation: try create plugin tables.
+																	-DB Version: 0
+																	-Plugin Version in DB: 0
+																	-Current Plugin Version: 1.5.4
+13-09-2021 13:37:09 [praktikusdal.ru][info] Parent plugin installation complete!
+-------------------------------
+13-09-2021 13:37:19 [praktikusdal.ru][info] Try to create backup directory. Backup dir: (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/wio_backup)
+-------------------------------
+13-09-2021 13:37:55 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:37:55 [praktikusdal.ru][info] Try to create backup directory. Backup dir: (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/wio_backup/2020/03)
+13-09-2021 13:37:55 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/post-project-promo.jpg) to a remote server (server_1).
+13-09-2021 13:37:56 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:37:56 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/post-project-promo-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:37:56 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:37:56 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/post-project-promo-277x300.jpg) to a remote server (server_1).
+13-09-2021 13:37:56 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:37:56 [praktikusdal.ru][debug] New queue created #1, attributes values: {"server_id":null,"object_id":"31","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":210762,"final_size":210262,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":174513,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529476}
+13-09-2021 13:37:56 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 46
+-------------------------------
+13-09-2021 13:37:57 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:37:57 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/post-promo-business.jpg) to a remote server (server_1).
+13-09-2021 13:37:58 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:37:58 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/post-promo-business-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:37:58 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:37:58 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/post-promo-business-300x183.jpg) to a remote server (server_1).
+13-09-2021 13:37:58 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:37:58 [praktikusdal.ru][debug] New queue created #2, attributes values: {"server_id":null,"object_id":"33","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":108560,"final_size":108319,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":91611,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529478}
+13-09-2021 13:37:58 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 45
+-------------------------------
+13-09-2021 13:37:59 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:37:59 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/uchebnaja-praktika.jpg) to a remote server (server_1).
+13-09-2021 13:38:00 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:00 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/uchebnaja-praktika-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:38:00 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:01 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/uchebnaja-praktika-300x197.jpg) to a remote server (server_1).
+13-09-2021 13:38:01 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:01 [praktikusdal.ru][debug] New queue created #3, attributes values: {"server_id":null,"object_id":"178","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":444112,"final_size":239211,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":423680,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529481}
+13-09-2021 13:38:01 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 44
+-------------------------------
+13-09-2021 13:38:01 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:38:02 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/uchebnaja-praktika-sinij-fon-e1584190062261.jpg) to a remote server (server_1).
+13-09-2021 13:38:02 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:03 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/uchebnaja-praktika-sinij-fon-e1584190062261-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:38:03 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:03 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/uchebnaja-praktika-sinij-fon-e1584190062261-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:38:03 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:03 [praktikusdal.ru][debug] New queue created #4, attributes values: {"server_id":null,"object_id":"179","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":283953,"final_size":220185,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":242050,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529483}
+13-09-2021 13:38:03 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 43
+-------------------------------
+13-09-2021 13:38:04 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:38:04 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/uchebnaja-praktika-1-e1584191605594.jpg) to a remote server (server_1).
+13-09-2021 13:38:05 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:05 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/uchebnaja-praktika-1-e1584191605594-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:38:05 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:05 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/uchebnaja-praktika-1-e1584191605594-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:38:05 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:05 [praktikusdal.ru][debug] New queue created #5, attributes values: {"server_id":null,"object_id":"180","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":283643,"final_size":213900,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":241967,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529485}
+13-09-2021 13:38:05 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 42
+-------------------------------
+13-09-2021 13:38:06 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:38:06 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/proizvodstvennaja-praktika-e1584192612730.jpg) to a remote server (server_1).
+13-09-2021 13:38:07 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:07 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/proizvodstvennaja-praktika-e1584192612730-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:38:07 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:07 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/proizvodstvennaja-praktika-e1584192612730-300x203.jpg) to a remote server (server_1).
+13-09-2021 13:38:07 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:08 [praktikusdal.ru][debug] New queue created #6, attributes values: {"server_id":null,"object_id":"181","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":292291,"final_size":219657,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":250540,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529488}
+13-09-2021 13:38:08 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 41
+-------------------------------
+13-09-2021 13:38:08 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:38:08 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/tehnologicheskaja-praktika-e1584193506355.jpg) to a remote server (server_1).
+13-09-2021 13:38:09 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:09 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/tehnologicheskaja-praktika-e1584193506355-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:38:09 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:09 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/tehnologicheskaja-praktika-e1584193506355-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:38:10 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:10 [praktikusdal.ru][debug] New queue created #7, attributes values: {"server_id":null,"object_id":"184","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":285599,"final_size":216761,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":243783,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529490}
+13-09-2021 13:38:10 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 40
+-------------------------------
+13-09-2021 13:38:10 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:38:11 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/nauchno-issledovatelskaja-rabota-e1584193749603.jpg) to a remote server (server_1).
+13-09-2021 13:38:11 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:11 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/nauchno-issledovatelskaja-rabota-e1584193749603-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:38:12 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:12 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/nauchno-issledovatelskaja-rabota-e1584193749603-300x201.jpg) to a remote server (server_1).
+13-09-2021 13:38:12 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:12 [praktikusdal.ru][debug] New queue created #8, attributes values: {"server_id":null,"object_id":"186","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":285290,"final_size":217210,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":243331,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529492}
+13-09-2021 13:38:12 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 39
+-------------------------------
+13-09-2021 13:38:12 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:38:13 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/preddiplomnaja-praktika-e1584193979188.jpg) to a remote server (server_1).
+13-09-2021 13:38:13 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:14 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/preddiplomnaja-praktika-e1584193979188-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:38:14 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:14 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/preddiplomnaja-praktika-e1584193979188-300x198.jpg) to a remote server (server_1).
+13-09-2021 13:38:14 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:15 [praktikusdal.ru][debug] New queue created #9, attributes values: {"server_id":null,"object_id":"188","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":284100,"final_size":210811,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":242777,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529495}
+13-09-2021 13:38:15 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 38
+-------------------------------
+13-09-2021 13:38:15 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:38:15 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/geodezicheskaja-praktika-e1584194629820.jpg) to a remote server (server_1).
+13-09-2021 13:38:16 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:16 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/geodezicheskaja-praktika-e1584194629820-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:38:16 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:16 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/geodezicheskaja-praktika-e1584194629820-300x199.jpg) to a remote server (server_1).
+13-09-2021 13:38:17 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:17 [praktikusdal.ru][debug] New queue created #10, attributes values: {"server_id":null,"object_id":"191","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":284343,"final_size":215933,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":242368,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529497}
+13-09-2021 13:38:17 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 37
+-------------------------------
+13-09-2021 13:38:17 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:38:17 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/favicon.png) to a remote server (server_1).
+13-09-2021 13:38:18 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:18 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/favicon-150x150.png) to a remote server (server_1).
+13-09-2021 13:38:18 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:18 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/favicon-300x300.png) to a remote server (server_1).
+13-09-2021 13:38:18 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:18 [praktikusdal.ru][debug] New queue created #11, attributes values: {"server_id":null,"object_id":"234","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":69607,"final_size":39946,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":56746,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529498}
+13-09-2021 13:38:18 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 36
+-------------------------------
+13-09-2021 13:38:19 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:38:19 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/cropped-favicon.png) to a remote server (server_1).
+13-09-2021 13:38:19 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:19 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/cropped-favicon-150x150.png) to a remote server (server_1).
+13-09-2021 13:38:19 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:19 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/cropped-favicon-300x300.png) to a remote server (server_1).
+13-09-2021 13:38:19 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:20 [praktikusdal.ru][debug] New queue created #12, attributes values: {"server_id":null,"object_id":"235","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":31251,"final_size":20390,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":17253,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529500}
+13-09-2021 13:38:20 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 35
+-------------------------------
+13-09-2021 13:38:20 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:38:21 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/gtiyf_feevs.jpg) to a remote server (server_1).
+13-09-2021 13:38:21 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:21 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/gtiyf_feevs-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:38:21 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:22 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/gtiyf_feevs-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:38:22 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:22 [praktikusdal.ru][debug] New queue created #13, attributes values: {"server_id":null,"object_id":"244","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":383193,"final_size":134919,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":367661,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529502}
+13-09-2021 13:38:22 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 34
+-------------------------------
+13-09-2021 13:38:22 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:38:23 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/internet-institut-tulgu-e1585338550248.jpg) to a remote server (server_1).
+13-09-2021 13:38:23 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:24 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/internet-institut-tulgu-e1585338550248-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:38:24 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:24 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/internet-institut-tulgu-e1585338550248-300x199.jpg) to a remote server (server_1).
+13-09-2021 13:38:24 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:24 [praktikusdal.ru][debug] New queue created #14, attributes values: {"server_id":null,"object_id":"247","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":296190,"final_size":224650,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":254159,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529504}
+13-09-2021 13:38:24 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 33
+-------------------------------
+13-09-2021 13:38:25 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:38:25 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/moskovskij-institut-psihoanaliza-e1585340037406.jpg) to a remote server (server_1).
+13-09-2021 13:38:26 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:26 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/moskovskij-institut-psihoanaliza-e1585340037406-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:38:26 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:26 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/moskovskij-institut-psihoanaliza-e1585340037406-300x199.jpg) to a remote server (server_1).
+13-09-2021 13:38:26 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:27 [praktikusdal.ru][debug] New queue created #15, attributes values: {"server_id":null,"object_id":"254","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":287502,"final_size":219958,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":245436,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529507}
+13-09-2021 13:38:27 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 32
+-------------------------------
+13-09-2021 13:38:27 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:38:27 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/moskovskij-institut-psihoanaliza-1-e1585340484278.jpg) to a remote server (server_1).
+13-09-2021 13:38:28 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:28 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/moskovskij-institut-psihoanaliza-1-e1585340484278-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:38:28 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:28 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/moskovskij-institut-psihoanaliza-1-e1585340484278-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:38:29 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:29 [praktikusdal.ru][debug] New queue created #16, attributes values: {"server_id":null,"object_id":"255","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":285101,"final_size":215775,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":243171,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529509}
+13-09-2021 13:38:29 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 31
+-------------------------------
+13-09-2021 13:38:29 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:38:30 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/moskovskij-universitet-imeni-s.ju.-vitte-e1585341942113.jpg) to a remote server (server_1).
+13-09-2021 13:38:30 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:30 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/moskovskij-universitet-imeni-s.ju.-vitte-e1585341942113-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:38:31 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:31 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/moskovskij-universitet-imeni-s.ju.-vitte-e1585341942113-300x202.jpg) to a remote server (server_1).
+13-09-2021 13:38:31 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:31 [praktikusdal.ru][debug] New queue created #17, attributes values: {"server_id":null,"object_id":"264","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":315560,"final_size":235378,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":274606,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529511}
+13-09-2021 13:38:31 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 30
+-------------------------------
+13-09-2021 13:38:31 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:38:32 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/rosdistant-e1585342933819.jpg) to a remote server (server_1).
+13-09-2021 13:38:32 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:33 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/rosdistant-e1585342933819-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:38:33 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:33 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/rosdistant-e1585342933819-300x195.jpg) to a remote server (server_1).
+13-09-2021 13:38:33 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:34 [praktikusdal.ru][debug] New queue created #18, attributes values: {"server_id":null,"object_id":"272","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":339586,"final_size":249976,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":294153,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529514}
+13-09-2021 13:38:34 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 29
+-------------------------------
+13-09-2021 13:38:34 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:38:35 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/sinergija-e1585343602353.jpg) to a remote server (server_1).
+13-09-2021 13:38:35 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:35 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/sinergija-e1585343602353-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:38:35 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:36 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/sinergija-e1585343602353-300x206.jpg) to a remote server (server_1).
+13-09-2021 13:38:36 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:36 [praktikusdal.ru][debug] New queue created #19, attributes values: {"server_id":null,"object_id":"278","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":306877,"final_size":232858,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":261682,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529516}
+13-09-2021 13:38:36 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 28
+-------------------------------
+13-09-2021 13:38:36 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:38:37 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/moskovskij-otkrytyj-institut.jpg) to a remote server (server_1).
+13-09-2021 13:38:37 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:38 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/moskovskij-otkrytyj-institut-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:38:38 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:38 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/moskovskij-otkrytyj-institut-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:38:38 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:38 [praktikusdal.ru][debug] New queue created #20, attributes values: {"server_id":null,"object_id":"285","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":678553,"final_size":232949,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":632949,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529518}
+13-09-2021 13:38:38 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 27
+-------------------------------
+13-09-2021 13:38:39 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:38:39 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2020/03/preloader_6.gif) to a remote server (server_1).
+13-09-2021 13:38:39 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:39 [praktikusdal.ru][debug] New queue created #21, attributes values: {"server_id":null,"object_id":"293","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":5965,"final_size":5965,"original_mime_type":"image\/gif","final_mime_type":"image\/gif","extra_data":"{\"thumbnails_count\":0,\"original_main_size\":5965,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529519}
+13-09-2021 13:38:39 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 26
+-------------------------------
+13-09-2021 13:38:39 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:38:39 [praktikusdal.ru][info] Try to create backup directory. Backup dir: (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/wio_backup/2021/03)
+13-09-2021 13:38:40 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/otchjot-po-praktike-bgu.jpg) to a remote server (server_1).
+13-09-2021 13:38:40 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:41 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/otchjot-po-praktike-bgu-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:38:41 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:41 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/otchjot-po-praktike-bgu-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:38:41 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:41 [praktikusdal.ru][debug] New queue created #22, attributes values: {"server_id":null,"object_id":"323","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":269018,"final_size":232398,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":226692,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529521}
+13-09-2021 13:38:41 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 25
+-------------------------------
+13-09-2021 13:38:42 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:38:42 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/otchjot-po-praktike-madi.jpg) to a remote server (server_1).
+13-09-2021 13:38:43 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:43 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/otchjot-po-praktike-madi-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:38:43 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:43 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/otchjot-po-praktike-madi-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:38:44 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:44 [praktikusdal.ru][debug] New queue created #23, attributes values: {"server_id":null,"object_id":"325","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":250547,"final_size":227829,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":208303,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529524}
+13-09-2021 13:38:44 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 24
+-------------------------------
+13-09-2021 13:38:44 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:38:45 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/otchjot-po-praktike-miit.jpg) to a remote server (server_1).
+13-09-2021 13:38:45 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:45 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/otchjot-po-praktike-miit-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:38:46 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:46 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/otchjot-po-praktike-miit-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:38:46 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:46 [praktikusdal.ru][debug] New queue created #24, attributes values: {"server_id":null,"object_id":"329","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":214593,"final_size":195950,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":174599,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529526}
+13-09-2021 13:38:46 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 23
+-------------------------------
+13-09-2021 13:38:46 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:38:47 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/otchjot-po-praktike-mfjua.jpg) to a remote server (server_1).
+13-09-2021 13:38:48 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:48 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/otchjot-po-praktike-mfjua-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:38:48 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:48 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/otchjot-po-praktike-mfjua-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:38:48 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:49 [praktikusdal.ru][debug] New queue created #25, attributes values: {"server_id":null,"object_id":"337","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":246631,"final_size":220848,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":204247,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529529}
+13-09-2021 13:38:49 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 22
+-------------------------------
+13-09-2021 13:38:49 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:38:50 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/otchjot-po-pratkike-ranhigs.jpg) to a remote server (server_1).
+13-09-2021 13:38:50 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:50 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/otchjot-po-pratkike-ranhigs-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:38:50 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:51 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/otchjot-po-pratkike-ranhigs-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:38:51 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:51 [praktikusdal.ru][debug] New queue created #26, attributes values: {"server_id":null,"object_id":"339","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":190722,"final_size":172092,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":154121,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529531}
+13-09-2021 13:38:51 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 21
+-------------------------------
+13-09-2021 13:38:51 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:38:52 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/otchjot-po-praktike-rjeu.jpg) to a remote server (server_1).
+13-09-2021 13:38:52 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:53 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/otchjot-po-praktike-rjeu-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:38:53 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:53 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/otchjot-po-praktike-rjeu-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:38:53 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:53 [praktikusdal.ru][debug] New queue created #27, attributes values: {"server_id":null,"object_id":"348","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":203419,"final_size":183869,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":165294,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529533}
+13-09-2021 13:38:53 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 20
+-------------------------------
+13-09-2021 13:38:54 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:38:55 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/otchjot-po-praktike-ugntu.jpg) to a remote server (server_1).
+13-09-2021 13:38:55 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:55 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/otchjot-po-praktike-ugntu-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:38:55 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:56 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/otchjot-po-praktike-ugntu-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:38:56 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:56 [praktikusdal.ru][debug] New queue created #28, attributes values: {"server_id":null,"object_id":"350","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":216536,"final_size":188584,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":179313,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529536}
+13-09-2021 13:38:56 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 19
+-------------------------------
+13-09-2021 13:38:56 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:38:57 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/otchjot-po-pratkike-urfu.jpg) to a remote server (server_1).
+13-09-2021 13:38:57 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:57 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/otchjot-po-pratkike-urfu-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:38:58 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:58 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/otchjot-po-pratkike-urfu-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:38:58 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:38:58 [praktikusdal.ru][debug] New queue created #29, attributes values: {"server_id":null,"object_id":"355","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":213336,"final_size":191675,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":174808,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529538}
+13-09-2021 13:38:58 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 18
+-------------------------------
+13-09-2021 13:38:58 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:38:59 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/distancionnaja-praktika.jpg) to a remote server (server_1).
+13-09-2021 13:39:00 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:00 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/distancionnaja-praktika-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:39:00 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:00 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/distancionnaja-praktika-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:39:01 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:01 [praktikusdal.ru][debug] New queue created #30, attributes values: {"server_id":null,"object_id":"359","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":213871,"final_size":195118,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":172831,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529541}
+13-09-2021 13:39:01 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 17
+-------------------------------
+13-09-2021 13:39:01 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:39:02 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/izyskatelskaja-praktika.jpg) to a remote server (server_1).
+13-09-2021 13:39:02 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:02 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/izyskatelskaja-praktika-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:39:03 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:03 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/izyskatelskaja-praktika-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:39:03 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:03 [praktikusdal.ru][debug] New queue created #31, attributes values: {"server_id":null,"object_id":"363","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":213991,"final_size":195179,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":172925,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529543}
+13-09-2021 13:39:03 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 16
+-------------------------------
+13-09-2021 13:39:03 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:39:04 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/konsultativnaja-praktika.jpg) to a remote server (server_1).
+13-09-2021 13:39:04 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:05 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/konsultativnaja-praktika-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:39:05 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:05 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/konsultativnaja-praktika-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:39:05 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:05 [praktikusdal.ru][debug] New queue created #32, attributes values: {"server_id":null,"object_id":"366","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":214146,"final_size":195372,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":173075,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529545}
+13-09-2021 13:39:05 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 15
+-------------------------------
+13-09-2021 13:39:06 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:39:06 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/oznakomitelnaja-praktika.jpg) to a remote server (server_1).
+13-09-2021 13:39:07 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:07 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/oznakomitelnaja-praktika-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:39:07 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:07 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/oznakomitelnaja-praktika-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:39:07 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:08 [praktikusdal.ru][debug] New queue created #33, attributes values: {"server_id":null,"object_id":"369","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":214307,"final_size":195527,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":173224,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529548}
+13-09-2021 13:39:08 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 14
+-------------------------------
+13-09-2021 13:39:08 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:39:08 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/pedagogicheskaja-praktika.jpg) to a remote server (server_1).
+13-09-2021 13:39:09 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:09 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/pedagogicheskaja-praktika-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:39:09 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:09 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/pedagogicheskaja-praktika-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:39:09 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:10 [praktikusdal.ru][debug] New queue created #34, attributes values: {"server_id":null,"object_id":"372","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":213965,"final_size":195207,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":172893,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529550}
+13-09-2021 13:39:10 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 13
+-------------------------------
+13-09-2021 13:39:10 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:39:10 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/praktika-po-polucheniju-pervichnyh-professionalnyh-umenij-i-navykov.jpg) to a remote server (server_1).
+13-09-2021 13:39:11 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:11 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/praktika-po-polucheniju-pervichnyh-professionalnyh-umenij-i-navykov-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:39:11 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:11 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/praktika-po-polucheniju-pervichnyh-professionalnyh-umenij-i-navykov-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:39:12 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:12 [praktikusdal.ru][debug] New queue created #35, attributes values: {"server_id":null,"object_id":"375","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":217096,"final_size":198338,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":175766,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529552}
+13-09-2021 13:39:12 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 12
+-------------------------------
+13-09-2021 13:39:12 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:39:13 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/praktika-sdo.jpg) to a remote server (server_1).
+13-09-2021 13:39:13 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:13 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/praktika-sdo-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:39:14 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:14 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/praktika-sdo-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:39:14 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:14 [praktikusdal.ru][debug] New queue created #36, attributes values: {"server_id":null,"object_id":"378","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":211246,"final_size":192722,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":170527,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529554}
+13-09-2021 13:39:14 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 11
+-------------------------------
+13-09-2021 13:39:15 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:39:15 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/praktika-spo.jpg) to a remote server (server_1).
+13-09-2021 13:39:16 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:16 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/praktika-spo-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:39:16 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:16 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/praktika-spo-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:39:17 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:17 [praktikusdal.ru][debug] New queue created #37, attributes values: {"server_id":null,"object_id":"380","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":211190,"final_size":192667,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":170468,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529557}
+13-09-2021 13:39:17 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 10
+-------------------------------
+13-09-2021 13:39:17 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:39:18 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/tvorcheskaja-praktika.jpg) to a remote server (server_1).
+13-09-2021 13:39:18 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:18 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/tvorcheskaja-praktika-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:39:19 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:19 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/tvorcheskaja-praktika-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:39:19 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:19 [praktikusdal.ru][debug] New queue created #38, attributes values: {"server_id":null,"object_id":"383","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":212794,"final_size":194095,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":171846,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529559}
+13-09-2021 13:39:19 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 9
+-------------------------------
+13-09-2021 13:39:20 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:39:20 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/jekspluatacionnaja-praktika.jpg) to a remote server (server_1).
+13-09-2021 13:39:21 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:21 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/jekspluatacionnaja-praktika-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:39:21 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:21 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/jekspluatacionnaja-praktika-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:39:22 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:22 [praktikusdal.ru][debug] New queue created #39, attributes values: {"server_id":null,"object_id":"385","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":214582,"final_size":195790,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":173445,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529562}
+13-09-2021 13:39:22 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 8
+-------------------------------
+13-09-2021 13:39:22 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:39:23 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/juridicheskaja-praktika.jpg) to a remote server (server_1).
+13-09-2021 13:39:23 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:23 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/juridicheskaja-praktika-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:39:24 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:24 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/03/juridicheskaja-praktika-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:39:24 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:24 [praktikusdal.ru][debug] New queue created #40, attributes values: {"server_id":null,"object_id":"388","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":213266,"final_size":194671,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":172290,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529564}
+13-09-2021 13:39:24 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 7
+-------------------------------
+13-09-2021 13:39:24 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:39:24 [praktikusdal.ru][info] Try to create backup directory. Backup dir: (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/wio_backup/2021/04)
+13-09-2021 13:39:25 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/04/povyshenie-unikalnosti.jpg) to a remote server (server_1).
+13-09-2021 13:39:25 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:26 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/04/povyshenie-unikalnosti-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:39:26 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:26 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/04/povyshenie-unikalnosti-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:39:26 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:26 [praktikusdal.ru][debug] New queue created #41, attributes values: {"server_id":null,"object_id":"512","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":304072,"final_size":193358,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":261951,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529566}
+13-09-2021 13:39:26 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 6
+-------------------------------
+13-09-2021 13:39:27 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:39:27 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/04/praktika-v-organizacii.jpg) to a remote server (server_1).
+13-09-2021 13:39:28 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:28 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/04/praktika-v-organizacii-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:39:28 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:28 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/04/praktika-v-organizacii-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:39:29 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:29 [praktikusdal.ru][debug] New queue created #42, attributes values: {"server_id":null,"object_id":"513","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":300446,"final_size":189574,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":259887,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529569}
+13-09-2021 13:39:29 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 5
+-------------------------------
+13-09-2021 13:39:29 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:39:30 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/04/sessija-pod-kljuch.jpg) to a remote server (server_1).
+13-09-2021 13:39:30 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:30 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/04/sessija-pod-kljuch-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:39:31 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:31 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/04/sessija-pod-kljuch-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:39:31 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:31 [praktikusdal.ru][debug] New queue created #43, attributes values: {"server_id":null,"object_id":"514","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":301407,"final_size":191192,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":259073,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529571}
+13-09-2021 13:39:31 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 4
+-------------------------------
+13-09-2021 13:39:31 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:39:32 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/04/praktika-pod-kljuch-.jpg) to a remote server (server_1).
+13-09-2021 13:39:33 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:33 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/04/praktika-pod-kljuch--150x150.jpg) to a remote server (server_1).
+13-09-2021 13:39:33 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:33 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/04/praktika-pod-kljuch--300x200.jpg) to a remote server (server_1).
+13-09-2021 13:39:33 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:34 [praktikusdal.ru][debug] New queue created #44, attributes values: {"server_id":null,"object_id":"515","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":298750,"final_size":188250,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":258304,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529574}
+13-09-2021 13:39:34 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 3
+-------------------------------
+13-09-2021 13:39:34 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:39:34 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/04/vkr.jpg) to a remote server (server_1).
+13-09-2021 13:39:35 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:35 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/04/vkr-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:39:35 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:35 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/04/vkr-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:39:36 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:36 [praktikusdal.ru][debug] New queue created #45, attributes values: {"server_id":null,"object_id":"516","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":272603,"final_size":167849,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":234835,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529576}
+13-09-2021 13:39:36 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 2
+-------------------------------
+13-09-2021 13:39:36 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:39:37 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/04/diplomnaja-rabota.jpg) to a remote server (server_1).
+13-09-2021 13:39:37 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:37 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/04/diplomnaja-rabota-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:39:37 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:38 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/04/diplomnaja-rabota-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:39:38 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:38 [praktikusdal.ru][debug] New queue created #46, attributes values: {"server_id":null,"object_id":"517","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":268073,"final_size":164371,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":230711,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529578}
+13-09-2021 13:39:38 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 1
+-------------------------------
+13-09-2021 13:39:38 [praktikusdal.ru][info] Start bulk optimization process! Scope: media-library
+13-09-2021 13:39:39 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/04/magisterskaja-dissertacija.jpg) to a remote server (server_1).
+13-09-2021 13:39:39 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:40 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/04/magisterskaja-dissertacija-150x150.jpg) to a remote server (server_1).
+13-09-2021 13:39:40 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:40 [praktikusdal.ru][info] Preparing to upload a file (/var/www/u0956841/data/www/praktikusdal.ru/wp-content/uploads/2021/04/magisterskaja-dissertacija-300x200.jpg) to a remote server (server_1).
+13-09-2021 13:39:40 [praktikusdal.ru][info] File successfully uploaded to remote server (server_1).
+13-09-2021 13:39:40 [praktikusdal.ru][debug] New queue created #47, attributes values: {"server_id":null,"object_id":"518","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":299874,"final_size":190529,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":258695,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1631529580}
+13-09-2021 13:39:40 [praktikusdal.ru][info] End bulk optimization process! Scope: media-library. Remain: 0
+-------------------------------

@@ -4,11 +4,11 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitc33af65e2009053d8bc6f17758feb91e
+class ComposerStaticInitc7374bc3501f61e635d8007a0b1f3210
 {
     public static $files = array (
         '7166494aeff09009178f278afd86c83f' => __DIR__ . '/..' . '/yahnis-elsts/plugin-update-checker/load-v4p13.php',
-        '6f7cac58f18219699a7432b85ca4e47a' => __DIR__ . '/../..' . '/src/function.php',
+        '75ce2c8808b21943324a9ff328402d05' => __DIR__ . '/../..' . '/src/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -17,6 +17,7 @@ class ComposerStaticInitc33af65e2009053d8bc6f17758feb91e
             'Wpshop\\SettingApi\\' => 18,
             'Wpshop\\MetaBox\\' => 15,
             'Wpshop\\ExpertReview\\' => 20,
+            'WPShop\\Container\\' => 17,
         ),
         'P' => 
         array (
@@ -36,6 +37,10 @@ class ComposerStaticInitc33af65e2009053d8bc6f17758feb91e
         'Wpshop\\ExpertReview\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'WPShop\\Container\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/wpshop/container/src',
         ),
         'Psr\\Container\\' => 
         array (
@@ -76,6 +81,17 @@ class ComposerStaticInitc33af65e2009053d8bc6f17758feb91e
         'Psr\\Container\\ContainerExceptionInterface' => __DIR__ . '/..' . '/psr/container/src/ContainerExceptionInterface.php',
         'Psr\\Container\\ContainerInterface' => __DIR__ . '/..' . '/psr/container/src/ContainerInterface.php',
         'Psr\\Container\\NotFoundExceptionInterface' => __DIR__ . '/..' . '/psr/container/src/NotFoundExceptionInterface.php',
+        'WPShop\\Container\\Container' => __DIR__ . '/..' . '/wpshop/container/src/Container.php',
+        'WPShop\\Container\\Exception\\CyclicDependenciesException' => __DIR__ . '/..' . '/wpshop/container/src/Exception/CyclicDependenciesException.php',
+        'WPShop\\Container\\Exception\\ExpectedInvokableException' => __DIR__ . '/..' . '/wpshop/container/src/Exception/ExpectedInvokableException.php',
+        'WPShop\\Container\\Exception\\FrozenServiceException' => __DIR__ . '/..' . '/wpshop/container/src/Exception/FrozenServiceException.php',
+        'WPShop\\Container\\Exception\\InvalidServiceIdentifierException' => __DIR__ . '/..' . '/wpshop/container/src/Exception/InvalidServiceIdentifierException.php',
+        'WPShop\\Container\\Exception\\UnknownIdentifierException' => __DIR__ . '/..' . '/wpshop/container/src/Exception/UnknownIdentifierException.php',
+        'WPShop\\Container\\Psr11\\Container' => __DIR__ . '/..' . '/wpshop/container/src/Psr11/Container.php',
+        'WPShop\\Container\\Psr11\\ServiceLocator' => __DIR__ . '/..' . '/wpshop/container/src/Psr11/ServiceLocator.php',
+        'WPShop\\Container\\ServiceIterator' => __DIR__ . '/..' . '/wpshop/container/src/ServiceIterator.php',
+        'WPShop\\Container\\ServiceProviderInterface' => __DIR__ . '/..' . '/wpshop/container/src/ServiceProviderInterface.php',
+        'WPShop\\Container\\ServiceRegistry' => __DIR__ . '/..' . '/wpshop/container/src/ServiceRegistry.php',
         'Wpshop\\ExpertReview\\AdminMenu' => __DIR__ . '/../..' . '/src/AdminMenu.php',
         'Wpshop\\ExpertReview\\CustomStyle' => __DIR__ . '/../..' . '/src/CustomStyle.php',
         'Wpshop\\ExpertReview\\ExpertReview' => __DIR__ . '/../..' . '/src/ExpertReview.php',
@@ -180,10 +196,10 @@ class ComposerStaticInitc33af65e2009053d8bc6f17758feb91e
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitc33af65e2009053d8bc6f17758feb91e::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitc33af65e2009053d8bc6f17758feb91e::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitc33af65e2009053d8bc6f17758feb91e::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitc33af65e2009053d8bc6f17758feb91e::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitc7374bc3501f61e635d8007a0b1f3210::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitc7374bc3501f61e635d8007a0b1f3210::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitc7374bc3501f61e635d8007a0b1f3210::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitc7374bc3501f61e635d8007a0b1f3210::$classMap;
 
         }, null, ClassLoader::class);
     }
